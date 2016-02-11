@@ -1,0 +1,56 @@
+/*
+ * hard-coded / fixed constants
+ */
+NGFB_FILEPATH
+NGFB_PLUGINDIR
+NGFB_PLUGINBASE
+NGFB_URLPATH
+NGFB_NONCE
+/*
+ * variable constants - define in wp-config.php file to modify the default values
+ */
+NGFB_TOPICS_LIST		= NGFB_PLUGINDIR.'share/topics.txt'
+NGFB_CACHEDIR			= NGFB_PLUGINDIR.'cache/'
+NGFB_CACHEURL			= NGFB_URLPATH.'cache/'
+NGFB_DEBUG_FILE_EXP		= 300
+NGFB_MENU_ORDER			= 99.11
+NGFB_MENU_ICON_HIGHLIGHT	= true
+NGFB_SHARING_SHORTCODE		= 'ngfb'
+NGFB_TS_NAME			= 'ngfb_timestamps'
+NGFB_OPTIONS_NAME		= 'ngfb_options'
+NGFB_SITE_OPTIONS_NAME		= 'ngfb_site_options'
+NGFB_NOTICE_NAME		= 'ngfb_notices'
+NGFB_DISMISS_NAME		= 'ngfb_dismissed'
+NGFB_META_NAME			= '_ngfb_meta'
+NGFB_PREF_NAME			= '_ngfb_pref'
+NGFB_OPTIONS_NAME_ALT		= 'wpsso_options'
+NGFB_SITE_OPTIONS_NAME_ALT	= 'wpsso_site_options'
+NGFB_META_NAME_ALT		= '_wpsso_meta'
+NGFB_PREF_NAME_ALT		= '_wpsso_pref'
+NGFB_ADD_MENU_PRIORITY		= -20
+NGFB_ADD_SUBMENU_PRIORITY	= -10
+NGFB_META_SAVE_PRIORITY		= 6
+NGFB_META_CACHE_PRIORITY	= 9
+NGFB_INIT_PRIORITY		= 14
+NGFB_HEAD_PRIORITY		= 10
+NGFB_SOCIAL_PRIORITY		= 100
+NGFB_FOOTER_PRIORITY		= 100
+NGFB_SEO_FILTERS_PRIORITY	= 100
+NGFB_CURL_CAINFO		= NGFB_PLUGINDIR.'share/curl/ca-bundle.crt'
+NGFB_CURL_USERAGENT		= 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0'
+/*
+ * undefined constants - can be defined to change specific plugin behaviors
+ */
+NGFB_HTML_DEBUG			= (not defined)
+NGFB_WP_DEBUG			= (not defined)
+NGFB_OBJECT_CACHE_DISABLE	= (not defined)
+NGFB_TRANSIENT_CACHE_DISABLE	= (not defined)
+NGFB_CURL_DISABLE		= (not defined)
+NGFB_FILE_CACHE_DISABLE		= (not defined)
+NGFB_OPEN_GRAPH_DISABLE		= (not defined)
+NGFB_META_TAGS_DISABLE		= (not defined)
+NGFB_SOCIAL_SHARING_DISABLE	= (not defined)
+NGFB_FILTER_SINGLE_TAGS		= (not defined)
+NGFB_RESET_ON_ACTIVATE		= (not defined)
+NGFB_IMAGE_UPSCALE_ALL		= (not defined)
+NGFB_IMAGE_UPSCALE_TEST		= (not defined)

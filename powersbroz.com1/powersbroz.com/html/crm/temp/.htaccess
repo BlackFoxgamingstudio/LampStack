@@ -1,0 +1,12 @@
+<Files ~ "wp_">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "envato_">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "sess_">
+Order allow,deny
+Deny from all
+</Files>

@@ -1,0 +1,3281 @@
+# Copyright (C) 2016 NextGEN Facebook (NGFB)
+# This file is distributed under the same license as the NextGEN Facebook (NGFB) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: NextGEN Facebook (NGFB) 8.21.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nextgen-facebook\n"
+"POT-Creation-Date: 2016-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/admin.php:73 lib/admin.php:700 lib/user.php:211
+msgctxt "package type"
+msgid "Pro"
+msgstr ""
+
+#: lib/admin.php:74 lib/admin.php:701 lib/user.php:212
+msgctxt "package type"
+msgid "Free"
+msgstr ""
+
+#: lib/admin.php:285
+msgctxt "plugin action link"
+msgid "FAQ"
+msgstr ""
+
+#: lib/admin.php:289
+msgctxt "plugin action link"
+msgid "Notes"
+msgstr ""
+
+#: lib/admin.php:293
+msgctxt "plugin action link"
+msgid "Download Latest"
+msgstr ""
+
+#: lib/admin.php:298
+msgctxt "plugin action link"
+msgid "Pro Support"
+msgstr ""
+
+#: lib/admin.php:302
+msgctxt "plugin action link"
+msgid "Support Forum"
+msgstr ""
+
+#: lib/admin.php:307 lib/admin.php:1017 lib/admin.php:1018
+msgctxt "plugin action link"
+msgid "Purchase Pro License(s)"
+msgstr ""
+
+#: lib/admin.php:309
+msgctxt "plugin action link"
+msgid "Purchase Pro Version"
+msgstr ""
+
+#: lib/admin.php:322
+msgid "Submitted options are not an array."
+msgstr ""
+
+#: lib/admin.php:334 lib/admin.php:374
+msgid "Plugin settings have been saved."
+msgstr ""
+
+#: lib/admin.php:335
+msgid ""
+"Wait %1$d seconds for cache objects to expire or <a href=\"%2$s\">%3$s</a> "
+"now."
+msgstr ""
+
+#: lib/admin.php:337 lib/admin.php:650
+msgctxt "submit button"
+msgid "Clear All Cache(s)"
+msgstr ""
+
+#: lib/admin.php:355
+msgid "Nonce token validation failed for network options (update ignored)."
+msgstr ""
+
+#: lib/admin.php:360
+msgid "Insufficient privileges to modify network options."
+msgstr ""
+
+#: lib/admin.php:405
+msgid "The <b>%s</b> extension is required to check for Pro version updates."
+msgstr ""
+
+#: lib/admin.php:420
+msgid "Metabox layout preferences for user ID #%d \"%s\" have been reset."
+msgstr ""
+
+#: lib/admin.php:430
+msgid "Hidden notices for user ID #%d \"%s\" have been cleared."
+msgstr ""
+
+#: lib/admin.php:465
+msgctxt "metabox title (side)"
+msgid "Pro / Power-User Version"
+msgstr ""
+
+#: lib/admin.php:473
+msgctxt "metabox title (side)"
+msgid "Help and Support"
+msgstr ""
+
+#: lib/admin.php:478
+msgctxt "metabox title (side)"
+msgid "Standard Features"
+msgstr ""
+
+#: lib/admin.php:482
+msgctxt "metabox title (side)"
+msgid "Pro Version Features"
+msgstr ""
+
+#: lib/admin.php:488
+msgctxt "metabox title (side)"
+msgid "Version Information"
+msgstr ""
+
+#: lib/admin.php:558
+msgid "Profile updated."
+msgstr ""
+
+#: lib/admin.php:626
+msgctxt "submit button"
+msgid "Save All Profile Settings"
+msgstr ""
+
+#: lib/admin.php:636 lib/messages.php:770
+msgctxt "submit button"
+msgid "Save All Plugin Settings"
+msgstr ""
+
+#: lib/admin.php:639
+msgctxt "submit button"
+msgid "View %s by Default"
+msgstr ""
+
+#: lib/admin.php:655
+msgctxt "submit button"
+msgid "Check for Pro Update(s)"
+msgstr ""
+
+#: lib/admin.php:660
+msgctxt "submit button"
+msgid "Reset Metabox Layout"
+msgstr ""
+
+#: lib/admin.php:664
+msgctxt "submit button"
+msgid "Reset Hidden Notices"
+msgstr ""
+
+#: lib/admin.php:677 lib/admin.php:678
+msgid "N/A"
+msgstr ""
+
+#: lib/admin.php:702
+msgctxt "plugin status label"
+msgid "Installed"
+msgstr ""
+
+#: lib/admin.php:705
+msgctxt "plugin status label"
+msgid "Stable"
+msgstr ""
+
+#: lib/admin.php:708
+msgctxt "plugin status label"
+msgid "Latest"
+msgstr ""
+
+#: lib/admin.php:713
+msgctxt "following plugin status version numbers"
+msgid "View %s changelog..."
+msgstr ""
+
+#: lib/admin.php:885
+msgctxt "submit button"
+msgid "Purchase Pro License(s)"
+msgstr ""
+
+#: lib/admin.php:886
+msgctxt "submit button"
+msgid "Purchase Pro Version"
+msgstr ""
+
+#: lib/admin.php:902
+msgid ""
+"Review the <a href=\"%s\" target=\"_blank\">Frequently Asked Questions</a>"
+msgstr ""
+
+#: lib/admin.php:905
+msgid "and <a href=\"%s\" target=\"_blank\">Other Notes</a>"
+msgstr ""
+
+#: lib/admin.php:910
+msgid "Open a <a href=\"%s\" target=\"_blank\">Support Ticket</a>"
+msgstr ""
+
+#: lib/admin.php:913
+msgid "Post in <a href=\"%s\" target=\"_blank\">Support Forum</a>"
+msgstr ""
+
+#: lib/admin.php:917
+msgctxt "metabox title (side)"
+msgid "%s Support"
+msgstr ""
+
+#: lib/admin.php:973
+msgctxt "plugin action link"
+msgid "View Plugin Details"
+msgstr ""
+
+#: lib/admin.php:993
+msgctxt "plugin action link"
+msgid "View Plugin Details + Update"
+msgstr ""
+
+#: lib/admin.php:999
+msgctxt "plugin action link"
+msgid "View Plugin Details + Install"
+msgstr ""
+
+#: lib/admin.php:1005
+msgctxt "plugin action link"
+msgid "Plugin Description Page"
+msgstr ""
+
+#: lib/admin.php:1010
+msgctxt "plugin action link"
+msgid "Download Latest Version"
+msgstr ""
+
+#: lib/admin.php:1058 lib/admin.php:1063 lib/admin.php:1084 lib/admin.php:1090
+#: lib/messages.php:731
+msgctxt "option label"
+msgid "Pro Authentication ID"
+msgstr ""
+
+#: lib/admin.php:1117
+msgid "Plugin conflict detected"
+msgstr ""
+
+#: lib/admin.php:1127
+msgid ""
+"URL shortening has been enabled, but PHP's <a href=\"%s\" target=\"_blank"
+"\">Client URL Library</a> (cURL) is missing."
+msgstr ""
+
+#: lib/admin.php:1127
+msgid ""
+"Please contact your hosting provider to have the missing cURL library files "
+"installed."
+msgstr ""
+
+#: lib/admin.php:1131
+msgid ""
+"The file caching feature has been enabled but PHP's <a href=\"%s\" target="
+"\"_blank\">Client URL Library</a> (cURL) is missing."
+msgstr ""
+
+#: lib/admin.php:1131
+msgid ""
+"Please contact your hosting provider to have the missing library installed."
+msgstr ""
+
+#: lib/admin.php:1137
+msgid ""
+"PHP's <a href=\"%s\" target=\"_blank\">Multibyte String</a> extension is "
+"missing."
+msgstr ""
+
+#: lib/admin.php:1137
+msgid ""
+"Please contact your hosting provider to have the missing extension installed."
+msgstr ""
+
+#: lib/admin.php:1146
+msgid ""
+"Please uncheck the '<em>Add Open Graph meta data</em>' option under the <a "
+"href=\"%s\">Yoast SEO / Social / Facebook</a> settings tab."
+msgstr ""
+
+#: lib/admin.php:1151
+msgid ""
+"Please uncheck the '<em>Add Twitter card meta data</em>' option under the <a "
+"href=\"%s\">Yoast SEO / Social / Twitter</a> settings tab."
+msgstr ""
+
+#: lib/admin.php:1156
+msgid ""
+"Please uncheck the '<em>Add Google+ specific post meta data</em>' option "
+"under the <a href=\"%s\">Yoast SEO / Social / Google+</a> settings tab."
+msgstr ""
+
+#: lib/admin.php:1161
+msgid ""
+"Please remove the '<em>Google Publisher Page</em>' value entered under the "
+"<a href=\"%s\">Yoast SEO / Social / Google+</a> settings tab."
+msgstr ""
+
+#: lib/admin.php:1172
+msgid ""
+"Please disable the '<em>Open Graph Integrator</em>' module in the <a href="
+"\"%s\">SEO Ultimate Module Manager</a>."
+msgstr ""
+
+#: lib/admin.php:1183
+msgid ""
+"Please deactivate the '<em>Social Meta</em>' feature in the <a href=\"%s"
+"\">All in One SEO Pack Feature Manager</a>."
+msgstr ""
+
+#: lib/admin.php:1188
+msgid ""
+"Please check the '<em>Disable Google Plus Profile</em>' option in the <a "
+"href=\"%s\">All in One SEO Pack Plugin Options</a>."
+msgstr ""
+
+#: lib/admin.php:1227
+msgid "&lt;head&gt; element not found in %s."
+msgstr ""
+
+#: lib/admin.php:1234
+msgid "Error copying %1$s to %2$s."
+msgstr ""
+
+#: lib/admin.php:1243 lib/sharing.php:407
+msgid "Failed to open file %s for writing."
+msgstr ""
+
+#: lib/admin.php:1250
+msgid ""
+"The %1$s template has been successfully updated and saved. A backup copy of "
+"the original template is available in %2$s."
+msgstr ""
+
+#: lib/admin.php:1271
+msgctxt "option label (very short)"
+msgid "Site Use"
+msgstr ""
+
+#: lib/com/form.php:82 lib/config-gettext-extract.php:38
+msgctxt "option value"
+msgid "(option disabled)"
+msgstr ""
+
+#: lib/com/form.php:176 lib/com/form.php:236 lib/config-gettext-extract.php:42
+msgctxt "option value"
+msgid "(settings value)"
+msgstr ""
+
+#: lib/com/form.php:184 lib/config-gettext-extract.php:34
+msgctxt "option value"
+msgid "(no images)"
+msgstr ""
+
+#: lib/com/form.php:188 lib/config-gettext-extract.php:37
+msgctxt "option value"
+msgid "(no videos)"
+msgstr ""
+
+#: lib/com/form.php:192 lib/config-gettext-extract.php:35
+msgctxt "option value"
+msgid "[none]"
+msgstr ""
+
+#: lib/com/form.php:197 lib/com/form.php:283 lib/config-gettext-extract.php:17
+msgctxt "option value"
+msgid "(default)"
+msgstr ""
+
+#: lib/com/notice.php:274
+msgid ""
+"%1$d warning messages have been hidden &mdash; <a id=\"%2$s\">unhide these "
+"notices temporarily</a>."
+msgstr ""
+
+#: lib/com/notice.php:276
+msgid ""
+"%1$d warning message has been hidden &mdash; <a id=\"%2$s\">unhide this "
+"notice temporarily</a>."
+msgstr ""
+
+#: lib/com/notice.php:346
+msgid "%s Notice"
+msgstr ""
+
+#: lib/com/script.php:82
+msgid "Use Image"
+msgstr ""
+
+#: lib/config-gettext-extract.php:3
+msgctxt "metabox tab"
+msgid "Admin Edit"
+msgstr ""
+
+#: lib/config-gettext-extract.php:4
+msgctxt "option value"
+msgid "Admin Edit"
+msgstr ""
+
+#: lib/config-gettext-extract.php:5
+msgctxt "lib file description"
+msgid "Advanced Settings"
+msgstr ""
+
+#: lib/config-gettext-extract.php:6 lib/website/facebook.php:26
+msgctxt "metabox tab"
+msgid "All Buttons"
+msgstr ""
+
+#: lib/config-gettext-extract.php:7
+msgctxt "option value"
+msgid "All Options"
+msgstr ""
+
+#: lib/config-gettext-extract.php:8
+msgctxt "option value"
+msgid "Basic Options"
+msgstr ""
+
+#: lib/config-gettext-extract.php:9
+msgctxt "option value"
+msgid "Bit.ly (suggested)"
+msgstr ""
+
+#: lib/config-gettext-extract.php:10
+msgctxt "option value"
+msgid "Both Top and Bottom"
+msgstr ""
+
+#: lib/config-gettext-extract.php:11
+msgctxt "option value"
+msgid "Bottom"
+msgstr ""
+
+#: lib/config-gettext-extract.php:12
+msgctxt "option value"
+msgid "Center"
+msgstr ""
+
+#: lib/config-gettext-extract.php:13
+msgctxt "metabox tab"
+msgid "Content"
+msgstr ""
+
+#: lib/config-gettext-extract.php:14
+msgctxt "option value"
+msgid "Content"
+msgstr ""
+
+#: lib/config-gettext-extract.php:15
+msgctxt "metabox tab"
+msgid "CSS Sidebar"
+msgstr ""
+
+#: lib/config-gettext-extract.php:16
+msgctxt "option value"
+msgid "CSS Sidebar"
+msgstr ""
+
+#: lib/config-gettext-extract.php:18
+msgctxt "option value"
+msgid "Default value"
+msgstr ""
+
+#: lib/config-gettext-extract.php:19
+msgctxt "option value"
+msgid "Display Name"
+msgstr ""
+
+#: lib/config-gettext-extract.php:20
+msgctxt "plugin description"
+msgid ""
+"Display your content in the best possible way on Facebook, Google+, Twitter, "
+"Pinterest, etc. - no matter how your webpage is shared!"
+msgstr ""
+
+#: lib/config-gettext-extract.php:21
+msgctxt "lib file description"
+msgid "Essential Settings"
+msgstr ""
+
+#: lib/config-gettext-extract.php:22
+msgctxt "metabox tab"
+msgid "Excerpt"
+msgstr ""
+
+#: lib/config-gettext-extract.php:23
+msgctxt "option value"
+msgid "Excerpt Only"
+msgstr ""
+
+#: lib/config-gettext-extract.php:24
+msgctxt "option value"
+msgid "Excerpt"
+msgstr ""
+
+#: lib/config-gettext-extract.php:25
+msgctxt "option value"
+msgid "First and Last Names"
+msgstr ""
+
+#: lib/config-gettext-extract.php:26
+msgctxt "option value"
+msgid "Footer"
+msgstr ""
+
+#: lib/config-gettext-extract.php:27
+msgctxt "option value"
+msgid "Force this value"
+msgstr ""
+
+#: lib/config-gettext-extract.php:28
+msgctxt "lib file description"
+msgid "General Settings"
+msgstr ""
+
+#: lib/config-gettext-extract.php:29
+msgctxt "option value"
+msgid "Goo.gl"
+msgstr ""
+
+#: lib/config-gettext-extract.php:30
+msgctxt "option value"
+msgid "Header"
+msgstr ""
+
+#: lib/config-gettext-extract.php:31
+msgctxt "option value"
+msgid "If value is empty"
+msgstr ""
+
+#: lib/config-gettext-extract.php:32
+msgctxt "option value"
+msgid "Left"
+msgstr ""
+
+#: lib/config-gettext-extract.php:33
+msgctxt "option value"
+msgid "Nickname"
+msgstr ""
+
+#: lib/config-gettext-extract.php:36
+msgctxt "option value"
+msgid "No"
+msgstr ""
+
+#: lib/config-gettext-extract.php:39
+msgctxt "option value"
+msgid "Ow.ly"
+msgstr ""
+
+#: lib/config-gettext-extract.php:40
+msgctxt "lib file description"
+msgid "Plugin Read Me"
+msgstr ""
+
+#: lib/config-gettext-extract.php:41
+msgctxt "option value"
+msgid "Right"
+msgstr ""
+
+#: lib/config-gettext-extract.php:43
+msgctxt "lib file description"
+msgid "Setup Guide"
+msgstr ""
+
+#: lib/config-gettext-extract.php:44 lib/sharing.php:283 lib/sharing.php:292
+msgctxt "lib file description"
+msgid "Sharing Buttons"
+msgstr ""
+
+#: lib/config-gettext-extract.php:45 lib/sharing.php:283 lib/sharing.php:286
+#: lib/submenu/style.php:32
+msgctxt "lib file description"
+msgid "Sharing Styles"
+msgstr ""
+
+#: lib/config-gettext-extract.php:46
+msgctxt "metabox tab"
+msgid "Shortcode"
+msgstr ""
+
+#: lib/config-gettext-extract.php:47
+msgctxt "lib file description"
+msgid "Social Image Dimensions"
+msgstr ""
+
+#: lib/config-gettext-extract.php:48
+msgctxt "lib file description"
+msgid "<span>Extension Plugins</span> and Pro Licenses"
+msgstr ""
+
+#: lib/config-gettext-extract.php:49
+msgctxt "option value"
+msgid "TinyURL (slow)"
+msgstr ""
+
+#: lib/config-gettext-extract.php:50
+msgctxt "option value"
+msgid "Title and Excerpt"
+msgstr ""
+
+#: lib/config-gettext-extract.php:51
+msgctxt "option value"
+msgid "Title Only"
+msgstr ""
+
+#: lib/config-gettext-extract.php:52
+msgctxt "option value"
+msgid "Top"
+msgstr ""
+
+#: lib/config-gettext-extract.php:53
+msgctxt "plugin description"
+msgid ""
+"Update Manager for the NextGEN Facebook (NGFB) Pro plugin and its Pro "
+"extensions."
+msgstr ""
+
+#: lib/config-gettext-extract.php:54
+msgctxt "lib file description"
+msgid "User Profile Contact Methods"
+msgstr ""
+
+#: lib/config-gettext-extract.php:55
+msgctxt "lib file description"
+msgid "Website / Business Social Accounts"
+msgstr ""
+
+#: lib/config-gettext-extract.php:56
+msgctxt "metabox tab"
+msgid "Widget"
+msgstr ""
+
+#: lib/config-gettext-extract.php:57
+msgctxt "option value"
+msgid "Yes"
+msgstr ""
+
+#: lib/config-gettext-extract.php:58
+msgctxt "lib file description"
+msgid "Your Social Settings"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:34 lib/pro/admin/advanced.php:42
+msgctxt "option label"
+msgid "Use Filtered (SEO) Title"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:38 lib/messages.php:722
+#: lib/pro/admin/advanced.php:46
+msgctxt "option label"
+msgid "Apply WordPress Content Filters"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:43 lib/pro/admin/advanced.php:51
+msgctxt "option label"
+msgid "Apply WordPress Excerpt Filters"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:48 lib/pro/admin/advanced.php:56
+msgctxt "option label"
+msgid "Content Starts at 1st Paragraph"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:53 lib/pro/admin/advanced.php:61
+msgctxt "option label"
+msgid "Use Image Alt if No Content"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:58 lib/pro/admin/advanced.php:66
+msgctxt "option label"
+msgid "Image Alt Text Prefix"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:63 lib/pro/admin/advanced.php:71
+msgctxt "option label"
+msgid "WP Caption Paragraph Prefix"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:68 lib/pro/admin/advanced.php:76
+msgctxt "option label"
+msgid "Check for Embedded Media"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:86 lib/gpl/admin/advanced.php:103
+#: lib/pro/admin/advanced.php:91 lib/pro/admin/advanced.php:108
+msgctxt "option label"
+msgid "Show Social Img / Desc Columns for"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:90 lib/gpl/admin/advanced.php:107
+#: lib/pro/admin/advanced.php:95 lib/pro/admin/advanced.php:112
+msgid "Posts, Pages, and Custom Post Types"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:95 lib/gpl/admin/advanced.php:109
+#: lib/gpl/admin/advanced.php:122 lib/pro/admin/advanced.php:100
+#: lib/pro/admin/advanced.php:114 lib/pro/admin/advanced.php:127
+msgid "Taxonomy (Categories and Tags)"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:100 lib/gpl/admin/advanced.php:111
+#: lib/pro/admin/advanced.php:105 lib/pro/admin/advanced.php:116
+msgid "Users"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:125 lib/pro/admin/advanced.php:130
+msgid "User Profile"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:127 lib/pro/admin/advanced.php:132
+msgctxt "option label"
+msgid "Include Social Settings Metabox on"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:132 lib/pro/admin/advanced.php:137
+msgctxt "option label"
+msgid "Add Tabs to Social Settings Metabox"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:136 lib/meta.php:29
+#: lib/pro/admin/advanced.php:141
+msgctxt "metabox tab"
+msgid "Social Preview"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:138 lib/meta.php:32
+#: lib/pro/admin/advanced.php:143
+msgctxt "metabox tab"
+msgid "Head Tags"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:140 lib/meta.php:33
+#: lib/pro/admin/advanced.php:145
+msgctxt "metabox tab"
+msgid "Validate"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:144 lib/pro/admin/advanced.php:149
+msgctxt "option label"
+msgid "Image URL Custom Field"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:150 lib/pro/admin/advanced.php:154
+msgctxt "option label"
+msgid "Video URL Custom Field"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:156 lib/pro/admin/advanced.php:159
+msgctxt "option label"
+msgid "Video Embed HTML Custom Field"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:170 lib/pro/admin/advanced.php:169
+msgctxt "option label"
+msgid "&lt;html&gt; Attributes Filter Hook"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:175 lib/pro/admin/advanced.php:174
+msgctxt "option label"
+msgid "&lt;head&gt; Attributes Filter Hook"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:180 lib/pro/admin/advanced.php:179
+msgctxt "option label"
+msgid "Check for Duplicate Meta Tags"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:185 lib/pro/admin/advanced.php:184
+msgctxt "option label"
+msgid "Use WP Locale for Language"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:190 lib/pro/admin/advanced.php:189
+msgctxt "option label"
+msgid "Create Missing WP Media Images"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:195 lib/pro/admin/advanced.php:194
+msgctxt "option label"
+msgid "Enforce Image Dimensions Check"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:199 lib/pro/admin/advanced.php:198
+msgctxt "option label"
+msgid "Allow Upscaling of Small WP Images"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:203 lib/pro/admin/advanced.php:202
+msgctxt "option label"
+msgid "Maximum Image Upscale Percentage"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:209 lib/pro/admin/advanced.php:208
+msgctxt "option label"
+msgid "Enable Plugin Shortcode(s)"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:216 lib/pro/admin/advanced.php:215
+msgctxt "option label"
+msgid "Enable Plugin Widget(s)"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:222 lib/pro/admin/advanced.php:221
+msgctxt "option label"
+msgid "Enable WP Excerpt for Pages"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:227 lib/pro/admin/advanced.php:226
+msgctxt "option label"
+msgid "Enable WP Tags for Pages"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:239 lib/messages.php:719
+#: lib/pro/admin/advanced.php:235
+msgctxt "option label"
+msgid "Object Cache Expiry"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:245 lib/pro/admin/advanced.php:241
+msgctxt "option label"
+msgid "Verify Peer SSL Certificate"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:251 lib/pro/admin/advanced.php:247
+msgctxt "option label"
+msgid "Report Cache Purge Count"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:264 lib/pro/admin/advanced.php:257
+msgctxt "option label"
+msgid "Preferred URL Shortening Service"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:268 lib/pro/admin/advanced.php:261
+msgctxt "option label"
+msgid "<em>Get Shortlink</em> Gives Shortened URL"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:273 lib/pro/admin/advanced.php:266
+msgctxt "option label"
+msgid "Minimum URL Length to Shorten"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:276 lib/pro/admin/advanced.php:269
+msgctxt "option comment"
+msgid "characters"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:278 lib/pro/admin/advanced.php:271
+msgctxt "option label"
+msgid "Bit.ly Username"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:282 lib/pro/admin/advanced.php:275
+msgctxt "option label"
+msgid "Bit.ly API Key"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:287 lib/pro/admin/advanced.php:280
+msgctxt "option label"
+msgid "Ow.ly API Key"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:292 lib/pro/admin/advanced.php:285
+msgctxt "option label"
+msgid "Google Project App BrowserKey"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:297
+msgctxt "option label"
+msgid "Google URL Shortener API is ON"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:311 lib/gpl/admin/advanced.php:350
+#: lib/pro/admin/advanced.php:300 lib/pro/admin/advanced.php:336
+msgctxt "column title"
+msgid "Show"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:313 lib/gpl/admin/advanced.php:352
+#: lib/messages.php:663 lib/pro/admin/advanced.php:302
+#: lib/pro/admin/advanced.php:338
+msgctxt "column title"
+msgid "Contact Field Name"
+msgstr ""
+
+#: lib/gpl/admin/advanced.php:315 lib/gpl/admin/advanced.php:354
+#: lib/messages.php:663 lib/pro/admin/advanced.php:304
+#: lib/pro/admin/advanced.php:340
+msgctxt "column title"
+msgid "Profile Contact Label"
+msgstr ""
+
+#: lib/gpl/admin/general.php:28 lib/pro/admin/general.php:36
+msgctxt "option label"
+msgid "Include Author Gravatar Image"
+msgstr ""
+
+#: lib/gpl/admin/general.php:38
+msgid ""
+"Video discovery and integration modules are provided with the Pro version."
+msgstr ""
+
+#: lib/gpl/admin/general.php:42 lib/pro/admin/general.php:45
+msgctxt "option label"
+msgid "Maximum Videos to Include"
+msgstr ""
+
+#: lib/gpl/admin/general.php:47 lib/pro/admin/general.php:51
+msgctxt "option label"
+msgid "Use HTTPS for Video API"
+msgstr ""
+
+#: lib/gpl/admin/general.php:50 lib/pro/admin/general.php:54
+msgctxt "option comment"
+msgid "uses %s"
+msgstr ""
+
+#: lib/gpl/admin/general.php:53 lib/pro/admin/general.php:57
+msgctxt "option label"
+msgid "Include Video Preview Image(s)"
+msgstr ""
+
+#: lib/gpl/admin/general.php:56 lib/pro/admin/general.php:60
+msgctxt "option comment"
+msgid "video preview images are included first"
+msgstr ""
+
+#: lib/gpl/admin/general.php:59 lib/pro/admin/general.php:63
+msgctxt "option label"
+msgid "Include Embed text/html Type"
+msgstr ""
+
+#: lib/gpl/admin/general.php:63 lib/pro/admin/general.php:67
+msgctxt "option label"
+msgid "Force Autoplay when Possible"
+msgstr ""
+
+#: lib/gpl/admin/general.php:68 lib/pro/admin/general.php:72
+msgctxt "option label"
+msgid "Default / Fallback Video URL"
+msgstr ""
+
+#: lib/gpl/admin/general.php:73 lib/pro/admin/general.php:77
+msgctxt "option label"
+msgid "Use Default Video on Indexes"
+msgstr ""
+
+#: lib/gpl/admin/general.php:78 lib/pro/admin/general.php:82
+msgctxt "option label"
+msgid "Use Default Video on Search Results"
+msgstr ""
+
+#: lib/gpl/admin/post.php:30 lib/pro/admin/post.php:38
+msgctxt "option label"
+msgid "Article Topic"
+msgstr ""
+
+#: lib/gpl/admin/post.php:35 lib/gpl/admin/post.php:40
+#: lib/gpl/admin/taxonomy.php:27 lib/gpl/admin/user.php:28
+#: lib/pro/admin/post.php:45 lib/pro/admin/post.php:50
+#: lib/pro/admin/taxonomy.php:36 lib/pro/admin/user.php:36
+msgctxt "option label"
+msgid "Default Title"
+msgstr ""
+
+#: lib/gpl/admin/post.php:46 lib/gpl/admin/post.php:51
+#: lib/gpl/admin/taxonomy.php:32 lib/gpl/admin/user.php:33
+#: lib/pro/admin/post.php:58 lib/pro/admin/post.php:63
+#: lib/pro/admin/taxonomy.php:43 lib/pro/admin/user.php:43
+msgctxt "option label"
+msgid ""
+"Default (Facebook / Open Graph, LinkedIn, Pinterest Rich Pin) Description"
+msgstr ""
+
+#: lib/gpl/admin/post.php:57 lib/gpl/admin/post.php:62
+#: lib/gpl/admin/taxonomy.php:37 lib/gpl/admin/user.php:38
+#: lib/pro/admin/post.php:71 lib/pro/admin/post.php:76
+#: lib/pro/admin/taxonomy.php:50 lib/pro/admin/user.php:50
+msgctxt "option label"
+msgid "Google / Schema Description"
+msgstr ""
+
+#: lib/gpl/admin/post.php:68 lib/gpl/admin/post.php:73
+#: lib/gpl/admin/taxonomy.php:42 lib/gpl/admin/user.php:43
+#: lib/pro/admin/post.php:84 lib/pro/admin/post.php:89
+#: lib/pro/admin/taxonomy.php:57 lib/pro/admin/user.php:57
+msgctxt "option label"
+msgid "Google Search / SEO Description"
+msgstr ""
+
+#: lib/gpl/admin/post.php:79 lib/gpl/admin/post.php:84
+#: lib/gpl/admin/taxonomy.php:47 lib/gpl/admin/user.php:48
+#: lib/pro/admin/post.php:97 lib/pro/admin/post.php:102
+#: lib/pro/admin/taxonomy.php:64 lib/pro/admin/user.php:64
+msgctxt "option label"
+msgid "Twitter Card Description"
+msgstr ""
+
+#: lib/gpl/admin/post.php:93 lib/gpl/admin/post.php:98
+#: lib/gpl/admin/taxonomy.php:53 lib/gpl/admin/user.php:54 lib/meta.php:111
+#: lib/pro/admin/post.php:113 lib/pro/admin/post.php:119
+#: lib/pro/admin/taxonomy.php:72 lib/pro/admin/user.php:72
+msgctxt "option label"
+msgid "Sharing URL"
+msgstr ""
+
+#: lib/gpl/admin/post.php:112 lib/gpl/admin/taxonomy.php:66
+#: lib/gpl/admin/user.php:67 lib/pro/admin/post.php:130
+#: lib/pro/admin/taxonomy.php:83 lib/pro/admin/user.php:83
+#: lib/submenu/general.php:27
+msgctxt "metabox title"
+msgid "All Social Websites / Open Graph"
+msgstr ""
+
+#: lib/gpl/admin/post.php:116 lib/gpl/admin/post.php:158
+#: lib/gpl/admin/taxonomy.php:70 lib/gpl/admin/taxonomy.php:112
+#: lib/gpl/admin/user.php:71 lib/gpl/admin/user.php:113
+#: lib/pro/admin/post.php:134 lib/pro/admin/post.php:176
+#: lib/pro/admin/taxonomy.php:87 lib/pro/admin/taxonomy.php:124
+#: lib/pro/admin/user.php:87 lib/pro/admin/user.php:124
+msgctxt "option label"
+msgid "Image Dimensions"
+msgstr ""
+
+#: lib/gpl/admin/post.php:120 lib/gpl/admin/post.php:163
+#: lib/gpl/admin/taxonomy.php:74 lib/gpl/admin/taxonomy.php:117
+#: lib/gpl/admin/user.php:75 lib/gpl/admin/user.php:118
+#: lib/pro/admin/post.php:138 lib/pro/admin/post.php:181
+#: lib/pro/admin/taxonomy.php:91 lib/pro/admin/taxonomy.php:129
+#: lib/pro/admin/user.php:91 lib/pro/admin/user.php:129
+msgctxt "option label"
+msgid "Image ID"
+msgstr ""
+
+#: lib/gpl/admin/post.php:124 lib/gpl/admin/post.php:168
+#: lib/gpl/admin/taxonomy.php:78 lib/gpl/admin/taxonomy.php:122
+#: lib/gpl/admin/user.php:79 lib/gpl/admin/user.php:123
+#: lib/pro/admin/post.php:142 lib/pro/admin/post.php:186
+#: lib/pro/admin/taxonomy.php:95 lib/pro/admin/taxonomy.php:134
+#: lib/pro/admin/user.php:95 lib/pro/admin/user.php:134
+msgctxt "option label"
+msgid "or an Image URL"
+msgstr ""
+
+#: lib/gpl/admin/post.php:129 lib/gpl/admin/taxonomy.php:83
+#: lib/gpl/admin/user.php:84 lib/pro/admin/post.php:147
+#: lib/pro/admin/taxonomy.php:100
+msgctxt "option label"
+msgid "Maximum Images"
+msgstr ""
+
+#: lib/gpl/admin/post.php:133 lib/gpl/admin/taxonomy.php:87
+#: lib/gpl/admin/user.php:88 lib/pro/admin/post.php:151
+#: lib/pro/admin/taxonomy.php:104 lib/pro/admin/user.php:99
+msgctxt "option label"
+msgid "Video Embed HTML"
+msgstr ""
+
+#: lib/gpl/admin/post.php:137 lib/gpl/admin/taxonomy.php:91
+#: lib/gpl/admin/user.php:92 lib/pro/admin/post.php:155
+#: lib/pro/admin/taxonomy.php:108 lib/pro/admin/user.php:103
+msgctxt "option label"
+msgid "or a Video URL"
+msgstr ""
+
+#: lib/gpl/admin/post.php:142 lib/gpl/admin/taxonomy.php:96
+#: lib/gpl/admin/user.php:97 lib/pro/admin/post.php:160
+#: lib/pro/admin/user.php:108
+msgctxt "option label"
+msgid "Maximum Videos"
+msgstr ""
+
+#: lib/gpl/admin/post.php:146 lib/gpl/admin/taxonomy.php:100
+#: lib/gpl/admin/user.php:101 lib/pro/admin/post.php:164
+#: lib/pro/admin/taxonomy.php:112 lib/pro/admin/user.php:112
+msgctxt "option label"
+msgid "Include Preview Image(s)"
+msgstr ""
+
+#: lib/gpl/admin/post.php:154 lib/gpl/admin/taxonomy.php:108
+#: lib/gpl/admin/user.php:109 lib/pro/admin/post.php:172
+#: lib/pro/admin/taxonomy.php:120 lib/pro/admin/user.php:120
+msgctxt "metabox title"
+msgid "Pinterest / Rich Pin"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:28 lib/pro/admin/sharing.php:39
+#: lib/sharing.php:298
+msgctxt "option label"
+msgid "Social File Cache Expiry"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:31 lib/pro/admin/sharing.php:43
+msgctxt "option comment"
+msgid "hours"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:48 lib/pro/admin/sharing.php:57
+msgctxt "option label"
+msgid "Include on Post Types"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:68 lib/pro/admin/sharing.php:74
+msgctxt "option label"
+msgid "%s Preset"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:80 lib/pro/admin/sharing.php:87
+#: lib/sharing.php:283
+msgctxt "metabox tab"
+msgid "Sharing Buttons"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:100 lib/pro/admin/sharing.php:104
+msgctxt "option label"
+msgid "Pinterest Caption Text"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:121 lib/pro/admin/sharing.php:127
+msgctxt "option label"
+msgid "Tumblr Image Caption"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:139 lib/pro/admin/sharing.php:147
+msgid "Caption disabled - no suitable image found for the %s button"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:141 lib/pro/admin/sharing.php:149
+msgctxt "option label"
+msgid "Tumblr Video Caption"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:149 lib/pro/admin/sharing.php:159
+msgid "Caption disabled - no suitable video found for the %s button"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:155 lib/gpl/admin/sharing.php:161
+#: lib/pro/admin/sharing.php:165 lib/pro/admin/sharing.php:171
+msgctxt "option label"
+msgid "Tweet Text"
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:157 lib/pro/admin/sharing.php:167
+msgid "Save a draft version or publish to enable this option."
+msgstr ""
+
+#: lib/gpl/admin/sharing.php:168 lib/pro/admin/sharing.php:180
+msgctxt "option label"
+msgid "Disable Sharing Buttons"
+msgstr ""
+
+#: lib/gpl/admin/style.php:64 lib/pro/admin/style.php:70
+msgctxt "option label"
+msgid "Sidebar Javascript"
+msgstr ""
+
+#: lib/gpl/ecom/woocommerce.php:110 lib/pro/ecom/woocommerce.php:329
+msgctxt "option label"
+msgid "Position in Woo Short Text"
+msgstr ""
+
+#: lib/gpl/forum/bbpress.php:114 lib/pro/forum/bbpress.php:284
+msgctxt "option label"
+msgid "Position in bbPress Single"
+msgstr ""
+
+#: lib/media.php:330
+msgid ""
+"The NextGEN Gallery integration module provided by %1$s is required to read "
+"information for image ID %2$s."
+msgstr ""
+
+#: lib/media.php:470
+msgid "full size original"
+msgstr ""
+
+#: lib/media.php:480 lib/pro/media/ngg.php:203
+msgid ""
+"%1$s image ID %2$s ignored &mdash; the resulting image of %3$s is too small "
+"for the %4$s image size."
+msgstr ""
+
+#: lib/media.php:481 lib/media.php:501 lib/media.php:517
+msgid "Media Library"
+msgstr ""
+
+#: lib/media.php:485 lib/pro/media/ngg.php:208
+msgid "cropped"
+msgstr ""
+
+#: lib/media.php:500 lib/pro/media/ngg.php:222
+msgid ""
+"%1$s image ID %2$s ignored &mdash; the resulting image of %3$s is smaller "
+"than the minimum %4$s allowed by the Facebook / Open Graph standard."
+msgstr ""
+
+#: lib/media.php:516 lib/pro/media/ngg.php:238
+msgid ""
+"%1$s image ID %2$s ignored &mdash; the resulting image of %3$s has an aspect "
+"ratio equal to/or greater than %4$d:1."
+msgstr ""
+
+#: lib/media.php:770
+msgid ""
+"%1$s includes an additional 'data-wp-pid' attribute for images from the "
+"Media Library to supplement the width / height information &mdash; if this "
+"image was selected from the Media Library before %2$s was first activated, "
+"try removing and adding the image back to your content."
+msgstr ""
+
+#: lib/media.php:773
+msgid ""
+"Content image %1$s ignored &mdash; the image width / height attributes are "
+"missing or too small for the %2$s image size."
+msgstr ""
+
+#: lib/messages.php:50
+msgid ""
+"Facebook has published a preference for Open Graph image dimensions of "
+"1200x630px cropped (for retina and high-PPI displays), 600x315px cropped as "
+"a minimum (the default settings value), and ignores images smaller than "
+"200x200px."
+msgstr ""
+
+#: lib/messages.php:65
+msgid ""
+"Include author (Person) social profiles markup to webpage headers in schema."
+"org JSON-LD format for Google Search."
+msgstr ""
+
+#: lib/messages.php:68
+msgid ""
+"The debug library is loaded when the <em>Add Hidden Debug Messages</em> "
+"option is checked, or one of the debugging <a href=\"%s\" target=\"_blank"
+"\">constants</a> is defined."
+msgstr ""
+
+#: lib/messages.php:71
+msgid ""
+"The plugin saves filtered / rendered content to a non-persistant cache (aka "
+"<a href=\"%1$s\" target=\"_blank\">WP Object Cache</a>) for re-use within "
+"the same page load. You can disable the use of non-persistant cache (not "
+"recommended) using one of the available <a href=\"%2$s\" target=\"_blank"
+"\">constants</a>."
+msgstr ""
+
+#: lib/messages.php:74
+msgid ""
+"Facebook / Open Graph and Pinterest Rich Pin meta tags are added to the head "
+"section of all webpages. You must have a supported eCommerce plugin "
+"installed to add <em>Product</em> Rich Pins, including product prices and "
+"attributes."
+msgstr ""
+
+#: lib/messages.php:77
+msgid ""
+"Include publisher (Organization) social profiles markup to webpage headers "
+"in schema.org JSON-LD format for Google Search."
+msgstr ""
+
+#: lib/messages.php:80
+msgid ""
+"The plugin saves Facebook / Open Graph, Pinterest Rich Pin, Twitter Card "
+"meta tags, and JSON-LD markup to a persistant (aka <a href=\"%1$s\" target="
+"\"_blank\">Transient</a>) cache for %2$d seconds. You can adjust the "
+"Transient cache expiration value on the <a href=\"%3$s\">%4$s</a> settings "
+"page, or disable it completely by using one of the available <a href=\"%5$s"
+"\" target=\"_blank\">constants</a>."
+msgstr ""
+
+#: lib/messages.php:80 lib/sharing.php:289 lib/sharing.php:298
+#: lib/website/twitter.php:87
+msgctxt "lib file description"
+msgid "Advanced"
+msgstr ""
+
+#: lib/messages.php:83
+msgid ""
+"Twitter Cards extend the standard Facebook / Open Graph and Pinterest Rich "
+"Pin meta tags with additional information about your content. Twitter Cards "
+"are displayed more prominently on Twitter, allowing you to highlight your "
+"content more effectively."
+msgstr ""
+
+#: lib/messages.php:282
+msgid ""
+"Select which contact field to use from the author's profile page for the "
+"Facebook / Open Graph and Pinterest Rich Pin 'article:author' meta tag(s). "
+"The preferred setting is the Facebook URL field (default value)."
+msgstr ""
+
+#: lib/messages.php:285
+msgid ""
+"If the '%1$s' (and the '%2$s' in the Google settings below) is not a valid "
+"URL, then %3$s can fallback to using the author index / archive page on this "
+"website (for example, '%4$s')."
+msgstr ""
+
+#: lib/messages.php:285 lib/submenu/general.php:134
+msgctxt "option label"
+msgid "Author Profile URL Field"
+msgstr ""
+
+#: lib/messages.php:285 lib/submenu/general.php:244
+msgctxt "option label"
+msgid "Author Link URL Field"
+msgstr ""
+
+#: lib/messages.php:285
+msgid ""
+"Uncheck this option to disable the fallback feature (default is unchecked)."
+msgstr ""
+
+#: lib/messages.php:429
+msgid ""
+"A preferred URL shortening service for %s plugin filters and/or extensions "
+"that may need to shorten URLs &mdash; don't forget to define the Service API "
+"Keys for the URL shortening service of your choice."
+msgstr ""
+
+#: lib/messages.php:432
+msgid ""
+"The <em>Get Shortlink</em> button on Posts / Pages admin editing pages "
+"provides the shortened sharing URL instead of the default WordPress "
+"shortlink URL."
+msgstr ""
+
+#: lib/messages.php:435
+msgid ""
+"URLs shorter than this length will not be shortened (the default suggested "
+"by Twitter is %d characters)."
+msgstr ""
+
+#: lib/messages.php:438
+msgid ""
+"The username for your Bit.ly API key (see <a href=\"%s\" target=\"_blank"
+"\">Your Bit.ly API Key</a> for details)."
+msgstr ""
+
+#: lib/messages.php:441
+msgid ""
+"To use Bit.ly as your preferred shortening service, you must provide the Bit."
+"ly API key for this website (see <a href=\"%s\" target=\"_blank\">Your Bit."
+"ly API Key</a> for details)."
+msgstr ""
+
+#: lib/messages.php:444
+msgid ""
+"To use Ow.ly as your preferred shortening service, you must provide the Ow."
+"ly API key for this website (complete this form to <a href=\"%s\" target="
+"\"_blank\">Request Ow.ly API Access</a>)."
+msgstr ""
+
+#: lib/messages.php:447
+msgid ""
+"The Google BrowserKey value for this website (project). If you don't already "
+"have a Google project, visit <a href=\"%s\" target=\"_blank\">Google's Cloud "
+"Console</a> and create a new project for your website (use the 'Select a "
+"project' drop-down)."
+msgstr ""
+
+#: lib/messages.php:450
+msgid ""
+"In order to use Google's URL Shortener API service, you must <em>Enable</em> "
+"the URL Shortener API from <a href=\"%s\" target=\"_blank\">Google's Cloud "
+"Console</a> (under the project's <em>API &amp; auth / APIs / URL Shortener "
+"API</em> settings page)."
+msgstr ""
+
+#: lib/messages.php:450
+msgid ""
+"Confirm that you have enabled Google's URL Shortener API service by checking "
+"the 'Yes' option here."
+msgstr ""
+
+#: lib/messages.php:462
+msgid ""
+"If you have a <a href=\"%1$s\" target=\"_blank\">Facebook Business Page for "
+"your website / business</a>, you may enter its URL here (for example, the "
+"Facebook Business Page URL for %2$s is <a href=\"%3$s\" target=\"_blank\">"
+"%4$s</a>)."
+msgstr ""
+
+#: lib/messages.php:462
+msgid ""
+"The Facebook Business Page URL will be used in Open Graph <em>article</em> "
+"type webpages (not index or archive webpages) and schema publisher "
+"(Organization) social JSON."
+msgstr ""
+
+#: lib/messages.php:462 lib/messages.php:483 lib/messages.php:537
+#: lib/messages.php:560 lib/messages.php:581 lib/messages.php:594
+#: lib/messages.php:606
+msgid ""
+"Google Search may use this information to display additional publisher / "
+"business details in its search results."
+msgstr ""
+
+#: lib/messages.php:465
+msgid ""
+"The '%1$s' are used by Facebook to allow access to <a href=\"%2$s\" target="
+"\"_blank\">Facebook Insight</a> data for your website. Note that these are "
+"<strong>user account names, not Facebook Page names</strong>. Enter one or "
+"more Facebook user names, separated with commas. When viewing your own "
+"Facebook wall, your user name is located in the URL (for example, https://"
+"www.facebook.com/<strong>user_name</strong>). Enter only the user names, not "
+"the URLs."
+msgstr ""
+
+#: lib/messages.php:465
+msgctxt "option label"
+msgid "Facebook Admin Username(s)"
+msgstr ""
+
+#: lib/messages.php:465
+msgid ""
+"You may update your Facebook user name in the <a href=\"%1$s\" target="
+"\"_blank\">Facebook General Account Settings</a>."
+msgstr ""
+
+#: lib/messages.php:468
+msgid ""
+"If you have a <a href=\"%1$s\" target=\"_blank\">Facebook Application ID for "
+"your website</a>, enter it here. The Facebook Application ID will appear in "
+"webpage meta tags and is used by Facebook to allow access to <a href=\"%2$s"
+"\" target=\"_blank\">Facebook Insight</a> data for accounts associated with "
+"that Application ID."
+msgstr ""
+
+#: lib/messages.php:471
+msgid ""
+"The default language of your website content, used in the Facebook / Open "
+"Graph and Pinterest Rich Pin meta tags. The Pro version can also use the "
+"WordPress locale to adjust the language value dynamically (useful for "
+"websites with multilingual content)."
+msgstr ""
+
+#: lib/messages.php:489 lib/messages.php:566
+msgid ""
+"Select an '%1$s' for the '%2$s' meta tag or '[none]' to disable this feature "
+"(the recommended value is 'Display Name')."
+msgstr ""
+
+#: lib/messages.php:489 lib/messages.php:510 lib/messages.php:566
+#: lib/submenu/general.php:221 lib/submenu/general.php:278
+#: lib/submenu/general.php:334
+msgctxt "option label"
+msgid "Author Name Format"
+msgstr ""
+
+#: lib/messages.php:510
+msgid ""
+"Select an '%1$s' for the author (Person) schema markup or '[none]' to "
+"disable this feature (the recommended value is 'Display Name')."
+msgstr ""
+
+#: lib/messages.php:566
+msgid ""
+"Pinterest ignores Facebook-style Author Profile URLs in the 'article:author' "
+"Open Graph meta tags."
+msgstr ""
+
+#: lib/messages.php:566
+msgid ""
+"A different 'article:author' meta tag can be used when the Pinterest crawler "
+"is detected."
+msgstr ""
+
+#: lib/messages.php:569
+msgid ""
+"To <a href=\"%s\" target=\"_blank\">verify your website</a> with Pinterest, "
+"edit your business account profile on Pinterest and click the \"Verify "
+"Website\" button."
+msgstr ""
+
+#: lib/messages.php:569
+msgid ""
+"Enter the supplied 'p:domain_verify' meta tag <em>content</em> value here."
+msgstr ""
+
+#: lib/messages.php:621
+msgid "The built-in WordPress contact field names cannot be modified."
+msgstr ""
+
+#: lib/messages.php:624
+msgid ""
+"Individual sites/blogs may use this value as a default (when the plugin is "
+"first activated), if the current site/blog option value is blank, or force "
+"every site/blog to use this specific value."
+msgstr ""
+
+#: lib/messages.php:644 lib/messages.php:651
+msgid ""
+"After purchasing Pro version license(s), an email is sent to you with a "
+"unique Authentication ID and installation / activation instructions."
+msgstr ""
+
+#: lib/messages.php:644
+msgid ""
+"Enter the unique Authentication ID on this settings page to check for Pro "
+"version updates immediately, and every 24 hours thereafter."
+msgstr ""
+
+#: lib/messages.php:644
+msgid ""
+"The %s extension must be active in order to check for Pro version updates."
+msgstr ""
+
+#: lib/messages.php:644
+msgid ""
+"If you accidentally de-activate the %1$s extension, update information will "
+"be provided by the WordPress.org plugin repository, and any update notices "
+"will be for the Free versions &mdash; always update the Pro version when the "
+"%2$s extension is active."
+msgstr ""
+
+#: lib/messages.php:644
+msgid ""
+"If you accidentally re-install the Free version from WordPress.org &ndash; "
+"don't worry &ndash; your Authentication ID will always allow you update back "
+"to the Pro version."
+msgstr ""
+
+#: lib/messages.php:651
+msgid ""
+"Enter the unique Authentication ID on this page to define a default / forced "
+"value for <em>all</em> sites within the network, or enter the Authentication "
+"ID(s) individually on each site's Pro Licenses settings page."
+msgstr ""
+
+#: lib/messages.php:651
+msgid ""
+"Please note that the <em>default</em> site / blog must be licensed and the "
+"%1$s extension must be active in order to install %2$s Pro updates from the "
+"Network admin interface."
+msgstr ""
+
+#: lib/messages.php:654
+msgid ""
+"How do you like the plugin? Please take a moment to <a href=\"%1$s\" target="
+"\"_blank\">rate the %2$s plugin on WordPress.org</a>."
+msgstr ""
+
+#: lib/messages.php:654
+msgid ""
+"Ratings help the WordPress community as a whole find higher-quality plugins "
+"&mdash; along with <strong>encouraging us to keep improving %s</strong> as "
+"well!"
+msgstr ""
+
+#: lib/messages.php:657
+msgid "Pinterest uses the Open Graph standard meta tags for their Rich Pins."
+msgstr ""
+
+#: lib/messages.php:657
+msgid ""
+"These options allow you to manage and/or override some Pinterest-specific "
+"Open Graph settings."
+msgstr ""
+
+#: lib/messages.php:657
+msgid ""
+"Please note that if you use a caching plugin, or front-end caching service, "
+"it should detect the Pinterest crawler user-agent and bypass its cache (for "
+"example, look for a <em>User-Agent Exclusion Pattern</em> option and add "
+"\"Pinterest/\" to that list)."
+msgstr ""
+
+#: lib/messages.php:657
+msgid ""
+"This will allow %s to provide different / customized meta tags specifically "
+"for the Pinterest crawler."
+msgstr ""
+
+#: lib/messages.php:660
+msgid ""
+"The Photo, Gallery, and Product Cards were deprecated by Twitter on July "
+"3rd, 2015."
+msgstr ""
+
+#: lib/messages.php:660
+msgid ""
+"%1s continues to support all <a href=\"%2s\">current Twitter Card formats</"
+"a>, including the Summary, Summary with Large Image, mobile App (extension "
+"plugin required), and video Player Cards (Pro version required)."
+msgstr ""
+
+#: lib/messages.php:663
+msgid ""
+"The following options allow you to customize the contact field names and "
+"labels shown on <a href=\"%s\">the user profile page</a>."
+msgstr ""
+
+#: lib/messages.php:663
+msgid ""
+"%s uses the Facebook, Google+, and Twitter contact fields for Facebook / "
+"Open Graph, Schema, and Twitter Card meta tags."
+msgstr ""
+
+#: lib/messages.php:663
+msgid ""
+"You should not modify the <em>%s</em> unless you have a <em>very</em> good "
+"reason to do so."
+msgstr ""
+
+#: lib/messages.php:663
+msgid ""
+"The <em>%s</em> on the other hand is for display purposes only and it can be "
+"changed as you wish."
+msgstr ""
+
+#: lib/messages.php:663
+msgid ""
+"Enabled contact methods are shown on user profile pages automatically, but "
+"your theme is responsible for displaying them in other locations throughout "
+"your website (see the WordPress <a href=\"%s\" target=\"_blank"
+"\">get_the_author_meta()</a> documentation for examples)."
+msgstr ""
+
+#: lib/messages.php:663
+msgid ""
+"DO NOT ENTER YOUR CONTACT INFORMATION HERE &ndash; THESE ARE CONTACT FIELD "
+"LABELS ONLY."
+msgstr ""
+
+#: lib/messages.php:663
+msgid ""
+"Enter your personal contact information on <a href=\"%1$s\">the user profile "
+"page</a>."
+msgstr ""
+
+#: lib/messages.php:666
+msgid ""
+"%s adds the following Google / SEO, Facebook, Open Graph, Rich Pin, Schema, "
+"and Twitter Card HTML tags to the <code>&lt;head&gt;</code> section of your "
+"webpages."
+msgstr ""
+
+#: lib/messages.php:666
+msgid ""
+"If your theme or another plugin already creates one or more of these HTML "
+"tags, you can uncheck them here to prevent duplicates from being added."
+msgstr ""
+
+#: lib/messages.php:666
+msgid ""
+"As an example, the \"meta name description\" HTML tag is automatically "
+"unchecked if a <em>known</em> SEO plugin is detected."
+msgstr ""
+
+#: lib/messages.php:666
+msgid ""
+"The \"meta name canonical\" HTML tag is unchecked by default since themes "
+"often include this meta tag in their header template(s)."
+msgstr ""
+
+#: lib/messages.php:669
+msgid ""
+"%s allows you to control image dimensions based on their intended use "
+"(Facebook / Open Graph, Twitter Cards, Pinterest Rich Pins, etc.)."
+msgstr ""
+
+#: lib/messages.php:672
+msgid ""
+"The website / business social account values are used for SEO, Schema, Open "
+"Graph, and other social meta tags &ndash; including publisher (Organization) "
+"social markup for Google Search."
+msgstr ""
+
+#: lib/messages.php:672
+msgid ""
+"See the <a href=\"%s\">Google / Schema settings tab</a> to define a "
+"website / business logo for Google Search, and/or enable / disable the "
+"addition of publisher (Organization) and/or author (Person) JSON-LD markup "
+"in your webpage headers."
+msgstr ""
+
+#: lib/messages.php:675
+msgid ""
+"The buttons enabled bellow (along with those in the widget) can be included "
+"or excluded as a group based on the webpage content type."
+msgstr ""
+
+#: lib/messages.php:675
+msgid ""
+"This does <em>not</em> apply to the shortcode and/or function buttons, which "
+"are managed with their own parameter options."
+msgstr ""
+
+#: lib/messages.php:688
+msgid ""
+"Purchase %s licence(s) to install / enable Pro modules and modify the "
+"following options."
+msgstr ""
+
+#: lib/messages.php:689
+msgid ""
+"Purchase the %s plugin to install / enable Pro modules and modify the "
+"following options."
+msgstr ""
+
+#: lib/messages.php:692
+msgid "%s required to use this option"
+msgstr ""
+
+#: lib/messages.php:706
+msgid ""
+"Select or upload a larger / different image &mdash; the Priority Media tab "
+"can also be used to select a larger image specifically for social sharing."
+msgstr ""
+
+#: lib/messages.php:707
+msgid "Adjust the <a href=\"%1$s\"><b>%2$s</b> social image dimensions</a>."
+msgstr ""
+
+#: lib/messages.php:710
+msgid ""
+"Enable or adjust the <a href=\"%1$s\">WP / Theme Integration image upscaling "
+"options</a>."
+msgstr ""
+
+#: lib/messages.php:713
+msgid ""
+"Please select or upload a larger / different image. The Priority Media tab "
+"can also be used to select a larger image specifically for social sharing."
+msgstr ""
+
+#: lib/messages.php:716
+msgid ""
+"An Open Graph image meta tag could not be created from this webpage content "
+"&mdash; Facebook and other social websites <em>require</em> at least one "
+"Open Graph image meta tag to render shared content correctly."
+msgstr ""
+
+#: lib/messages.php:716
+msgid ""
+"You may select an optional customized image, for Facebook and other social "
+"websites, in the Social Settings metabox under the Priority Media tab."
+msgstr ""
+
+#: lib/messages.php:719
+msgid ""
+"Please note that the <a href=\"%1$s\">%2$s</a> advanced option is currently "
+"set at %3$d seconds &mdash; this is lower than the recommended default value "
+"of %4$d seconds."
+msgstr ""
+
+#: lib/messages.php:722
+msgid "The <a href=\"%1$s\">%2$s</a> advanced option is currently disabled."
+msgstr ""
+
+#: lib/messages.php:722
+msgid ""
+"The use of WordPress content filters allows %s to fully render your content "
+"text for meta tag descriptions, and detect additional images / embedded "
+"videos provided by shortcodes."
+msgstr ""
+
+#: lib/messages.php:722
+msgid ""
+"Some theme / plugins have badly coded content filters, so this option is "
+"disabled by default."
+msgstr ""
+
+#: lib/messages.php:722
+msgid ""
+"<a href=\"%s\">If you use any shortcodes in your content text, this option "
+"should be enabled</a> (Pro version required) &mdash; if you experience "
+"display issues after enabling this option, determine which theme / plugin "
+"content filter is at fault, and report the problem to its author(s)."
+msgstr ""
+
+#: lib/messages.php:727
+msgid ""
+"At least one of your theme header templates does not support Schema markup "
+"of the webpage head section."
+msgstr ""
+
+#: lib/messages.php:727
+msgid ""
+"The %s element in your theme's header templates should include a function / "
+"action / filter call for its attributes."
+msgstr ""
+
+#: lib/messages.php:727
+msgid ""
+"%1$s can update your theme header templates automatically to change the "
+"default %2$s element to:"
+msgstr ""
+
+#: lib/messages.php:727
+msgid ""
+"<b><a href=\"%1$s\">Click here to update theme header templates "
+"automatically</a></b> or update the theme templates yourself manually."
+msgstr ""
+
+#: lib/messages.php:731
+msgid "The %1$s plugin %2$s option is empty."
+msgstr ""
+
+#: lib/messages.php:731
+msgid ""
+"To enable Pro version features and allow the plugin to authenticate itself "
+"for updates, please enter the unique Authentication ID you received by email "
+"on the <a href=\"%s\">Pro Licenses settings page</a>."
+msgstr ""
+
+#: lib/messages.php:734
+msgid ""
+"An Authentication ID has been entered for %s, but the Pro version is not yet "
+"installed &ndash; don't forget to update the plugin to install the latest "
+"Pro version. ;-)"
+msgstr ""
+
+#: lib/messages.php:744
+msgid ""
+"At least one Authentication ID has been entered on the <a href=\"%1$s\">Pro "
+"Licenses settings page</a>, but the %2$s plugin is not active."
+msgstr ""
+
+#: lib/messages.php:747
+msgid ""
+"This Free plugin is required to update and enable the %s plugin and its Pro "
+"extensions."
+msgstr ""
+
+#: lib/messages.php:747
+msgid "Download the Free <a href=\"%1$s\">%2$s plugin archive</a> (ZIP)."
+msgstr ""
+
+#: lib/messages.php:747
+msgid ""
+"Then <a href=\"%s\">upload and activate the plugin</a> on the WordPress "
+"plugin upload page."
+msgstr ""
+
+#: lib/messages.php:750
+msgid ""
+"Once the %s extension has been activated, one or more Pro version updates "
+"may be available for your licensed plugin(s)."
+msgstr ""
+
+#: lib/messages.php:750
+msgid ""
+"Read more <a href=\"%1$s\" target=\"_blank\">about the %2$s extension "
+"plugin</a>."
+msgstr ""
+
+#: lib/messages.php:764
+msgid ""
+"%s can be purchased quickly and easily via Paypal &ndash; allowing you to "
+"license and enable Pro version features within seconds of your purchase."
+msgstr ""
+
+#: lib/messages.php:765
+msgid ""
+"%s can be purchased quickly and easily via Paypal &ndash; allowing you to "
+"update the plugin within seconds of your purchase."
+msgstr ""
+
+#: lib/messages.php:766
+msgid ""
+"Pro version licenses do not expire &ndash; there are no yearly or recurring "
+"fees for updates and support."
+msgstr ""
+
+#: lib/messages.php:771
+msgid ""
+"Metaboxes (like this one) can be opened / closed by clicking on their title "
+"bar, moved and re-ordered by dragging them, or removed / added from the "
+"<em>Screen Options</em> tab (top-right of page)."
+msgstr ""
+
+#: lib/messages.php:771
+msgid ""
+"Option values in multiple tabs can be modified before clicking the '%s' "
+"button."
+msgstr ""
+
+#: lib/messages.php:781
+msgid ""
+"This option is localized &mdash; you may change the WordPress admin locale "
+"with <a href=\"%1$s\" target=\"_blank\">Polylang</a>, <a href=\"%2$s\" "
+"target=\"_blank\">WP Native Dashboard</a>, etc., to define alternate option "
+"values for different languages."
+msgstr ""
+
+#: lib/meta.php:30 lib/submenu/general.php:43
+msgctxt "metabox tab"
+msgid "Descriptions"
+msgstr ""
+
+#: lib/meta.php:31
+msgctxt "metabox tab"
+msgid "Priority Media"
+msgstr ""
+
+#: lib/meta.php:82
+msgctxt "preview image error"
+msgid "Image Dimensions Smaller<br/>than Suggested Minimum<br/>of %s"
+msgstr ""
+
+#: lib/meta.php:88
+msgctxt "preview image error"
+msgid "Image Dimensions Unknown<br/>or Not Available"
+msgstr ""
+
+#: lib/meta.php:97
+msgctxt "preview image error"
+msgid "No Open Graph Image Found"
+msgstr ""
+
+#: lib/meta.php:107
+msgctxt "option label"
+msgid "Short URL"
+msgstr ""
+
+#: lib/meta.php:115
+msgctxt "option label"
+msgid "Open Graph Example"
+msgstr ""
+
+#: lib/meta.php:174
+msgctxt "option label"
+msgid "Facebook Debugger"
+msgstr ""
+
+#: lib/meta.php:174
+msgid ""
+"Facebook, Pinterest, LinkedIn, Google+, and most social websites use Open "
+"Graph meta tags."
+msgstr ""
+
+#: lib/meta.php:174
+msgid ""
+"The Facebook debugger allows you to refresh Facebook's cache, while also "
+"validating the Open Graph and Pinterest Rich Pin meta tags."
+msgstr ""
+
+#: lib/meta.php:174
+msgid ""
+"The Facebook debugger remains the most stable and reliable method to verify "
+"Open Graph meta tags. <strong>You may have to click the \"Fetch new scrape "
+"information\" button several times to refresh Facebook's cache</strong>."
+msgstr ""
+
+#: lib/meta.php:174
+msgctxt "submit button"
+msgid "Validate Open Graph"
+msgstr ""
+
+#: lib/meta.php:176
+msgctxt "option label"
+msgid "Google Structured Data Testing Tool"
+msgstr ""
+
+#: lib/meta.php:176
+msgid ""
+"Verify that Google can correctly parse your structured data markup (meta "
+"tags, Schema, Microdata, and social JSON-LD markup) for Google Search and "
+"Google+."
+msgstr ""
+
+#: lib/meta.php:176
+msgctxt "submit button"
+msgid "Validate Data Markup"
+msgstr ""
+
+#: lib/meta.php:178
+msgctxt "option label"
+msgid "Pinterest Rich Pin Validator"
+msgstr ""
+
+#: lib/meta.php:178
+msgid ""
+"Validate the Open Graph / Rich Pin meta tags and apply to have them shown on "
+"Pinterest zoomed pins."
+msgstr ""
+
+#: lib/meta.php:178
+msgctxt "submit button"
+msgid "Validate Rich Pins"
+msgstr ""
+
+#: lib/meta.php:180
+msgctxt "option label"
+msgid "Twitter Card Validator"
+msgstr ""
+
+#: lib/meta.php:180
+msgid ""
+"The Twitter Card Validator does not accept query arguments &ndash; copy-"
+"paste the following sharing URL into the validation input field."
+msgstr ""
+
+#: lib/meta.php:180
+msgctxt "submit button"
+msgid "Validate Twitter Card"
+msgstr ""
+
+#: lib/meta.php:277
+msgid "Nonce token validation failed for the submitted form (update ignored)."
+msgstr ""
+
+#: lib/meta.php:343
+msgctxt "column title"
+msgid "Social Img"
+msgstr ""
+
+#: lib/meta.php:344
+msgctxt "column title"
+msgid "Social Desc"
+msgstr ""
+
+#: lib/meta.php:360
+msgid "Reload to View"
+msgstr ""
+
+#: lib/opengraph.php:42
+msgctxt "image size label"
+msgid "Pinterest Rich Pin"
+msgstr ""
+
+#: lib/opengraph.php:48
+msgctxt "image size label"
+msgid "Facebook / Open Graph"
+msgstr ""
+
+#: lib/options.php:144
+msgid ""
+"Non-standard value found for the Free version '%s' option - resetting the "
+"option to its default value."
+msgstr ""
+
+#: lib/options.php:192
+msgid "WordPress could not find an entry for %s in the options table."
+msgstr ""
+
+#: lib/options.php:195
+msgid ""
+"WordPress returned a non-array value when reading %s from the options table."
+msgstr ""
+
+#: lib/options.php:198
+msgid ""
+"WordPress returned an empty array when reading %s from the options table."
+msgstr ""
+
+#: lib/options.php:200
+msgid ""
+"WordPress returned an unknown condition when reading %s from the options "
+"table."
+msgstr ""
+
+#: lib/options.php:215
+msgid ""
+"The plugin settings have been returned to their default values &mdash; <a "
+"href=\"%s\">please review and save the new settings</a>."
+msgstr ""
+
+#: lib/options.php:301
+msgid ""
+"The Facebook App ID must be numeric and 32 characters or less in length "
+"&mdash; the value of \"%s\" is not valid."
+msgstr ""
+
+#: lib/options.php:349
+msgid "Plugin settings (%s) have been upgraded and saved."
+msgstr ""
+
+#: lib/post.php:230
+msgid "enabled in <a href=\"%s\">WP / Theme Integration</a> settings"
+msgstr ""
+
+#: lib/post.php:234
+msgid "Checking %1$s for duplicate meta tags"
+msgstr ""
+
+#: lib/post.php:287 lib/profile/social-settings.php:26 lib/sharing.php:283
+#: lib/taxonomy.php:251 lib/user.php:200
+msgctxt "metabox title"
+msgid "Social Settings"
+msgstr ""
+
+#: lib/post.php:324
+msgid ""
+"Save a draft version or publish the %s to display the open graph social "
+"preview."
+msgstr ""
+
+#: lib/post.php:332
+msgid ""
+"Save a draft version or publish the %s to display the head tags preview."
+msgstr ""
+
+#: lib/post.php:342
+msgid ""
+"Social validation tools will be available when the %s is published with "
+"public visibility."
+msgstr ""
+
+#: lib/pro/admin/advanced.php:290
+msgctxt "option label"
+msgid "Goo.gl URL Shortener API is ON"
+msgstr ""
+
+#: lib/pro/forum/bbpress.php:78 lib/pro/forum/bbpress.php:126
+msgctxt "bbpress single user description"
+msgid "%s's Profile"
+msgstr ""
+
+#: lib/pro/forum/bbpress.php:132
+msgctxt "bbpress single user description"
+msgid "%s's Topics Started"
+msgstr ""
+
+#: lib/pro/forum/bbpress.php:136
+msgctxt "bbpress single user description"
+msgid "%s's Replies Created"
+msgstr ""
+
+#: lib/pro/forum/bbpress.php:140
+msgctxt "bbpress single user description"
+msgid "%s's Favorites"
+msgstr ""
+
+#: lib/pro/forum/bbpress.php:144
+msgctxt "bbpress single user description"
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: lib/pro/forum/bbpress.php:148
+msgctxt "bbpress single user description"
+msgid "Edit %s's Profile"
+msgstr ""
+
+#: lib/pro/media/ngg.php:204 lib/pro/media/ngg.php:223
+#: lib/pro/media/ngg.php:239
+msgid "NextGEN Gallery"
+msgstr ""
+
+#: lib/pro/media/upscale.php:193
+msgid ""
+"Image ID %1$s of %2$s cannot be upscaled by %3$s from %4$s to %5$s for the "
+"%6$s image size (exceeds %7$s maximum)."
+msgstr ""
+
+#: lib/pro/media/upscale.php:203
+msgid ""
+"Image ID %1$s of %2$s has been upscaled by %3$s from %4$s to %5$s for the "
+"%6$s image size."
+msgstr ""
+
+#: lib/pro/util/shorten.php:113
+msgid ""
+"Incomplete and/or missing %s service API credentials for URL shortening."
+msgstr ""
+
+#: lib/profile/social-settings.php:35
+msgid "Invalid user ID."
+msgstr ""
+
+#: lib/schema.php:45
+msgctxt "image size label"
+msgid "Schema JSON-LD (same as Facebook / Open Graph)"
+msgstr ""
+
+#: lib/setting/contact-fields.php:27 lib/submenu/advanced.php:31
+msgctxt "metabox title"
+msgid "Contact Field Names and Labels"
+msgstr ""
+
+#: lib/setting/image-dimensions.php:27
+msgctxt "metabox title"
+msgid "Social Image Dimensions"
+msgstr ""
+
+#: lib/setting/image-dimensions.php:52
+msgctxt "option label"
+msgid "Facebook / Open Graph"
+msgstr ""
+
+#: lib/setting/image-dimensions.php:57
+msgctxt "option label"
+msgid "Pinterest Rich Pin"
+msgstr ""
+
+#: lib/setting/image-dimensions.php:62
+msgctxt "option label"
+msgid "Twitter <em>Summary</em> Card"
+msgstr ""
+
+#: lib/setting/image-dimensions.php:66
+msgctxt "option label"
+msgid "Twitter <em>Large Image Summary</em> Card"
+msgstr ""
+
+#: lib/setting/social-accounts.php:27
+msgctxt "metabox title"
+msgid "Website / Business Social Accounts"
+msgstr ""
+
+#: lib/setting/social-accounts.php:50 lib/submenu/essential.php:82
+#: lib/submenu/general.php:209
+msgctxt "option label"
+msgid "Facebook Business Page URL"
+msgstr ""
+
+#: lib/setting/social-accounts.php:54 lib/submenu/essential.php:113
+#: lib/submenu/general.php:234
+msgctxt "option label"
+msgid "Google+ Business Page URL"
+msgstr ""
+
+#: lib/setting/social-accounts.php:58 lib/submenu/essential.php:124
+#: lib/submenu/general.php:323
+msgctxt "option label"
+msgid "Pinterest Company Page URL"
+msgstr ""
+
+#: lib/setting/social-accounts.php:62 lib/submenu/essential.php:137
+#: lib/submenu/general.php:351
+msgctxt "option label"
+msgid "Twitter Business @username"
+msgstr ""
+
+#: lib/setting/social-accounts.php:66 lib/submenu/general.php:373
+msgctxt "option label"
+msgid "Instagram Business URL"
+msgstr ""
+
+#: lib/setting/social-accounts.php:70 lib/submenu/general.php:377
+msgctxt "option label"
+msgid "LinkedIn Company Page URL"
+msgstr ""
+
+#: lib/setting/social-accounts.php:74 lib/submenu/general.php:381
+msgctxt "option label"
+msgid "MySpace Business (Brand) URL"
+msgstr ""
+
+#: lib/sharing.php:157
+msgid "Failed to open the %s file for reading."
+msgstr ""
+
+#: lib/sharing.php:283
+msgid ""
+"Social sharing features include the <a href=\"%1$s\">%2$s</a> and <a href="
+"\"%3$s\">%4$s</a> settings pages, the <em>%5$s</em> tab in the <em>%6$s</em> "
+"metabox, along with the social sharing shortcode and widget."
+msgstr ""
+
+#: lib/sharing.php:283
+msgid ""
+"All social sharing features can be disabled using a <a href=\"%s\" target="
+"\"_blank\">PHP constant</a> in your wp-config.php file."
+msgstr ""
+
+#: lib/sharing.php:286
+msgid ""
+"A stylesheet for the social sharing buttons can be included in all webpages. "
+"You can enable or disable use of the stylesheet from the <a href=\"%1$s\">"
+"%2$s</a> settings page."
+msgstr ""
+
+#: lib/sharing.php:289
+msgid ""
+"Support for shortcode(s) can be enabled and disabled on the <a href=\"%1$s\">"
+"%2$s</a> settings page. Shortcodes are disabled by default to optimize "
+"performance and content processing."
+msgstr ""
+
+#: lib/sharing.php:292
+msgid ""
+"The sharing widget feature adds a <em>%s</em> widget to the WordPress "
+"Widgets settings page. The sharing widget shares the URL for the current "
+"webpage (and not individual items within an index / archive webpage, for "
+"example)."
+msgstr ""
+
+#: lib/sharing.php:295
+msgid ""
+"A stylesheet editor is available to edit the default CSS of social sharing "
+"buttons based on their intended location (content, except, etc.)."
+msgstr ""
+
+#: lib/sharing.php:298
+msgid ""
+"Social sharing button images and JavaScript can be saved to a local cache "
+"folder. When this feature is enabled, the image and JavaScript URLs provided "
+"are those of the cached files instead of the originals (often with much "
+"better performance)."
+msgstr ""
+
+#: lib/sharing.php:298
+msgid ""
+"The current <em>%1$s</em> value defined on the <a href=\"%2$s\">%3$s</a> "
+"settings page is %4$s seconds (the default value of 0 disables social file "
+"caching)."
+msgstr ""
+
+#: lib/sharing.php:307 lib/sharing.php:310
+msgid ""
+"A custom caption text used by the %s social sharing button for the custom "
+"Image ID, attached or featured image."
+msgstr ""
+
+#: lib/sharing.php:313
+msgid ""
+"A custom caption text used by the %s social sharing button for the custom "
+"Video URL or embedded video."
+msgstr ""
+
+#: lib/sharing.php:316
+msgid ""
+"A custom Tweet text for the Twitter social sharing button. This text is "
+"different than the Twitter Card description."
+msgstr ""
+
+#: lib/sharing.php:319
+msgid ""
+"Disable all social sharing buttons (content, excerpt, widget, shortcode)."
+msgstr ""
+
+#: lib/sharing.php:343
+msgid "The %s file is not readable."
+msgstr ""
+
+#: lib/sharing.php:378
+msgid "Failed to load the minify class SuextMinifyCssCompressor."
+msgstr ""
+
+#: lib/sharing.php:387
+msgid "Failed writing to the % file."
+msgstr ""
+
+#: lib/sharing.php:392
+msgid "Updated the %1$s stylesheet (%2$d bytes written)."
+msgstr ""
+
+#: lib/sharing.php:401
+msgid "The %s folder is not writable."
+msgstr ""
+
+#: lib/sharing.php:417
+msgid ""
+"Error removing the minimized stylesheet &mdash; does the web server have "
+"sufficient privileges?"
+msgstr ""
+
+#: lib/sharing.php:437
+msgctxt "metabox title"
+msgid "Sharing Buttons"
+msgstr ""
+
+#: lib/sharing.php:509
+msgid "%s must be published<br/>before it can be shared."
+msgstr ""
+
+#: lib/sitesubmenu/siteadvanced.php:32
+msgctxt "metabox title"
+msgid "Network Advanced Settings"
+msgstr ""
+
+#: lib/sitesubmenu/siteadvanced.php:48 lib/submenu/advanced.php:42
+msgctxt "metabox tab"
+msgid "Plugin Settings"
+msgstr ""
+
+#: lib/sitesubmenu/siteadvanced.php:49 lib/submenu/advanced.php:46
+msgctxt "metabox tab"
+msgid "File and Object Cache"
+msgstr ""
+
+#: lib/sitesubmenu/siteadvanced.php:64 lib/submenu/advanced.php:92
+#: lib/submenu/essential.php:145
+msgctxt "option label"
+msgid "Preserve Settings on Uninstall"
+msgstr ""
+
+#: lib/sitesubmenu/siteadvanced.php:69 lib/submenu/advanced.php:96
+#: lib/submenu/essential.php:149
+msgctxt "option label"
+msgid "Add Hidden Debug Messages"
+msgstr ""
+
+#: lib/sitesubmenu/sitelicenses.php:31 lib/submenu/licenses.php:27
+msgctxt "metabox title"
+msgid "Extension Plugins and Pro Licenses"
+msgstr ""
+
+#: lib/submenu/advanced.php:27 lib/submenu/essential.php:31
+msgctxt "metabox title"
+msgid "Advanced Settings"
+msgstr ""
+
+#: lib/submenu/advanced.php:35
+msgctxt "metabox title"
+msgid "Header Tags List"
+msgstr ""
+
+#: lib/submenu/advanced.php:43
+msgctxt "metabox tab"
+msgid "Content and Filters"
+msgstr ""
+
+#: lib/submenu/advanced.php:44
+msgctxt "metabox tab"
+msgid "Social Settings"
+msgstr ""
+
+#: lib/submenu/advanced.php:45
+msgctxt "metabox tab"
+msgid "WP / Theme Integration"
+msgstr ""
+
+#: lib/submenu/advanced.php:47 lib/website/twitter.php:87
+#: lib/website/twitter.php:91
+msgctxt "metabox tab"
+msgid "Service API Keys"
+msgstr ""
+
+#: lib/submenu/advanced.php:60
+msgctxt "metabox tab"
+msgid "Custom Contacts"
+msgstr ""
+
+#: lib/submenu/advanced.php:61
+msgctxt "metabox tab"
+msgid "Built-In Contacts"
+msgstr ""
+
+#: lib/submenu/advanced.php:102
+msgctxt "option label"
+msgid "Options to Show by Default"
+msgstr ""
+
+#: lib/submenu/essential.php:27
+msgctxt "metabox title"
+msgid "General Settings"
+msgstr ""
+
+#: lib/submenu/essential.php:63
+msgctxt "metabox title"
+msgid "Site Information"
+msgstr ""
+
+#: lib/submenu/essential.php:65 lib/submenu/general.php:80
+msgctxt "option label"
+msgid "Default Article Topic"
+msgstr ""
+
+#: lib/submenu/essential.php:69 lib/submenu/general.php:84
+msgctxt "option label"
+msgid "Site Name"
+msgstr ""
+
+#: lib/submenu/essential.php:74 lib/submenu/general.php:89
+msgctxt "option label"
+msgid "Site Description"
+msgstr ""
+
+#: lib/submenu/essential.php:80
+msgctxt "metabox title"
+msgid "Facebook / Open Graph"
+msgstr ""
+
+#: lib/submenu/essential.php:86 lib/submenu/general.php:213
+msgctxt "option label"
+msgid "Facebook Application ID"
+msgstr ""
+
+#: lib/submenu/essential.php:90 lib/submenu/general.php:217
+msgctxt "option label"
+msgid "or Facebook Admin Username(s)"
+msgstr ""
+
+#: lib/submenu/essential.php:94 lib/submenu/general.php:226
+msgctxt "option label"
+msgid "Default Content Language"
+msgstr ""
+
+#: lib/submenu/essential.php:98 lib/submenu/general.php:176
+msgctxt "option label"
+msgid "Default / Fallback Image ID"
+msgstr ""
+
+#: lib/submenu/essential.php:102 lib/submenu/general.php:180
+msgctxt "option label"
+msgid "or Default / Fallback Image URL"
+msgstr ""
+
+#: lib/submenu/essential.php:106 lib/submenu/general.php:172
+msgctxt "option label"
+msgid "Open Graph Image Dimensions"
+msgstr ""
+
+#: lib/submenu/essential.php:111
+msgctxt "metabox title"
+msgid "Google / Schema"
+msgstr ""
+
+#: lib/submenu/essential.php:117 lib/submenu/general.php:267
+msgctxt "option label"
+msgid "Website / Business Logo URL"
+msgstr ""
+
+#: lib/submenu/essential.php:122
+msgctxt "metabox title"
+msgid "Pinterest"
+msgstr ""
+
+#: lib/submenu/essential.php:129 lib/submenu/general.php:328
+msgctxt "option label"
+msgid "Rich Pin Image Dimensions"
+msgstr ""
+
+#: lib/submenu/essential.php:135
+msgctxt "metabox title"
+msgid "Twitter"
+msgstr ""
+
+#: lib/submenu/general.php:31
+msgctxt "metabox title"
+msgid "Specific Websites and Publishers"
+msgstr ""
+
+#: lib/submenu/general.php:42
+msgctxt "metabox tab"
+msgid "Site Information"
+msgstr ""
+
+#: lib/submenu/general.php:44
+msgctxt "metabox tab"
+msgid "Authorship"
+msgstr ""
+
+#: lib/submenu/general.php:45
+msgctxt "metabox tab"
+msgid "Images"
+msgstr ""
+
+#: lib/submenu/general.php:46
+msgctxt "metabox tab"
+msgid "Videos"
+msgstr ""
+
+#: lib/submenu/general.php:58
+msgctxt "metabox tab"
+msgid "Facebook"
+msgstr ""
+
+#: lib/submenu/general.php:59
+msgctxt "metabox tab"
+msgid "Google / Schema"
+msgstr ""
+
+#: lib/submenu/general.php:60
+msgctxt "metabox tab"
+msgid "Pinterest"
+msgstr ""
+
+#: lib/submenu/general.php:61
+msgctxt "metabox tab"
+msgid "Twitter"
+msgstr ""
+
+#: lib/submenu/general.php:62
+msgctxt "metabox tab"
+msgid "Other"
+msgstr ""
+
+#: lib/submenu/general.php:98
+msgctxt "option label"
+msgid "Title Separator"
+msgstr ""
+
+#: lib/submenu/general.php:103
+msgctxt "option label"
+msgid "Maximum Title Length"
+msgstr ""
+
+#: lib/submenu/general.php:106 lib/submenu/general.php:112
+#: lib/submenu/general.php:242 lib/submenu/general.php:275
+#: lib/submenu/general.php:359 lib/website/buffer.php:73
+#: lib/website/pinterest.php:103 lib/website/tumblr.php:90
+#: lib/website/tumblr.php:96 lib/website/twitter.php:64
+msgctxt "option comment"
+msgid "characters or less"
+msgstr ""
+
+#: lib/submenu/general.php:109 lib/submenu/general.php:272
+#: lib/submenu/general.php:356
+msgctxt "option label"
+msgid "Maximum Description Length"
+msgstr ""
+
+#: lib/submenu/general.php:114
+msgctxt "option label"
+msgid "Add Hashtags to Descriptions"
+msgstr ""
+
+#: lib/submenu/general.php:118
+msgctxt "option comment"
+msgid "tag names"
+msgstr ""
+
+#: lib/submenu/general.php:121
+msgctxt "option label"
+msgid "Add Page Title in Tags / Hashtags"
+msgstr ""
+
+#: lib/submenu/general.php:126
+msgctxt "option label"
+msgid "Add Parent Page Tags / Hashtags"
+msgstr ""
+
+#: lib/submenu/general.php:139
+msgctxt "option label"
+msgid "Fallback to Author's Archive Page"
+msgstr ""
+
+#: lib/submenu/general.php:144 lib/submenu/general.php:249
+msgctxt "option label"
+msgid "Default Author when Missing"
+msgstr ""
+
+#: lib/submenu/general.php:149 lib/submenu/general.php:254
+msgctxt "option label"
+msgid "Use Default Author on Indexes"
+msgstr ""
+
+#: lib/submenu/general.php:152
+msgctxt "option comment"
+msgid "defines index / archive webpages as articles"
+msgstr ""
+
+#: lib/submenu/general.php:155 lib/submenu/general.php:259
+msgctxt "option label"
+msgid "Use Default Author on Search Results"
+msgstr ""
+
+#: lib/submenu/general.php:158
+msgctxt "option comment"
+msgid "defines search webpages as articles"
+msgstr ""
+
+#: lib/submenu/general.php:164
+msgctxt "option label"
+msgid "Maximum Images to Include"
+msgstr ""
+
+#: lib/submenu/general.php:169
+msgctxt "option comment"
+msgid "<em>video preview images are enabled</em> and will be included first"
+msgstr ""
+
+#: lib/submenu/general.php:185
+msgctxt "option label"
+msgid "Use Default Image on Indexes"
+msgstr ""
+
+#: lib/submenu/general.php:190
+msgctxt "option label"
+msgid "Use Default Image on Search Results"
+msgstr ""
+
+#: lib/submenu/general.php:196
+msgctxt "option label"
+msgid "Add Tags from NGG Featured Image"
+msgstr ""
+
+#: lib/submenu/general.php:239
+msgctxt "option label"
+msgid "Search / SEO Description Length"
+msgstr ""
+
+#: lib/submenu/general.php:264
+msgctxt "metabox title"
+msgid "Schema Markup / Google Structured Data"
+msgstr ""
+
+#: lib/submenu/general.php:292
+msgctxt "option label"
+msgid "Schema Item Type by Post Type"
+msgstr ""
+
+#: lib/submenu/general.php:297
+msgctxt "option label"
+msgid "Use Meta Property Containers"
+msgstr ""
+
+#: lib/submenu/general.php:302
+msgctxt "option label"
+msgid "Include Website JSON-LD"
+msgstr ""
+
+#: lib/submenu/general.php:307
+msgctxt "option label"
+msgid "Include Publisher JSON-LD"
+msgstr ""
+
+#: lib/submenu/general.php:312
+msgctxt "option label"
+msgid "Include Author JSON-LD"
+msgstr ""
+
+#: lib/submenu/general.php:340
+msgctxt "option label"
+msgid "Pinterest Website Verification ID"
+msgstr ""
+
+#: lib/submenu/general.php:361
+msgctxt "option label"
+msgid "<em>Summary</em> Card Image Dimensions"
+msgstr ""
+
+#: lib/submenu/general.php:365
+msgctxt "option label"
+msgid "<em>Large Image</em> Card Image Dimensions"
+msgstr ""
+
+#: lib/submenu/readme.php:27
+msgctxt "metabox title"
+msgid "Read Me"
+msgstr ""
+
+#: lib/submenu/readme.php:34
+msgctxt "metabox tab"
+msgid "Description"
+msgstr ""
+
+#: lib/submenu/readme.php:35
+msgctxt "metabox tab"
+msgid "FAQ"
+msgstr ""
+
+#: lib/submenu/readme.php:36
+msgctxt "metabox tab"
+msgid "Other Notes"
+msgstr ""
+
+#: lib/submenu/readme.php:37
+msgctxt "metabox tab"
+msgid "Changelog"
+msgstr ""
+
+#: lib/submenu/setup.php:27
+msgctxt "metabox title"
+msgid "Setup Guide"
+msgstr ""
+
+#: lib/submenu/sharing.php:65
+msgid ""
+"Social sharing buttons can be added to the top, bottom, or both. Each "
+"sharing button must also be enabled below (see the <em>%s</em> options)."
+msgstr ""
+
+#: lib/submenu/sharing.php:65
+msgctxt "option label"
+msgid "Show Button in"
+msgstr ""
+
+#: lib/submenu/sharing.php:68
+msgid ""
+"Add the social sharing buttons to each entry of an index webpage (for "
+"example, <strong>non-static</strong> homepage, category, archive, etc.). "
+"Social sharing buttons are not included on index webpages by default."
+msgstr ""
+
+#: lib/submenu/sharing.php:71
+msgid ""
+"If a static Post or Page has been selected for the homepage, you can add the "
+"social sharing buttons to that static homepage as well (default is "
+"unchecked)."
+msgstr ""
+
+#: lib/submenu/sharing.php:74
+msgid ""
+"Enabled social sharing buttons are added to the Post, Page, Media, and "
+"Product webpages by default. If your theme (or another plugin) supports "
+"additional custom post types, and you would like to include social sharing "
+"buttons on these webpages, check the appropriate option(s) here."
+msgstr ""
+
+#: lib/submenu/sharing.php:86
+msgctxt "metabox title"
+msgid "Social Sharing Buttons"
+msgstr ""
+
+#: lib/submenu/sharing.php:124
+msgctxt "metabox tab"
+msgid "Include Buttons"
+msgstr ""
+
+#: lib/submenu/sharing.php:125
+msgctxt "metabox tab"
+msgid "Buttons Position"
+msgstr ""
+
+#: lib/submenu/sharing.php:126
+msgctxt "metabox tab"
+msgid "Button Presets"
+msgstr ""
+
+#: lib/submenu/sharing.php:156
+msgctxt "option label"
+msgid "Include on Index Webpages"
+msgstr ""
+
+#: lib/submenu/sharing.php:160
+msgctxt "option label"
+msgid "Include on Static Homepage"
+msgstr ""
+
+#: lib/submenu/sharing.php:168
+msgctxt "option label"
+msgid "Position in Content Text"
+msgstr ""
+
+#: lib/submenu/sharing.php:173
+msgctxt "option label"
+msgid "Position in Excerpt Text"
+msgstr ""
+
+#: lib/submenu/style.php:32
+msgid ""
+"Add the CSS of all <em>%1$s</em> to webpages (default is checked). The CSS "
+"will be <strong>minimized</strong>, and saved to a single stylesheet with a "
+"URL of <a href=\"%2$s\">%3$s</a>. The minimized stylesheet can be enqueued "
+"or added directly to the webpage HTML."
+msgstr ""
+
+#: lib/submenu/style.php:36
+msgid "JavaScript added to webpages for the social sharing sidebar."
+msgstr ""
+
+#: lib/submenu/style.php:40
+msgid ""
+"Have WordPress enqueue the social stylesheet instead of adding the CSS to in "
+"the webpage HTML (default is unchecked). Enqueueing the stylesheet may be "
+"desirable if you use a plugin to concatenate all enqueued styles into a "
+"single stylesheet URL."
+msgstr ""
+
+#: lib/submenu/style.php:123
+msgctxt "metabox title"
+msgid "Social Sharing Styles"
+msgstr ""
+
+#: lib/submenu/style.php:137
+msgctxt "option label"
+msgid "Use the Social Stylesheet"
+msgstr ""
+
+#: lib/submenu/style.php:141
+msgctxt "option label"
+msgid "Enqueue the Stylesheet"
+msgstr ""
+
+#: lib/twittercard.php:26
+msgctxt "image size label"
+msgid "Twitter Summary Card"
+msgstr ""
+
+#: lib/twittercard.php:31
+msgctxt "image size label"
+msgid "Twitter Large Image Card"
+msgstr ""
+
+#: lib/user.php:356
+msgid "AIM"
+msgstr ""
+
+#: lib/user.php:357
+msgid "Yahoo IM"
+msgstr ""
+
+#: lib/user.php:358
+msgid "Jabber / Google Talk"
+msgstr ""
+
+#: lib/util.php:245
+msgid "%s has been cleared as well."
+msgstr ""
+
+#: lib/util.php:247
+msgid ""
+"%s cached files, transient cache, and the WordPress object cache have been "
+"cleared."
+msgstr ""
+
+#: lib/util.php:368
+msgid "Error reading the %s topic list file."
+msgstr ""
+
+#: lib/util.php:460
+msgid ""
+"The value of option '%s' must be a URL - resetting the option to its default "
+"value."
+msgstr ""
+
+#: lib/util.php:494
+msgid ""
+"The value of option '%s' must be equal to or greather than %s - resetting "
+"the option to its default value."
+msgstr ""
+
+#: lib/util.php:504 lib/util.php:513
+msgid ""
+"The value of option '%s' must be numeric - resetting the option to its "
+"default value."
+msgstr ""
+
+#: lib/util.php:522
+msgid ""
+"'%1$s' is not an acceptable value for option '%2$s' - resetting the option "
+"to its default value."
+msgstr ""
+
+#: lib/util.php:531
+msgid ""
+"The value of option '%s' must be alpha-numeric - resetting the option to its "
+"default value."
+msgstr ""
+
+#: lib/util.php:554
+msgid ""
+"The value of option '%s' must be HTML code - resetting the option to its "
+"default value."
+msgstr ""
+
+#: lib/util.php:564
+msgid ""
+"The value of option '%s' cannot be empty - resetting the option to its "
+"default value."
+msgstr ""
+
+#: lib/util.php:610
+msgid ""
+"The DOMDocument PHP class is missing - unable to read the head meta from %s. "
+"Please contact your hosting provider to install the missing DOMDocument PHP "
+"class."
+msgstr ""
+
+#: lib/website/buffer.php:29
+msgctxt "option label"
+msgid "Buffer <em>Sharing Button</em>"
+msgstr ""
+
+#: lib/website/buffer.php:40 lib/website/facebook.php:42
+#: lib/website/gplus.php:26 lib/website/linkedin.php:26
+#: lib/website/managewp.php:26 lib/website/pinterest.php:40
+#: lib/website/reddit.php:26 lib/website/stumbleupon.php:65
+#: lib/website/tumblr.php:58 lib/website/twitter.php:26
+msgctxt "option label (short)"
+msgid "Show Button in"
+msgstr ""
+
+#: lib/website/buffer.php:44 lib/website/facebook.php:46
+#: lib/website/gplus.php:30 lib/website/linkedin.php:30
+#: lib/website/managewp.php:30 lib/website/pinterest.php:44
+#: lib/website/reddit.php:30 lib/website/stumbleupon.php:69
+#: lib/website/tumblr.php:62 lib/website/twitter.php:30
+msgctxt "option label (short)"
+msgid "Preferred Order"
+msgstr ""
+
+#: lib/website/buffer.php:51 lib/website/facebook.php:52
+#: lib/website/gplus.php:37 lib/website/linkedin.php:37
+#: lib/website/pinterest.php:50 lib/website/stumbleupon.php:76
+#: lib/website/tumblr.php:69 lib/website/twitter.php:36
+msgctxt "option label (short)"
+msgid "JavaScript in"
+msgstr ""
+
+#: lib/website/buffer.php:55
+msgctxt "option label (short)"
+msgid "Count Position"
+msgstr ""
+
+#: lib/website/buffer.php:60 lib/website/pinterest.php:90
+#: lib/website/tumblr.php:77
+msgctxt "option label (short)"
+msgid "Image Dimensions"
+msgstr ""
+
+#: lib/website/buffer.php:65 lib/website/twitter.php:56
+msgctxt "option label (short)"
+msgid "Tweet Text Source"
+msgstr ""
+
+#: lib/website/buffer.php:70 lib/website/twitter.php:61
+msgctxt "option label (short)"
+msgid "Tweet Text Length"
+msgstr ""
+
+#: lib/website/buffer.php:75 lib/website/twitter.php:72
+#: lib/website/twitter.php:80
+msgctxt "option label (short)"
+msgid "Add via @username"
+msgstr ""
+
+#: lib/website/buffer.php:126
+msgctxt "image size label"
+msgid "Buffer Sharing Button"
+msgstr ""
+
+#: lib/website/facebook.php:27
+msgctxt "metabox tab"
+msgid "Like and Send"
+msgstr ""
+
+#: lib/website/facebook.php:28
+msgctxt "metabox tab"
+msgid "Share"
+msgstr ""
+
+#: lib/website/facebook.php:56 lib/website/gplus.php:41
+#: lib/website/twitter.php:40
+msgctxt "option label (short)"
+msgid "Default Language"
+msgstr ""
+
+#: lib/website/facebook.php:60 lib/website/gplus.php:45
+#: lib/website/managewp.php:36 lib/website/reddit.php:36
+msgctxt "option label (short)"
+msgid "Button Type"
+msgstr ""
+
+#: lib/website/facebook.php:68
+msgctxt "option label (short)"
+msgid "Markup Language"
+msgstr ""
+
+#: lib/website/facebook.php:77
+msgctxt "option label (short)"
+msgid "Include Send"
+msgstr ""
+
+#: lib/website/facebook.php:82 lib/website/facebook.php:134
+msgctxt "option label (short)"
+msgid "Layout"
+msgstr ""
+
+#: lib/website/facebook.php:94
+msgctxt "option label (short)"
+msgid "Show Faces"
+msgstr ""
+
+#: lib/website/facebook.php:99
+msgctxt "option label (short)"
+msgid "Font"
+msgstr ""
+
+#: lib/website/facebook.php:112
+msgctxt "option label (short)"
+msgid "Color Scheme"
+msgstr ""
+
+#: lib/website/facebook.php:121
+msgctxt "option label (short)"
+msgid "Action Name"
+msgstr ""
+
+#: lib/website/gplus.php:52 lib/website/twitter.php:51
+msgctxt "option label (short)"
+msgid "Button Size"
+msgstr ""
+
+#: lib/website/gplus.php:61
+msgctxt "option label (short)"
+msgid "Annotation"
+msgstr ""
+
+#: lib/website/gplus.php:71
+msgctxt "option label (short)"
+msgid "Expand to"
+msgstr ""
+
+#: lib/website/linkedin.php:41
+msgctxt "option label (short)"
+msgid "Counter Mode"
+msgstr ""
+
+#: lib/website/linkedin.php:52
+msgctxt "option label (short)"
+msgid "Zero in Counter"
+msgstr ""
+
+#: lib/website/pinterest.php:29
+msgctxt "option label"
+msgid "Pinterest <em>Sharing Button</em>"
+msgstr ""
+
+#: lib/website/pinterest.php:54
+msgctxt "option label (short)"
+msgid "Button Height"
+msgstr ""
+
+#: lib/website/pinterest.php:59
+msgctxt "option label (short)"
+msgid "Button Shape"
+msgstr ""
+
+#: lib/website/pinterest.php:64
+msgctxt "option label (short)"
+msgid "Button Color"
+msgstr ""
+
+#: lib/website/pinterest.php:69
+msgctxt "option label (short)"
+msgid "Button Language"
+msgstr ""
+
+#: lib/website/pinterest.php:74
+msgctxt "option label (short)"
+msgid "Show Pin Count"
+msgstr ""
+
+#: lib/website/pinterest.php:85
+msgctxt "option label (short)"
+msgid "Share Single Image"
+msgstr ""
+
+#: lib/website/pinterest.php:95
+msgctxt "option label (short)"
+msgid "Caption Text"
+msgstr ""
+
+#: lib/website/pinterest.php:100 lib/website/tumblr.php:87
+msgctxt "option label (short)"
+msgid "Caption Length"
+msgstr ""
+
+#: lib/website/pinterest.php:153
+msgctxt "image size label"
+msgid "Pinterest Sharing Button"
+msgstr ""
+
+#: lib/website/stumbleupon.php:80 lib/website/tumblr.php:73
+msgctxt "option label (short)"
+msgid "Button Style"
+msgstr ""
+
+#: lib/website/tumblr.php:29
+msgctxt "option label"
+msgid "Tumblr <em>Sharing Button</em>"
+msgstr ""
+
+#: lib/website/tumblr.php:82
+msgctxt "option label (short)"
+msgid "Media Caption"
+msgstr ""
+
+#: lib/website/tumblr.php:93
+msgctxt "option label (short)"
+msgid "Link Description"
+msgstr ""
+
+#: lib/website/tumblr.php:142
+msgctxt "image size label"
+msgid "Tumblr Sharing Button"
+msgstr ""
+
+#: lib/website/twitter.php:67
+msgctxt "option label (short)"
+msgid "Do Not Track"
+msgstr ""
+
+#: lib/website/twitter.php:69
+msgid "Disable tracking for Twitter's tailored suggestions and ads feature."
+msgstr ""
+
+#: lib/website/twitter.php:74
+msgid ""
+"Append the website's business @username to the tweet (see the <a href=\"%1$s"
+"\">Twitter</a> options tab on the %2$s settings page). The website's "
+"@username will be displayed and recommended after the webpage is shared."
+msgstr ""
+
+#: lib/website/twitter.php:74
+msgctxt "lib file description"
+msgid "General"
+msgstr ""
+
+#: lib/website/twitter.php:78
+msgctxt "option label (short)"
+msgid "Recommend Author"
+msgstr ""
+
+#: lib/website/twitter.php:80
+msgid ""
+"Recommend following the author's Twitter @username (from their profile) "
+"after sharing a webpage. If the <em>%1$s</em> option is also checked, the "
+"website's @username is suggested first."
+msgstr ""
+
+#: lib/website/twitter.php:85
+msgctxt "option label (short)"
+msgid "Shorten URLs with"
+msgstr ""
+
+#: lib/website/twitter.php:87
+msgid ""
+"If you select a URL shortening service here, you must also enter its <a href="
+"\"%1$s\">%2$s</a> on the %3$s settings page."
+msgstr ""
+
+#: lib/website/twitter.php:91
+msgid "using these <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: lib/widget/sharing.php:31
+msgid "The %s social sharing buttons widget."
+msgstr ""
+
+#: lib/widget/sharing.php:117
+msgctxt "option value"
+msgid "Share It"
+msgstr ""
+
+#: lib/widget/sharing.php:119
+msgctxt "option label"
+msgid "Widget Title (leave blank for no title)"
+msgstr ""
+
+#: lib/widget/sharing.php:134
+msgctxt "option comment"
+msgid "(not added on indexes)"
+msgstr ""
+
+#: lib/widget/sharing.php:137
+msgctxt "option comment"
+msgid "(shares link on indexes)"
+msgstr ""
+
+#: nextgen-facebook.php:232
+msgid "HTML debug mode is active (transient cache could NOT be disabled)."
+msgstr ""
+
+#: nextgen-facebook.php:233
+msgid "HTML debug mode is active (transient cache use is disabled)."
+msgstr ""
+
+#: nextgen-facebook.php:234
+msgid "Informational debug messages are being added as hidden HTML comments."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "NextGEN Facebook (NGFB)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://surniaulula.com/extend/plugins/nextgen-facebook/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display your content in the best possible way on Facebook, Google+, Twitter, "
+"Pinterest, etc. - no matter how your webpage is shared!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "JS Morisset"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://surniaulula.com/"
+msgstr ""

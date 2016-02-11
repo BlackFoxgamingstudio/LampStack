@@ -1,0 +1,25 @@
+
+CHANGELOG
+
+1.5.1
+- Small bug fix.
+
+1.5
+- Support editiong audio MP3 files.
+- Make it possible to rename files.
+- Maked showing visualization audio wave.
+
+1.3
+- Added registration and password recovery.
+- Support for OS Windows.
+- To config.php added "ffmpeg_path" - FFmpeg path on your server.
+- Created possible to join videos of different formats with convertation.
+- In user interface is added viewing the event log.
+
+1.2.2
+- Fixed a bug that occurs when joining videos.
+
+1.2
+- Added authorization. Users see only their own video.
+- Admin sees a list of users and their videos.
+- List of the users can be set in the configuration file, or you can configure the authentication from database tables MySQL.

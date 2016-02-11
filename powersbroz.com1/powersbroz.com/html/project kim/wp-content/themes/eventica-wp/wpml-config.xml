@@ -1,0 +1,19 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">_tokopress_events_scedule</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="eventica">
+            <key name="tokopress_home_upcoming_event" />
+            <key name="tokopress_home_featured_event" />
+            <key name="tokopress_home_recent_post" />
+            <key name="tokopress_home_subscribe_title" />
+            <key name="tokopress_home_subscribe_text" />
+            <key name="tokopress_brand_title" />
+            <key name="tokopress_contact_marker_title" />
+            <key name="tokopress_contact_marker_desc" />
+        </key>
+    </admin-texts>    
+</wpml-config>
+
+

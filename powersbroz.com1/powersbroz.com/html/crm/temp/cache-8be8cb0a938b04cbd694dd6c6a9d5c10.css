@@ -1,0 +1,1148 @@
+
+#social_column_social{
+    width:160px;
+}
+#social_column_time{
+    width:80px;
+}
+#social_column_from{
+    width:60px;
+}
+#social_column_action{
+    width:100px;
+}
+
+
+.social_from_holder{
+    overflow: hidden;
+}
+.social_from_holder:hover .social_from_full{
+    display: block;
+}
+.social_from_full:hover{
+    display: block;
+
+}
+.social_from_full{
+    margin: -1px 0 0 -5px;
+    position: absolute;
+    display: none;
+    background: #FFF;
+    border: 1px solid #ddd;
+    padding: 0 4px 4px 4px;
+}
+.social_from_picture{
+    height:27px;
+    width: auto;
+    margin: 5px 1px 0 0;
+}
+
+
+
+#social_column_social{
+    width:187px;
+}
+#social_column_time{
+    width:80px;
+}
+#social_column_from{
+    width:60px;
+}
+#social_column_action{
+    width:150px;
+}
+.sent_messages #social_column_action,
+.sent_message #social_column_action{
+    width:90px;
+}
+.sent_messages #social_column_links,
+.sent_message #social_column_links{
+    width:90px;
+}
+.sent_messages #social_column_post,
+.sent_message #social_column_post{
+    width:120px;
+}
+
+
+.social_from_holder{
+    overflow: hidden;
+}
+.social_from_holder:hover .social_from_full{
+    display: block;
+}
+.social_from_full:hover{
+    display: block;
+
+}
+.social_from_full{
+    margin: -1px 0 0 -5px;
+    position: absolute;
+    display: none;
+    background: #FFF;
+    border: 1px solid #ddd;
+    padding: 0 4px 4px 4px;
+}
+.social_from_picture{
+    height:27px;
+    width: auto;
+    margin: 5px 1px 0 0;
+}
+#simple_social_compose_table{
+    border-spacing: 0;
+}
+#simple_social_compose_table .social_space{
+    width:10px;
+}
+#simple_social_compose_table thead th.social_column{
+    background-color: #f1f1f1;
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    width: 30%;
+}
+#simple_social_compose_table tbody td.social_column{
+    background-color: #f9f9f9;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    vertical-align: top;
+}
+#simple_social_compose_table tbody td.social_column.last{
+    border-bottom: 1px solid #dfdfdf;
+}
+#simple_social_compose_table tbody th.social_compose_label{
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+#simple_social_compose_table tbody th.social_compose_label.last{
+    border-bottom: 1px solid #dfdfdf;
+}
+#simple_social_compose_table td,
+#simple_social_compose_table th{
+    padding: 5px 8px 8px;
+}
+#simple_social_compose_table textarea{
+    width:100%;
+    min-width: 250px;
+}.twitter_message_full{
+    display: none;
+    background: #edeff4;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.twitter_comment_picture{
+    float: left;
+    width: 35px;
+    margin: 0 5px 0 0;
+}
+.twitter_comment_picture img{
+    max-width: 100%;
+    height: auto;
+}
+.twitter_comment_reply{
+    margin-left: 40px;
+}
+.twitter_comment_reply button{
+    float: left;
+    height:2em;
+    border:1px solid #bdc7d8;
+    margin:0 0 0 5px;
+}
+.twitter_comment_compose textarea{
+    background: #FFF;
+    border:1px solid #bdc7d8;
+    width:88%;
+    min-height:2em;
+    resize: none;
+}
+.twitter_comment_reply textarea{
+    float: left;
+    background: #FFF;
+    border:1px solid #bdc7d8;
+    width:88%;
+    min-height:2em;
+    resize: none;
+}
+.twitter_comment_body{
+    margin-left: 40px;
+}
+.twitter_comment_actions{
+    clear: both;
+    font-size: 0.9em;
+    margin-left: 40px;
+    padding: 0 0 5px 0;
+}
+.twitter_comment_header{
+    /*display: inline;
+    float: left;*/
+    padding: 0 5px 0 0;
+    font-weight: bold;
+}
+.twitter_comment_header span{
+    font-weight: normal;
+    color:#CCC;
+}
+.twitter_comment{
+    border-bottom: 1px solid #d0d4e4;
+    padding: 5px 0 0 5px;
+}
+#twitter_edit_form > .twitter_comment_replies{
+    margin-left: 0;
+    border-left: none;
+}
+.twitter_comment_reply_box{
+    display: none;
+}
+.twitter_comment_reply_box_level1{
+    display: block;
+}
+.twitter_comment_replies{
+    margin-left: 40px;
+    border-left: 1px solid #d0d4e4;
+}
+
+.twitter_icon{
+    height:27px;
+    width: auto;
+    margin: 5px 5px 0 0;
+    float: left;
+}
+.twitter_icon.small{
+    height:15px;
+    float: none;
+    vertical-align: middle;
+    margin:0 5px 0 0;
+}
+.twitter_next_messages,
+.twitter_previous_messages{
+    opacity: 0.6;
+    margin:0 10px;
+}
+.twitter_next_messages:hover,
+.twitter_previous_messages:hover{
+}
+.twitter_comment_clickable{
+    cursor: pointer;
+
+}
+#twitter_message_header{
+    border:1px solid #d0d4e4;
+    background: #FFF;
+    margin:5px;
+    padding: 8px 5px 14px 10px;
+}
+#twitter_message_holder{
+}
+.twitter_picture{
+    background: #FFF;
+    padding: 4px;
+    display: inline-block;
+}
+.twitter_picture img{
+    max-width: 100%;
+    height:auto;
+}
+
+
+.twitter_message_summary.unread,
+.message_row_unread .twitter_message_summary{
+    font-weight: bold;
+}
+
+.twitter_compose_account_select img{
+    width:20px;
+    height:auto;
+    vertical-align: middle;
+    margin:0 5px;
+}.facebook_message_full{
+    display: none;
+    background: #edeff4;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.facebook_comment_picture{
+    float: left;
+    width: 35px;
+    margin: 0 5px 0 0;
+}
+.facebook_comment_picture img{
+    max-width: 100%;
+    height: auto;
+}
+.facebook_comment_reply{
+    margin-left: 40px;
+}
+.facebook_comment_reply button{
+    float: left;
+    height:2em;
+    border:1px solid #bdc7d8;
+    margin:0 0 0 5px;
+}
+.facebook_comment_compose textarea{
+    background: #FFF;
+    border:1px solid #bdc7d8;
+    width:88%;
+    min-height:2em;
+    resize: none;
+}
+.facebook_comment_reply textarea{
+    float: left;
+    background: #FFF;
+    border:1px solid #bdc7d8;
+    width:88%;
+    min-height:2em;
+    resize: none;
+}
+.facebook_comment_body{
+    margin-left: 40px;
+}
+.facebook_comment_actions{
+    clear: both;
+    font-size: 0.9em;
+    margin-left: 40px;
+    padding: 0 0 5px 0;
+}
+.facebook_comment_header{
+    /*display: inline;
+    float: left;*/
+    padding: 0 5px 0 0;
+    font-weight: bold;
+}
+.facebook_comment_header span{
+    font-weight: normal;
+    color:#CCC;
+}
+.facebook_comment{
+    border-bottom: 1px solid #d0d4e4;
+    padding: 5px 0 0 5px;
+}
+#facebook_edit_form > .facebook_comment_replies{
+    margin-left: 0;
+    border-left: none;
+}
+.facebook_comment_reply_box{
+    display: none;
+}
+.facebook_comment_reply_box_level1{
+    display: block;
+}
+.facebook_comment_replies{
+    margin-left: 40px;
+    border-left: 1px solid #d0d4e4;
+}
+.facebook_picture{
+    background: #FFF;
+    padding: 4px;
+    display: inline-block;
+}
+.facebook_picture img{
+    max-width: 100%;
+    height:auto;
+}
+.facebook_icon{
+    height:27px;
+    width: auto;
+    margin: 5px 5px 0 0;
+    float: left;
+}
+.facebook_icon.small{
+    height:15px;
+    float: none;
+    vertical-align: middle;
+    margin:0 5px 0 0;
+}
+
+#facebook_message_header{
+    border:1px solid #d0d4e4;
+    background: #FFF;
+    margin:5px;
+    padding: 8px 5px 14px 10px;
+}
+#facebook_message_holder{
+}
+
+.facebook_message_summary.unread,
+.message_row_unread .facebook_message_summary{
+    font-weight: bold;
+}
+.facebook_compose_page_select img{
+    width:20px;
+    height:auto;
+    vertical-align: middle;
+    margin:0 5px;
+}#show_completed_tasks{
+    display: none;
+}
+.task_column{
+    
+}
+
+.task_percentage{
+    position: absolute;
+    height:18px;
+    z-index: 4;
+}
+.task_percentage_label{
+    position: absolute;
+    z-index: 3;
+    color: #CCC;
+    text-align: right;
+}
+.task_percentage_bar{
+    z-index: 2;
+    position: absolute;
+    background-color: #EFEFEF;
+    height:18px;
+}
+.task_description{
+    position: absolute;
+    margin-left: 3px;
+    z-index: 4;
+}
+.task_edit{
+    background: #c3d4ff;
+}
+
+.quote_task_staff_list{
+    width:60px;
+}
+
+.edit_task_description{
+    width:90%;
+}
+.edit_task_long_description{
+    width:97%;
+    height: 40px;
+}
+.task_long_description{
+    display:none;
+}
+.task_long_description .edit_task_long_description{
+    margin:4px 0 0 0 !important;
+}
+.task_toggle_long_description{
+    display: inline-block;
+}
+.edit_task_order{
+    width:86%;
+}
+#create_invoice_button{
+    display:block;
+    text-align: center;
+}
+#create_invoice_button a{
+    margin: 10px 0;
+}
+
+.edit_task_button{
+    padding:5px 10px 0 10px;
+}
+.edit_task_options{
+    vertical-align: top;
+}
+table.tableclass tbody.quote_task_wrapper tr.task_editting td  {
+vertical-align: top;
+}
+table.tableclass tbody.quote_task_wrapper tr.task_editting td.percentage_edit  {
+vertical-align: middle;
+}
+
+.task_percentage_toggle{
+    cursor: pointer;
+}.subscription{
+    padding: 4px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.subscription.active{
+    border: 1px solid #390;
+    padding: 8px;
+    margin: 5px;
+}
+.subscription ul{
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+.subscription ul li{
+    margin: 0;
+    padding: 0;
+}
+.next_due_date_change{
+    cursor: pointer;
+}#timer_menu_button{
+    display: none;
+}
+#timer_menu_options{
+    display: none;
+}
+.timer_task{
+    float:right;
+    margin: 0px 3px;
+}
+.timer_counter{
+    float:right;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    height: 16px;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    padding: 0 2px;
+    display: block;
+}
+.timer_paused{
+    background: #EFEFEF;
+}
+.timer_hover{
+    margin-left: -22px;
+    background: #FFF;
+    position: absolute;
+    border: 1px solid #CCC;
+    padding: 5px 9px;
+    border-radius: 4px;
+    min-width: 50px;
+}
+.timer_hover .timer_title{
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+.timer_hover ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.timer_hover ul li{
+    list-style: none;
+    text-align: center;
+    padding: 2px 2px;
+}
+.timer_hover ul li a,
+.timer_hover ul li a:link,
+.timer_hover ul li a:visited{
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+
+#timer_menu_options{
+    display:none;
+    position: absolute;
+    padding: 5px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin-top: 30px;
+    min-width: 150px;
+    z-index: 400;
+}
+#timer_menu_options ul{
+    display: block;
+}
+#timer_menu_options li{
+    display: list-item;
+}
+#timer_menu_options > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+#timer_menu_options > ul > li{
+    list-style: none;
+    margin: 0;
+    padding:3px 0 0 0;
+    min-height: 23px;
+}
+#timer_menu_options > ul > li > a.timer_job_link{
+    background: none;
+    display: inline;
+}
+#timer_menu_options .timer_title{
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}.vendor_overdue{
+    font-weight: bold;
+}
+.vendor_owing{
+    color:#FF0000 !important;
+}
+.vendor_paid{
+}.backup_status.success {
+    color: #119211;
+}
+.backup_status.error {
+    color: #FF0000;
+    font-weight: bold;
+}
+#database_backup .database_table,
+#files_backup .file_name {
+    font-weight: bold;
+}
+th#ticket_number{
+width:8%;
+}
+th#ticket_subject{
+width:12%;
+}
+th#ticket_time{
+width:16%;
+}
+th#ticket_type{
+width:12%;
+}
+th#ticket_status{
+width:9%;
+}
+th#ticket_staff{
+width:10%;
+}
+th#ticket_customer{
+width:10%;
+}
+th#ticket_contact{
+width:10%;
+}
+th#ticket_product{
+width:10%;
+}
+th#ticket_envato{
+width:10%;
+}
+th#ticket_group{
+width:9%;
+}
+th#ticket_priority{
+width:5%;
+}
+#ticket_list th.extra_column{
+width:10%;
+}
+th#ticket_action{
+width:3%;
+}
+
+.ticket_message{
+    clear:both;
+    margin: 5px 0;
+    border: 1px solid #DFDFDF;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+}
+.ticket_message_title{
+    background:#EFEFEF;
+    padding: 5px;
+    text-align: left;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.ticket_message_title span{
+    display:inline-block;
+}
+.ticket_message_title_full{
+    display:none;
+}
+.ticket_message_text{
+    padding: 5px;
+}
+#ticket_reply_button{
+    margin-top:10px;
+}
+.ticket_reply{
+    margin-top: 5px;
+    text-align: center;
+}
+.ticket_reply textarea{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 1px;
+    margin: 0;
+    text-align: left;
+    width:90%;
+}
+.ticket_message_creator{
+    margin-right:20px;
+    border: 1px solid #AAA;
+}
+.ticket_message_admin{
+    margin-left:20px;
+}
+.ticket_message_admin .ticket_message_title{
+    text-align: right;
+}
+.ticket_message_private,
+.ticket_message_private .tableclass{
+    background: #effedd;
+}
+.ticket_message_private .ticket_message_title{
+    background: #effedd;
+}
+
+.public_header{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+}
+.public_welcome{
+    text-align: center;
+}
+
+.ticket_message_hider{
+    height:30px;
+    overflow: hidden;
+    border-bottom: 1px dashed #CCC;
+}
+.ticket_message_hider_show{
+    height:auto;
+    overflow: visible;
+}
+
+/* new tickets */
+.ticket_status_2{
+    color:#FF0000 !important;
+}
+/* inprogress or replied */
+.ticket_status_3,
+.ticket_status_5{
+    color:#fe7800 !important;
+}
+/* resolved */
+.ticket_status_6{
+    color:#339900 !important;
+}
+/*cancelled*/
+.ticket_status_7{
+    color:#339900 !important;
+}
+
+.show_auto_reply_button{
+    float: right;
+    clear:both;
+    margin: 0 0 5px 0;
+    display: block;
+}
+
+.email_input{
+    width:80%;
+}
+
+.ticket_message_title label{
+    font-weight: normal;
+}
+
+@media screen and (max-width: 560px) {
+    .ticket_message_admin,
+    .ticket_message_creator{
+        margin:0;
+    }
+}.table_sort_btn,
+.table_sort_btn:link,
+.table_sort_btn:visited{
+    color:#ccc;
+    font-size: 0.8em;
+    float:right;
+    background: url(/crm/includes/plugin_table_sort/css/../images/icons_sort.png) no-repeat 2px 7px;
+    text-indent: -999px;
+    overflow: hidden;
+    display: inline-block;
+    width: 11px;
+    height: 14px;
+}
+.table_sort_desc,
+.table_sort_desc:link,
+.table_sort_desc:visited{
+    background-position: -26px 7px;
+}
+.table_sort_asc.current{
+    background-position: 2px -17px;
+}
+.table_sort_desc.current{
+    background-position: -26px -17px;
+}.product_select_dropdown{
+    position: absolute;
+    margin: 17px 0 0 0;
+    padding: 5px;
+    min-width: 200px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+     z-index:1
+}
+.product_select_dropdown ul{
+    margin:0;
+    padding: 0 0 0 21px;
+}.tableclass_form.file_drop{
+    border: 5px dashed transparent !important;
+    margin: -5px !important;
+}
+.tableclass_form.file_drop.dragover{
+    border-color: green !important;
+}.finance_summary .highlight td{
+    font-weight: bold;
+}.extra_field_key:hover{
+    text-decoration: underline;
+}
+.extra_field_row_hidden{
+    display: none;
+}/* css rules from encryption */.customer_overdue{
+    font-weight: bold;
+}
+.customer_owing{
+    color:#FF0000 !important;
+}
+.customer_paid{
+}
+.form_field_required {
+		border-right:4px solid #00FF00 !important;
+	}
+.form_field_highlight,
+.form_field_highlight td{
+		border:2px solid #FF0000 !important;
+	}
+	.data_group{
+		clear:both;
+		/*margin-top:10px;*/
+	}
+
+	.data_field_title{
+		float:left;
+		padding-right:3px;
+	}
+	.field_radio,
+	.field_radio label,
+	.field_radio input{
+		float:left;
+		padding-right:3px;
+	}
+	.data_field_input{
+		float:left;
+	}
+	ul.data_group_fields{
+		/* sortable! */
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	li.data_field{
+		float:left;
+		margin:3px 10px 3px 3px;
+		padding:0;
+		border:1px solid #FFF;
+		list-style:none;
+	}
+
+	.data_field_view{
+		padding:1px;
+		display:block;
+		/*background-color:#EEEEEE;
+		width:130px;*/
+	}
+	/*.data_field_datetime .data_field_view,*/
+	.date_time_field{
+		width:115px;
+	}
+	/*.data_field_date .data_field_view,*/
+	.date_field{
+		width:67px;
+	}
+.pin_title{
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+.pin_title a{
+    font-weight: normal;
+    float:right;
+    margin-left: 10px;
+}
+#top_menu_pin > a{
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(/crm/includes/plugin_pin/css/../images/pin_small.png) no-repeat center;
+    width:20px;
+}
+#top_menu_pin_options{
+    display:none;
+    position: absolute;
+    padding: 5px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin-top: 30px;
+    min-width: 100px;
+    z-index: 400;
+}
+#top_menu_pin_options ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#top_menu_pin_options ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top_menu_pin_actions{
+    float:right;
+    width:32px;
+    margin-left: 5px;
+}
+.top_menu_pin_actions > a,
+.top_menu_pin_actions > a:link,
+.top_menu_pin_actions > a:visited{
+    color:#CCC;
+}.time_field{
+    width:67px;
+}
+
+.ui-timepicker-wrapper {
+	overflow-y: auto;
+	height: 150px;
+	width: 6.5em;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	outline: none;
+	z-index: 10001;
+	margin: 0;
+}
+
+.ui-timepicker-wrapper.ui-timepicker-with-duration {
+	width: 11em;
+}
+
+.ui-timepicker-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ui-timepicker-duration {
+	margin-left: 5px; color: #888;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-duration {
+	color: #888;
+}
+
+.ui-timepicker-list li {
+	padding: 3px 0 3px 5px;
+	cursor: pointer;
+	white-space: nowrap;
+	color: #000;
+	list-style: none;
+	margin: 0;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-selected {
+	background: #fff; color: #000;
+}
+
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+	background: #1980EC; color: #fff;
+}
+
+li.ui-timepicker-selected .ui-timepicker-duration,
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+	color: #ccc;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled,
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	color: #888;
+	cursor: default;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	background: #f2f2f2;
+}
+
+.template.selected{
+    background: #EFEFEF;
+}
+.template.selected div{
+    font-weight: bold !important;
+}
+.template{
+    border: 1px solid #CCC;
+    width:110px;
+    padding: 4px 0 0 0;
+    float:left;
+    margin: 2px;
+}.notes{
+    padding-bottom: 5px;
+}input.i,
+textarea.i{
+    width:100%;
+}
+
+th select{
+    width:80px;
+}.task_job_discussion.with_text{
+    width: 93px;
+}
+.task_job_discussion{
+    margin:2px 0 0 0;
+    float:right;
+    width: 12px;
+    height:11px;
+    background: url(/crm/includes/plugin_job_discussion/css/../images/icon.png) no-repeat;
+    overflow: hidden;
+    font-size: 10px;
+    line-height: 11px;
+    display: block;
+    padding: 0 3px 3px 2px;
+    text-align: left;
+    text-decoration: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.task_job_discussion span{
+    display: inline-block;
+    width: 12px;
+    text-align: center;
+    margin: 0 5px 0 0;
+}
+.task_job_discussion.unseen{
+    font-weight: bold;
+}
+.task_job_discussion_holder{
+    display:none;
+}
+.task_job_discussion_comments{
+    margin: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+.task_job_discussion_comments .info{
+    margin: -5px -5px 5px 0;
+    padding: 2px 5px 2px 5px;
+    background: #EFEFEF;
+    display: block;
+    float:right;
+}
+.task_job_discussion_comments textarea{
+    width:95%;
+}#show_completed_tasks{
+    display: none;
+}
+.task_column{
+    
+}
+
+.task_percentage{
+    position: absolute;
+    height:18px;
+    z-index: 4;
+}
+.task_percentage_label{
+    position: absolute;
+    z-index: 3;
+    color: #CCC;
+    text-align: right;
+}
+.task_percentage_bar{
+    z-index: 2;
+    position: absolute;
+    background-color: #EFEFEF;
+    height:18px;
+}
+.task_description{
+    position: absolute;
+    margin-left: 3px;
+    z-index: 4;
+}
+.task_edit{
+    background: #c3d4ff;
+}
+
+.job_task_staff_list{
+    width:60px;
+}
+
+.edit_task_description{
+    width:90%;
+}
+.edit_task_long_description{
+    width:90%;
+    height: 40px;
+}
+.task_long_description{
+    display:none;
+}
+.task_long_description .edit_task_long_description{
+    margin:4px 0 0 0 !important;
+}
+.task_toggle_long_description{
+    display: inline-block;
+}
+.edit_task_order{
+    width:86%;
+}
+#create_invoice_button{
+    display:block;
+    text-align: center;
+}
+#create_invoice_button a{
+    margin: 10px 0;
+}
+
+.edit_task_button{
+    padding:5px 10px 0 10px;
+}
+.edit_task_options{
+    vertical-align: top;
+    white-space: nowrap;
+}
+table.tableclass tbody.job_task_wrapper tr.task_editting td  {
+vertical-align: top;
+}
+table.tableclass tbody.job_task_wrapper tr.task_editting td.percentage_edit  {
+vertical-align: middle;
+}
+
+.task_percentage_toggle{
+    cursor: pointer;
+}
+.edit_task_long_description_box .task_job_discussion{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.edit_task_long_description_box .timer_task{
+    position: absolute;
+    top:20px;
+    right:0;
+    margin: 0;
+}
+.job_task_approval_box{
+    margin-top: 10px;
+    line-height: 1.3em;
+    width: 90%;
+}
+.job_task_approval_box textarea{
+    width:100%;
+    height:50px;
+}.invoice_cancel{
+    text-decoration: line-through !important;
+    color: #FF0000 !important;
+}

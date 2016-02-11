@@ -1,0 +1,22 @@
+/* Save an empty style text box to reload the default example styles.
+ * These styles are provided as examples only - modifications may be 
+ * necessary to customize the layout for your website. Social sharing
+ * buttons can be aligned vertically, horizontally, floated, etc.
+ */
+
+.ngfb-content-buttons { 
+	/* center the buttons with an extra 10px margin top/bottom */
+	display:block;
+	margin:10px auto;
+	text-align:center;
+
+	/* create a shadowed box for the buttons
+	padding:2px;
+	text-align:center;
+	background-color:#eee;
+	-moz-box-shadow:0 0 5px #aaa;
+	-webkit-box-shadow:0 0 5px #aaa;
+	box-shadow:0 0 5px #aaa;
+	border-radius:3px;
+	*/
+}

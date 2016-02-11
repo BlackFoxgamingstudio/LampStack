@@ -1,0 +1,90 @@
+/*
+Theme Name: startupidea
+Theme URI: http://themeum.com/wordpress/startupidea
+Author: Themeum
+Author URI: http://themeum.com/
+Description: startupidea theme.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, green, pink, purple, dark, right-sidebar, two-columns, responsive-layout
+Text Domain: themeum
+*/
+
+@import url('css/bootstrap.min.css');
+@import url('css/font-awesome.css');
+@import url('css/owl.carousel.css');
+@import url('css/owl.theme.css');
+@import url('css/owl.transitions.css');
+@import url('css/animate.css');
+@import url('css/mediaelementplayer.css');
+@import url('css/mejs-skins.css');
+@import url('css/prettyPhoto.css');
+@import url('css/main.css');
+@import url('css/responsive.css');
+
+
+.btn-lg,.btn{
+	border-radius: 0px;
+}
+.gallery-caption{  }
+
+.bypostauthor{  }
+
+
+.donate-box h4 {
+	font-style: 300;
+}
+
+#fund_paymet_form .form-group label {
+	margin-bottom: 10px;
+    margin-top: 12px;
+    font-weight: 300;
+    display: block;
+}
+
+#fund_paymet_form .form-group .form-control {
+	height: 42px;
+	border-radius: 4px;
+}
+
+.donate-project-page .donate-box p {
+	display: inline-block;
+	font-weight: 500;
+	margin-right: 20px;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+.donate-project-page .donate-box p input[type=checkbox], 
+.donate-project-page .donate-box p input[type=radio] {
+	margin: 0 8px 0 1px;
+}
+
+.donate-now {
+	padding: 12px 25px;
+	margin-top: 25px;
+}
+
+.donate-project-page .donate-box p img {
+	margin-left: 15px;
+}
+
+.entry-content .vc_column_container>.vc_column-inner {
+  padding:0;
+}
+
+#account-navbar{
+	border: 1px solid #ccc;
+}
+.navbar-nav>li>a{
+	color: #6f797a;
+	font-weight: bold;
+}
+input#cc-image-upload-file-button,input.profile_image_url{
+    width: 35%;
+}
+
+.dashboard-content .input-form{
+	margin-bottom: 20px;
+}

@@ -1,0 +1,115 @@
+/* Save an empty style text box to reload the default example styles.
+ * These styles are provided as examples only - modifications may be 
+ * necessary to customize the layout for your website. Social sharing
+ * buttons can be aligned vertically, horizontally, floated, etc.
+ */
+
+/* hide the sidebar if screen width is less than 1000px */
+@media (max-width:1000px) {
+	#ngfb-sidebar {
+		display:none;
+	}
+}
+
+#ngfb-sidebar { 
+	cursor:pointer;
+	text-align:center;
+	position:fixed;
+	z-index:99;
+
+	/* position 100px down from top and 50px from left */
+	top:100px;
+	left:50px;
+
+	/* position 100px down from top and 450px left of center 
+	 * by using the right margin to push sidebar left
+	top:100px;
+	right:50%;
+	margin:0 450px 0 0;
+	*/
+}
+
+/* show a large sharing icon at the top
+ * using javascript, this header can be hovered/clicked to 
+ * show/hide the sidebar
+#ngfb-sidebar-header { 
+	width:72px;
+	height:72px;
+	background-image:url("%%plugin_url_path%%images/share-icon-2.png");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+ */
+
+#ngfb-sidebar-buttons { 
+	display:block;
+	width:auto;
+	height:auto;
+	overflow:visible;
+	border-style:solid;
+
+	/* hide the sidebar buttons by default
+	 * you must enable the #ngfb-sidebar-header 
+	 * to show something that can be clicked
+	width:0;		
+	height:0;
+	overflow:hidden;
+	border-style:none;
+	*/
+
+	/* create a shadowed box with a light grey background */
+	border-radius:5px;
+	background:none repeat scroll 0% 0% rgb(250, 250, 250);
+	box-shadow:0px 0px 5px rgb(120, 120, 120);
+	border-width:1px;
+	border-color:rgb(255, 255, 255);
+}
+
+#ngfb-sidebar .ngfb-buttons > div,	/* default uses large buttons */
+#ngfb-sidebar .ngfb-preset-large_share_vertical .ngfb-buttons > div { 
+	display:block;
+	text-align:center;
+	width:70px;
+	height:61px;
+	margin:10px 5px;
+}
+
+#ngfb-sidebar .ngfb-preset-small_share_count .ngfb-buttons > div,
+#ngfb-sidebar .ngfb-preset-small_share_count .ngfb-buttons > div[class*="-button"] { 
+	text-align:left;
+	line-height:20px;
+	width:120px;
+	height:20px;
+	margin:10px;
+}
+
+#ngfb-sidebar .ngfb-buttons div.gplus-button,
+#ngfb-sidebar .ngfb-preset-large_share_vertical
+	.ngfb-buttons div.gplus-button { height:60px; line-height:40px;}
+
+#ngfb-sidebar .ngfb-buttons div.pinterest-button,
+#ngfb-sidebar .ngfb-preset-large_share_vertical
+	.ngfb-buttons div.pinterest-button { height:40px; margin-top:42px; }
+#ngfb-sidebar .ngfb-preset-small_share_count
+	.ngfb-buttons div.pinterest-button { height:20px; margin-top:10px; }
+
+#ngfb-sidebar .ngfb-buttons div.stumbleupon-button,
+#ngfb-sidebar .ngfb-preset-large_share_vertical
+	.ngfb-buttons div.stumbleupon-button { height:60px; line-height:60px; }
+#ngfb-sidebar .ngfb-preset-small_share_count
+	.ngfb-buttons div.stumbleupon-button { height:20px; line-height:20px; }
+
+#ngfb-sidebar .ngfb-buttons div.tumblr-button,
+#ngfb-sidebar .ngfb-preset-large_share_vertical
+	.ngfb-buttons div.tumblr-button { height:20px; line-height:20px; }
+
+#ngfb-sidebar .ngfb-buttons div.twitter-button,
+#ngfb-sidebar .ngfb-preset-large_share_vertical
+	.ngfb-buttons div.twitter-button { height:20px; line-height:20px; }
+
+#ngfb-sidebar .ngfb-buttons div.reddit-button,
+#ngfb-sidebar .ngfb-preset-large_share_vertical
+	.ngfb-buttons div.reddit-button { margin:20px 5px 20px 5px; }
+#ngfb-sidebar .ngfb-preset-small_share_count
+	.ngfb-buttons div.reddit-button { margin-bottom:10px; }
+

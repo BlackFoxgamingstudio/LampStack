@@ -1,0 +1,551 @@
+/* ==========================================================================
+      responsive
+========================================================================== */
+@media (max-width: 1199px) {
+	.tp-caption.white_heavy_70, 
+	.tp-caption.medium_text, 
+	.tp-simpleresponsive .tp-caption{
+		margin-left: 95px !important;
+	}
+}
+@media (min-width: 961px) and (max-width: 1199px) {
+	.boxwidth,
+	.boxwidth #masthead.sticky{
+		max-width: 100%;
+	}
+    #main-menu .nav>li>a{
+		padding: 0 7px;
+	}	
+
+	#featured-ideas .details figure {
+		  margin-right: 20px;
+	}
+
+	#featured-ideas .details .media-body p.team-name {
+		margin-top: 0;
+	}	
+
+}
+
+
+@media (min-width: 768px) and (max-width: 990px){
+	.boxwidth,
+	.boxwidth #masthead.sticky{
+		max-width: 100%;
+	}
+
+	#main-menu {
+		padding: 0;
+		text-align: center;
+	}
+
+	#main-menu .nav{
+		display: inline-block;
+	}
+
+	#main-menu .nav>li>a{
+		padding: 0 7px;
+	}
+
+	.navbar-brand>img {
+		  margin-top: 20px;
+	}
+
+	#main-menu .nav>li>ul li a{
+		font-size: 12px;
+	}
+
+	#main-menu .sub-menu li a{
+		text-align: left;
+	}
+
+	#featured-ideas .details figure {
+		  margin-right: 20px;
+	}
+
+	#featured-ideas .details .media-body p.team-name {
+		margin-top: 0;
+	}	
+	#project-form #progressbar .step-name{
+		float: none !important;
+	}
+
+}
+@media (max-width: 990px){
+	.navbar-header {
+	    float: none;
+	}
+	.navbar-nav>li {
+	    float: left;
+	    width: 100%;
+	}
+	.navbar-toggle {
+	    display: block;
+	}
+	#navigation .navbar-nav{
+		float: none;
+		margin: 0;
+	}
+	.navbar-brand>img{
+		width: 150px;
+	}
+	.navbar-toggle{
+		padding: 10px 5px;
+		border-radius: 0;
+	}
+	#navigation.navbar {
+		padding: 0;
+	}
+
+	#navigation .navbar-brand{
+		padding-top: 3px;
+		padding-bottom: 0px;
+		margin-left: 0;
+	} 
+
+	.navbar-toggle .icon-bar{
+ 		background: #fff;
+ 	}
+
+	#navigation .navbar-nav > li > a {
+		padding: 10px 15px;
+	}
+	#header-container #navigation {
+		position: relative;
+	}
+	#about-project .project-status h2{
+		font-size: 50px;
+	}
+	#about-project .project-status h3{
+		font-size: 25px;
+	}
+	.reward-title{
+		margin-bottom: 0px;
+    	margin-top: 30px;
+	}
+	.wpb_tabs_nav{
+		overflow: hidden;
+	}
+	.wpb_tabs_nav li{
+		white-space: normal !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.startup-history{
+		padding-right: 15px !important;
+	}
+	.vc_empty_space{
+		height: 20px !important;
+	}
+	.entry-title.blog-entry-title{
+		font-size: 25px;
+	}
+	.reward-item{
+		margin-right: 0px;
+	}
+	.page-template-homepage-transparent-php .header{
+		top: 0;
+	}
+	
+	.handpick .wave{
+		-webkit-background-size: 70px 70px !important;
+		background-size: 70px 70px !important;
+	}
+	.handpick .loading h2{
+		font-size: 80px;
+	}
+	.home.page .site-content .entry-content >div:first-child{
+		padding-top: 120px !important;
+		padding-bottom: 30px !important;
+		background-image: none !important;
+		background-color: #f7f9f8 !important;
+	}
+	.handpick h3{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.section-header{
+		margin-top: -50px;
+	}
+	.section-header h2{
+		font-size: 25px;
+	}
+	.section-header h2:after{
+		margin-left: -74px;
+		width: 150px;
+		-webkit-background-size: 150px;
+		background-size: 150px;
+	}
+	.tp-simpleresponsive .slotholder .tp-bgimg{
+		background-image: none !important;
+		background-color: #f7f9f8 !important;
+	}
+	.tp-simpleresponsive .tp-caption{
+		white-space: normal !important;
+		overflow: hidden;
+	}
+	.popup-video-stype{
+		position: relative;
+		width: 100% !important;
+		height: 300px;
+	}
+	.feedback h4{
+		font-size: 25px !important;
+		margin-bottom: 20px !important;
+	}
+	.feedback .feature-text{
+		font-size: 60px !important;
+		line-height: 60px !important;
+	}
+	.feedback p{
+		font-size: 16px !important;
+		line-height: 25px !important;
+	}
+	.feedback+a{
+		margin-bottom: 30px !important; 
+	}
+	.partners img{
+		width: auto;
+	}
+	.themeum-feature-item{
+		margin-bottom: 30px !important;
+	}
+	.themeum-feature-item .icon,
+	.themeum-feature-item h4{
+		margin-bottom: 10px;
+	}
+	.themeum-image-caption figure img{
+		width: 100%;
+	}
+	.entry-link, .entry-chat, .entry-status, .entry-qoute{
+		padding: 20px !important;
+		overflow: hidden;
+	}
+	.entry-link h4{
+		font-size: 25px !important;
+		text-align: center;
+	}
+	.tab-style .wpb_tabs_nav li{
+		font-size: 20px;
+	}
+	.tab-style.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a, 
+	.tab-style.wpb_content_element .wpb_accordion_header a {
+		padding: 5px 0;
+	}
+	#popular-ideas .item:hover{
+		cursor: ew-resize;
+	}
+	.sub-title{
+		margin-bottom: 40px;
+	}
+	.boxwidth,
+	.boxwidth #masthead.sticky{
+		max-width: 100%;
+	}
+
+	.tp-caption.white_heavy_70, 
+	.tp-caption.medium_text, 
+	.tp-simpleresponsive .tp-caption{
+		margin-left: 40px !important;
+	}
+	#featured-ideas .navigation{
+		margin-bottom: 20px;
+	}
+	#featured-ideas .navigation li {
+		padding-left: 0;
+		padding-right: 0;
+		display: block;
+		border: none;
+	}	
+	#featured-ideas .details img{
+		width: 100%;
+	}
+	#featured-ideas .details .media-body h4{
+		font-size: 20px;
+	}
+	#featured-ideas .details figure {
+		  margin-right: 0px;
+	}
+	#featured-ideas .details .pull-left{
+		padding-right: 0;
+		float: none !important;
+	}
+	#featured-ideas .details .media-body p.team-name {
+		margin-top: 20px;
+	}
+	.partners {
+		text-align: center;
+		margin-bottom: 30px !important;
+	}
+
+	.latest-posts-inner > div {
+		padding: 100px 20px;
+	}
+
+	.latest-posts-inner h3 {
+		font-size: 30px;
+		line-height: 42px;
+	}
+
+	.tp-caption.black, .black {
+		font-size:30px !important;
+		line-height: 30px !important;
+	}
+
+	.tp-caption.thintextdark, .thintextdark {
+		font-size: 16px !important;
+		line-height: 24px !important;
+		margin-top: 30px !important;
+	}
+	.tp-caption a,
+	.tp-caption a i{
+		font-size: 16px !important;
+		line-height: 24px !important;
+		margin-top: 50px !important;
+		display: block;
+		overflow: hidden;
+	}
+
+	.wpb_content_element .wpb_tour_tabs_wrapper h2 {
+		margin-top: 20px;
+		display: inline-block;
+		font-size: 25px;
+	}
+
+	.wpb_single_image .vc_single_image-wrapper{
+		margin-top: 20px;
+		text-align: center;
+		display: block !important;
+	}
+	.themeum-action-center .themeum-action-title{
+		font-size: 30px !important;
+		line-height: 30px !important;
+	}
+	.themeum-action-center .themeum-action-subtitle{
+		font-size: 16px !important;
+		line-height: 25px !important;
+	}
+	#project-form #progressbar .step-01, 
+	#project-form #progressbar .step-02, 
+	#project-form #progressbar .step-03, 
+	#project-form #progressbar .step-04	 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#project-form #popular-ideas {
+		  padding-top: 110px;
+		    z-index: -1;
+	}
+	.project-breadcrumbs h2,
+	.project-updates h2.main-title{
+		font-size: 30px !important;
+	}
+	#sign-form .modal-body form {
+		width: 100%;
+	}
+
+	#content article.post figure .social-button {
+		  bottom: 25px;
+	}
+	.video-popup-title{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.our-story{
+		margin-top: 40px;
+	}
+	.our-story>div{
+		margin-left: -70px;
+	}
+	.sub-title-inner h2{
+		font-size: 30px;
+	}
+	.themeum-person,
+	.themeum-address {
+		margin-bottom: 30px !important;
+	}
+	div.pp_default .pp_social{
+		display: none;
+	}
+	div.pp_default .pp_content_container .pp_details{
+		width: 100% !important;
+	}
+	.pp_pic_holder.pp_default{
+		width: 92% !important;
+		left: 15px !important;
+	}
+	div.pp_default .pp_content_container .pp_left{
+		padding-left: 13px;
+	}
+	.pp_content{
+		width: 97% !important;
+		min-height: 160px !important;
+	}
+	.pp_content iframe{
+		width: 100% !important;
+		min-height: 120px !important;
+	}
+	.comment-respond .col6{
+		width: 100%;
+	}
+	.comment-respond .col6-input{
+		padding: 0;
+	}
+	.table-responsive{
+		border: none !important;
+	}
+	.account-history{
+		margin-top: 30px;
+	}
+	#footer{
+		padding-top: 30px;
+	}
+	#footer .widget{
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	#error-page img,
+	#comming-soon img{
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.tp-caption.black, .black {
+		top: 120px !important;
+	}
+
+	.tp-caption.thintextdark, .thintextdark {
+		top: 180px !important;
+		margin-right: 30px !important;
+	}
+	.tp-caption a,
+	.tp-caption a i{
+		margin-top: 30px !important;
+	}
+	#featured-ideas .details .media-body .entry-meta span,
+	#popular-ideas .details .entry-meta span{
+		display: block;
+	}
+	#featured-ideas .details .media-body .btn-default{
+		width: 100%;
+	}
+	.project-breadcrumbs .entry-meta span.entry-food{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.project-updates .each-update h3{
+		font-size: 25px;
+	}
+	.video-popup-inner{
+		padding: 50px 15px;
+	}
+	.video-popup-btn1{
+		margin-right: 0;
+	}
+	.video-popup-btn1,
+	.video-popup-btn2{
+		display: block;
+		text-align: center;
+	}
+	.project-breadcrumbs .btn-primary{
+		display: block;
+	}
+	.project-breadcrumbs .btn-primary.btn-profile{
+		margin-left: 0;
+	}
+	.project-updates .each-update .media-left{
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.project-updates .update-number{
+		margin-right: 0;
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.project-updates .each-update p{
+		font-size: 16px;
+		line-height: 25px;
+	}
+	#about-project .project-status h2{
+		font-size: 50px;
+	}
+	#about-project .project-status h3{
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.reward-title{
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+	.user-profile h2{
+		font-size: 25px;
+	}
+	.user-profile h3{
+		font-size: 20px;
+	}
+	.themeum-action-center a{
+		display: block !important;
+	}
+	.themeum_button_shortcode.large,
+	.themeum_button_shortcode.medium{
+		display: block;
+		text-align: center;
+	}
+	input[type="submit"]{
+		display: block;
+		width: 100%;
+	}
+	.wpb_tour_next_prev_nav span{
+		width: 100% !important;
+		display: block;
+	}
+	.wpb_tour_next_prev_nav a{
+		display: block;
+  		text-align: center;
+	}
+	#comming-soon h1{
+		font-size: 35px;
+	}
+	#comming-soon h1 + p{
+		font-size: 20px;
+	}
+	#comming-soon .countdown-section{
+		margin-left: 0px;
+	    margin-right: 20px;
+	}
+	#comming-soon  .countdown-section .countdown-amount{
+		font-size: 25px;
+	}
+	.quote{
+		padding: 80px 20px;
+	}
+	.entry-link, .entry-chat, .entry-status, .entry-qoute{
+		padding: 20px 10px !important;
+	}
+	.entry-link h4{
+		font-size: 20px !important;
+	}
+	.wpb_tab{
+		padding: 0 !important;
+	}
+	.input-form button.btn-primary{
+		width: 100% !important;
+	}
+	.themeum-pagination .pagination{
+		margin: 40px 0;
+	}
+	.themeum-pagination .pagination>li >a{
+		font-size: 20px;
+    	line-height: 20px;
+    	padding: 10px 15px;
+	}
+	.account-item-title+div{
+		float: left !important;
+		margin-top: 10px;
+	}
+}

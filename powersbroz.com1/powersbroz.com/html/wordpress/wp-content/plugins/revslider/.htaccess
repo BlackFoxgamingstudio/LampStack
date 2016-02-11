@@ -1,0 +1,4 @@
+<Files ./release_log.html>
+Order Allow,Deny
+Deny from all
+</Files>

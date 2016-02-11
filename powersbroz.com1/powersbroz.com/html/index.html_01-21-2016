@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<style>
+.box-1{
+  margin-top:20px;
+  margin: 100px;
+}
+.box-2{
+  margin-top:20px;
+  margin: 100px;
+}
+.box-3{
+  margin-top:20px;
+  margin: 100px;
+}
+
+
+*{
+  background-image: url("images.jpg");
+}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Gold Coin</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">TheMethod <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">StoryBoard</a></li>
+            
+            
+          </ul>
+        </li>
+        <li><a href="/crm">Ronin</a></li>
+        <li><a href="/wordpress">DreamLancer</a></li>
+	<li><a href="/3DEditor/website">BlackFox Gaming</a></li>
+        <li><a href="#">MicroGenio Labs</a></li>
+        <li><a href="#">Ump Cam</a></li>
+        <li><a href="/project kim">Project Kim</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>BlackFox Development Studio</h1>  
+
+    <p><iframe width="854" height="480" src="https://www.youtube.com/embed/ThQuRg_y6GY" frameborder="0" allowfullscreen></iframe></p>
+  </div>
+  <p>This is some text.</p>      
+ <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Sale Deck (design Mock-up)</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body"><iframe align= "center" src="https://docs.google.com/presentation/d/17WlfbbXbo_o3PZ3pKdzUI-Q8g2MCHy6r-VU39VjBc20/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Collapsible Group 2</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Collapsible Group 3</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div>  
+
+<div class="box-1"><iframe src="https://docs.google.com/forms/d/1nfK0kHx0sg491KzE9jes2fcy1RA-pvOjXQmKgVonRAE/viewform?embedded=true" width="970" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
+<div class="container-fluid">
+  
+  <h1>Hello World!</h1>
+  <p>Resize the browser window to see the effect.</p>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+  </div>
+</div>
+
+<div class="box-2"><iframe src="https://docs.google.com/forms/d/1II-23ylfODAyia_lmisbyrWWg2w65DYdYhc0iqpvUqA/viewform?embedded=true" width="970" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
+
+<div class="container-fluid">
+  <h1>Hello World!</h1>
+  <p>Resize the browser window to see the effect.</p>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+  </div>
+</div>
+
+<div class="box-3"><iframe src="https://docs.google.com/forms/d/1pzx7hH7El5mDnBLP_3mi1aCvR3kAZZU_rVNo_chPFlI/viewform?embedded=true" width="970" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
+
+
+<div class="container">
+  <h2>ScoreBoard</h2>
+  <p><h3>Wellcome new Player!! your achevements and gold coins will be ranked here!</h3>
+    (The .table-striped class adds zebra-stripes to a table:)</p>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Score</th>
+        <th>Lvl</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Adam</td>
+        <td>Powers</td>
+        <td>adam.powers@gmail.com</td>
+       <tr> 
+        <td>Andrew</td>
+        <td>Powers</td>
+        <td>Andrew.powers@gmail.com</td>
+       <tr>
+        <td>Russell</td>
+        <td>Powers</td>
+        <td>Russell.Powers@egmail.com</td>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

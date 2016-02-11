@@ -1,0 +1,21 @@
+/* Save an empty style text box to reload the default example styles.
+ * These styles are provided as examples only - modifications may be 
+ * necessary to customize the layout for your website. Social sharing
+ * buttons can be aligned vertically, horizontally, floated, etc.
+ */
+
+/* align the buttons vertically in a single 117px wide column */
+.wpsso-ssb-widget { 
+	text-align:left;
+}
+.wpsso-ssb-widget .ssb-buttons { 
+	margin:20px 0 0 0;
+}
+.wpsso-ssb-widget .ssb-buttons > div { 
+	display:inline-block;
+	vertical-align:top;
+	padding:0;
+	margin:5px;
+	width:117px; 
+	height:20px;
+}

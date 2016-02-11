@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Codo Player example page</title>
+	</head>
+	<body>
+		<h2>Codo Player example</h2>
+		<p>Use as a reference for a new player setup</p>
+		<script src="../CodoPlayer.js" type="text/javascript"></script>
+		<script>
+			CodoPlayer({
+				title: "Title here",
+				poster: "poster.jpg",
+				src: "relative://example/video.mp4" // Absolute URL recommended. For example "http://example/video.mp4"
+			}, {
+				width: 600, // Remove width & height keys for responsive behaviour
+				height: 338,
+				volume: 80,
+				preload: false
+				/* For more settings visit http://codoplayer.com/configuration/ */
+			});
+		</script>
+		<p>If video does not play, copy Codo Player package into a local/remote server. It fully operates in server environment.</p>
+	</body>
+</html>
+

@@ -1,0 +1,110 @@
+How to update from MediaFans V1.0 to v1.1 [Don't forget to back up your files before proceeding]
+
+----------------------------------------------------------------------------
+--------------------------------- MySQL ------------------------------------
+
+Log-in into phpMyAdmin (or your MySQL database) and on the SQL tab run the following queries:
+
+1)
+
+ALTER TABLE  `items` ADD  `numcensors` TINYINT UNSIGNED NOT NULL DEFAULT  '0' AFTER  `numviews` ;
+
+2)
+
+CREATE TABLE IF NOT EXISTS `censored` (
+  `idcensor` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `typeitem` tinyint(1) unsigned NOT NULL COMMENT  '1: Album   2: item',
+  `iduser` int(10) unsigned NOT NULL,
+  `iditem` int(10) unsigned NOT NULL,
+  `whendate` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`idcensor`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+
+3)
+
+INSERT INTO  `settings` (
+`word` ,
+`value`
+)
+VALUES (
+'NUM_CENSOR_NOT_SHOW_ITEM',  '3'
+);
+
+
+----------------------------------------------------------------------------
+---------------------------------- FTP -------------------------------------
+Upload and replace the following files on your server:
+
+
+themes/default/html/_footer.php (URGENT: This file is required in previous versions.)
+themes/default/html/_verticalmenu-admin.php
+themes/default/html/_topbar-inside.php
+themes/default/html/__profile-onealbum.php
+themes/default/html/__dashboard-one-folder.php
+themes/default/html/home.php
+themes/default/html/items-details.php
+themes/default/html/directory_people.php
+
+themes/default/css/css.css
+
+themes/default/imgs/icoflaggreen.png
+themes/default/imgs/icoflagred.png
+themes/default/imgs/imgcensor.png
+themes/default/imgs/mini-ico-red.png
+themes/default/imgs/ico-deletephoto.png
+themes/default/imgs/ico-restorephoto.png
+themes/default/imgs/icobsearch.png
+
+themes/default/js/js_profile.js
+themes/default/js/js_admin.js
+
+
+
+system/controllers/home.php
+system/controllers/login.php
+system/controllers/register.php
+system/controllers/directory_people.php
+system/controllers/items.php 
+system/controllers/ajax_profile-items.php
+
+
+system/classes/class_item.php
+system/classes/class_album.php
+
+
+
+(Consider only lines new translation.)
+system/languages/en/outside/profile.php
+system/languages/es/outside/profile.php
+
+system/languages/en/global/global.php 
+system/languages/es/global/global.php
+
+system/languages/en/inside/admin.php 
+system/languages/es/inside/admin.php
+
+
+
+NEW FILES
+
+themes/default/html/items-censor.php
+themes/default/html/__admin-items-one-censor.php
+themes/default/html/admin_censors.php
+
+
+system/controllers/admin_censors.php
+system/controllers/ajax_admin-deleteitem.php
+system/controllers/ajax_admin-restoreitem.php
+
+
+
+[or do a clean reinstall]
+
+----------------------------------------------------------------------------
+--------------------------------- Changelog --------------------------------
+- Fixed some errors.
+- Has been added to censor items.
+- It has placed a seeker user. 
+- It has placed an option on the administrator to manage the censored items.
+

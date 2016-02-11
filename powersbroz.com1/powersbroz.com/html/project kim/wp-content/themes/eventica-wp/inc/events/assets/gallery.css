@@ -1,0 +1,156 @@
+#formatdiv-placeholder #post-formats-select {
+	margin-bottom: 10px;
+}
+#formatdiv-placeholder #post-formats-select input.post-format,
+#formatdiv-placeholder #post-formats-select br {
+	display: none;
+}
+#formatdiv-placeholder #post-formats-select label.post-format-icon {
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+#formatdiv-placeholder #post-formats-select label.post-format-icon:before {
+	display: block;
+	margin: 0 auto 10px;
+}
+@media only screen and (min-width: 782px) {
+	#formatdiv-placeholder #post-formats-select label.post-format-icon {
+		margin-right: 25px;
+	}
+	#formatdiv-placeholder #post-formats-select label.post-format-icon:before {
+		width: 34px;
+		height: 34px;
+		font-size: 34px;
+	}
+}
+
+/*--------------------------------------------------------------
+Gallery Metabox CSS
+Credits: WooCommerce Product Gallery Images
+--------------------------------------------------------------*/
+#postgallerydiv .inside {
+	margin: 0;
+	padding: 0;
+}
+#postgallerydiv .add_gallery_images {
+	padding: 0 12px 12px;
+}
+
+#gallery_images_container {
+	padding: 0 0 0 9px;
+}
+#gallery_images_container ul {
+	margin: 0;
+	padding: 0;
+}
+#gallery_images_container ul:after,
+#gallery_images_container ul:before {
+	display: table;
+	content: " ";
+}
+#gallery_images_container ul:after {
+	clear: both;
+}
+#gallery_images_container ul li.add,
+#gallery_images_container ul li.image,
+#gallery_images_container ul li.gallery-metabox-sortable-placeholder {
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	width: 80px;
+	margin: 9px 9px 0 0;
+	border: 1px solid #d5d5d5;
+	border-radius: 2px;
+	background: #f7f7f7;
+}
+#gallery_images_container ul li.add img,
+#gallery_images_container ul li.image img,
+#gallery_images_container ul li.gallery-metabox-sortable-placeholder img {
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: move;
+}
+#gallery_images_container ul li.gallery-metabox-sortable-placeholder {
+	position: relative;
+	border: 3px dashed #dddddd;
+}
+#gallery_images_container ul li.gallery-metabox-sortable-placeholder:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	color: #dddddd;
+	font-family: dashicons;
+	font-size: 2.618em;
+	font-weight: 400;
+	font-variant: normal;
+	line-height: 72px;
+	text-align: center;
+	text-indent: 0;
+	text-transform: none;
+	content: "\f128";
+
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+}
+#gallery_images_container ul ul.actions {
+	display: none;
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	padding: 2px;
+}
+#gallery_images_container ul ul.actions li {
+	float: right;
+	margin: 0 0 0 2px;
+}
+#gallery_images_container ul ul.actions li a {
+	display: block;
+	overflow: hidden;
+	width: 1em;
+	height: 0;
+	margin: 0;
+}
+#gallery_images_container ul ul.actions li a.delete {
+	display: block;
+	position: relative;
+	width: 1em;
+	height: 1em;
+	font-size: 1.4em;
+	text-indent: -9999px;
+}
+#gallery_images_container ul ul.actions li a.delete:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border-radius: 100%;
+	color: #ffffff;
+	background-color: #000000;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	font-family: dashicons;
+	font-weight: 400;
+	font-variant: normal;
+	line-height: 1;
+	text-align: center;
+	text-indent: 0;
+	text-transform: none;
+	content: "\f153";
+
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+}
+#gallery_images_container ul ul.actions li a.delete:hover:before {
+	background-color: #aa0000;
+}
+#gallery_images_container ul li:hover ul.actions {
+	display: block;
+}

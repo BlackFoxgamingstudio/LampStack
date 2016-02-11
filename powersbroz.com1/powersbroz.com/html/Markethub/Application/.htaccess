@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^http://powersbroz.com/Markethub/Application/\.com$ [NC]
+	RewriteRule ^(.*)$ http://powersbroz.com/Markethub/Application//$1 [R=301,L]
+	RewriteBase /Markethub/Application
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?%{QUERY_STRING} [NE,L]
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+</IfModule>

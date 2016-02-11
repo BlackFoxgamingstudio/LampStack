@@ -1,0 +1,610 @@
+#show_completed_tasks{
+    display: none;
+}
+.task_column{
+    
+}
+
+.task_percentage{
+    position: absolute;
+    height:18px;
+    z-index: 4;
+}
+.task_percentage_label{
+    position: absolute;
+    z-index: 3;
+    color: #CCC;
+    text-align: right;
+}
+.task_percentage_bar{
+    z-index: 2;
+    position: absolute;
+    background-color: #EFEFEF;
+    height:18px;
+}
+.task_description{
+    position: absolute;
+    margin-left: 3px;
+    z-index: 4;
+}
+.task_edit{
+    background: #c3d4ff;
+}
+
+.job_task_staff_list{
+    width:60px;
+}
+
+.edit_task_description{
+    width:90%;
+}
+.edit_task_long_description{
+    width:90%;
+    height: 40px;
+}
+.task_long_description{
+    display:none;
+}
+.task_long_description .edit_task_long_description{
+    margin:4px 0 0 0 !important;
+}
+.task_toggle_long_description{
+    display: inline-block;
+}
+.edit_task_order{
+    width:86%;
+}
+#create_invoice_button{
+    display:block;
+    text-align: center;
+}
+#create_invoice_button a{
+    margin: 10px 0;
+}
+
+.edit_task_button{
+    padding:5px 10px 0 10px;
+}
+.edit_task_options{
+    vertical-align: top;
+    white-space: nowrap;
+}
+table.tableclass tbody.job_task_wrapper tr.task_editting td  {
+vertical-align: top;
+}
+table.tableclass tbody.job_task_wrapper tr.task_editting td.percentage_edit  {
+vertical-align: middle;
+}
+
+.task_percentage_toggle{
+    cursor: pointer;
+}
+.edit_task_long_description_box .task_job_discussion{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.edit_task_long_description_box .timer_task{
+    position: absolute;
+    top:20px;
+    right:0;
+    margin: 0;
+}
+.job_task_approval_box{
+    margin-top: 10px;
+    line-height: 1.3em;
+    width: 90%;
+}
+.job_task_approval_box textarea{
+    width:100%;
+    height:50px;
+}.extra_field_key:hover{
+    text-decoration: underline;
+}
+.extra_field_row_hidden{
+    display: none;
+}.invoice_cancel{
+    text-decoration: line-through !important;
+    color: #FF0000 !important;
+}
+/* css rules from encryption */.tableclass_form.file_drop{
+    border: 5px dashed transparent !important;
+    margin: -5px !important;
+}
+.tableclass_form.file_drop.dragover{
+    border-color: green !important;
+}.time_field{
+    width:67px;
+}
+
+.ui-timepicker-wrapper {
+	overflow-y: auto;
+	height: 150px;
+	width: 6.5em;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	outline: none;
+	z-index: 10001;
+	margin: 0;
+}
+
+.ui-timepicker-wrapper.ui-timepicker-with-duration {
+	width: 11em;
+}
+
+.ui-timepicker-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ui-timepicker-duration {
+	margin-left: 5px; color: #888;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-duration {
+	color: #888;
+}
+
+.ui-timepicker-list li {
+	padding: 3px 0 3px 5px;
+	cursor: pointer;
+	white-space: nowrap;
+	color: #000;
+	list-style: none;
+	margin: 0;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-selected {
+	background: #fff; color: #000;
+}
+
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+	background: #1980EC; color: #fff;
+}
+
+li.ui-timepicker-selected .ui-timepicker-duration,
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+	color: #ccc;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled,
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	color: #888;
+	cursor: default;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	background: #f2f2f2;
+}
+.finance_summary .highlight td{
+    font-weight: bold;
+}.backup_status.success {
+    color: #119211;
+}
+.backup_status.error {
+    color: #FF0000;
+    font-weight: bold;
+}
+#database_backup .database_table,
+#files_backup .file_name {
+    font-weight: bold;
+}
+input.i,
+textarea.i{
+    width:100%;
+}
+
+th select{
+    width:80px;
+}.notes{
+    padding-bottom: 5px;
+}th#ticket_number{
+width:8%;
+}
+th#ticket_subject{
+width:12%;
+}
+th#ticket_time{
+width:16%;
+}
+th#ticket_type{
+width:12%;
+}
+th#ticket_status{
+width:9%;
+}
+th#ticket_staff{
+width:10%;
+}
+th#ticket_customer{
+width:10%;
+}
+th#ticket_contact{
+width:10%;
+}
+th#ticket_product{
+width:10%;
+}
+th#ticket_envato{
+width:10%;
+}
+th#ticket_group{
+width:9%;
+}
+th#ticket_priority{
+width:5%;
+}
+#ticket_list th.extra_column{
+width:10%;
+}
+th#ticket_action{
+width:3%;
+}
+
+.ticket_message{
+    clear:both;
+    margin: 5px 0;
+    border: 1px solid #DFDFDF;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+}
+.ticket_message_title{
+    background:#EFEFEF;
+    padding: 5px;
+    text-align: left;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.ticket_message_title span{
+    display:inline-block;
+}
+.ticket_message_title_full{
+    display:none;
+}
+.ticket_message_text{
+    padding: 5px;
+}
+#ticket_reply_button{
+    margin-top:10px;
+}
+.ticket_reply{
+    margin-top: 5px;
+    text-align: center;
+}
+.ticket_reply textarea{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 1px;
+    margin: 0;
+    text-align: left;
+    width:90%;
+}
+.ticket_message_creator{
+    margin-right:20px;
+    border: 1px solid #AAA;
+}
+.ticket_message_admin{
+    margin-left:20px;
+}
+.ticket_message_admin .ticket_message_title{
+    text-align: right;
+}
+.ticket_message_private,
+.ticket_message_private .tableclass{
+    background: #effedd;
+}
+.ticket_message_private .ticket_message_title{
+    background: #effedd;
+}
+
+.public_header{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+}
+.public_welcome{
+    text-align: center;
+}
+
+.ticket_message_hider{
+    height:30px;
+    overflow: hidden;
+    border-bottom: 1px dashed #CCC;
+}
+.ticket_message_hider_show{
+    height:auto;
+    overflow: visible;
+}
+
+/* new tickets */
+.ticket_status_2{
+    color:#FF0000 !important;
+}
+/* inprogress or replied */
+.ticket_status_3,
+.ticket_status_5{
+    color:#fe7800 !important;
+}
+/* resolved */
+.ticket_status_6{
+    color:#339900 !important;
+}
+/*cancelled*/
+.ticket_status_7{
+    color:#339900 !important;
+}
+
+.show_auto_reply_button{
+    float: right;
+    clear:both;
+    margin: 0 0 5px 0;
+    display: block;
+}
+
+.email_input{
+    width:80%;
+}
+
+.ticket_message_title label{
+    font-weight: normal;
+}
+
+@media screen and (max-width: 560px) {
+    .ticket_message_admin,
+    .ticket_message_creator{
+        margin:0;
+    }
+}#show_completed_tasks{
+    display: none;
+}
+.task_column{
+    
+}
+
+.task_percentage{
+    position: absolute;
+    height:18px;
+    z-index: 4;
+}
+.task_percentage_label{
+    position: absolute;
+    z-index: 3;
+    color: #CCC;
+    text-align: right;
+}
+.task_percentage_bar{
+    z-index: 2;
+    position: absolute;
+    background-color: #EFEFEF;
+    height:18px;
+}
+.task_description{
+    position: absolute;
+    margin-left: 3px;
+    z-index: 4;
+}
+.task_edit{
+    background: #c3d4ff;
+}
+
+.quote_task_staff_list{
+    width:60px;
+}
+
+.edit_task_description{
+    width:90%;
+}
+.edit_task_long_description{
+    width:97%;
+    height: 40px;
+}
+.task_long_description{
+    display:none;
+}
+.task_long_description .edit_task_long_description{
+    margin:4px 0 0 0 !important;
+}
+.task_toggle_long_description{
+    display: inline-block;
+}
+.edit_task_order{
+    width:86%;
+}
+#create_invoice_button{
+    display:block;
+    text-align: center;
+}
+#create_invoice_button a{
+    margin: 10px 0;
+}
+
+.edit_task_button{
+    padding:5px 10px 0 10px;
+}
+.edit_task_options{
+    vertical-align: top;
+}
+table.tableclass tbody.quote_task_wrapper tr.task_editting td  {
+vertical-align: top;
+}
+table.tableclass tbody.quote_task_wrapper tr.task_editting td.percentage_edit  {
+vertical-align: middle;
+}
+
+.task_percentage_toggle{
+    cursor: pointer;
+}.pin_title{
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+.pin_title a{
+    font-weight: normal;
+    float:right;
+    margin-left: 10px;
+}
+#top_menu_pin > a{
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(/crm/includes/plugin_pin/css/../images/pin_small.png) no-repeat center;
+    width:20px;
+}
+#top_menu_pin_options{
+    display:none;
+    position: absolute;
+    padding: 5px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin-top: 30px;
+    min-width: 100px;
+    z-index: 400;
+}
+#top_menu_pin_options ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#top_menu_pin_options ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top_menu_pin_actions{
+    float:right;
+    width:32px;
+    margin-left: 5px;
+}
+.top_menu_pin_actions > a,
+.top_menu_pin_actions > a:link,
+.top_menu_pin_actions > a:visited{
+    color:#CCC;
+}
+.form_field_required {
+		border-right:4px solid #00FF00 !important;
+	}
+.form_field_highlight,
+.form_field_highlight td{
+		border:2px solid #FF0000 !important;
+	}
+	.data_group{
+		clear:both;
+		/*margin-top:10px;*/
+	}
+
+	.data_field_title{
+		float:left;
+		padding-right:3px;
+	}
+	.field_radio,
+	.field_radio label,
+	.field_radio input{
+		float:left;
+		padding-right:3px;
+	}
+	.data_field_input{
+		float:left;
+	}
+	ul.data_group_fields{
+		/* sortable! */
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	li.data_field{
+		float:left;
+		margin:3px 10px 3px 3px;
+		padding:0;
+		border:1px solid #FFF;
+		list-style:none;
+	}
+
+	.data_field_view{
+		padding:1px;
+		display:block;
+		/*background-color:#EEEEEE;
+		width:130px;*/
+	}
+	/*.data_field_datetime .data_field_view,*/
+	.date_time_field{
+		width:115px;
+	}
+	/*.data_field_date .data_field_view,*/
+	.date_field{
+		width:67px;
+	}
+.vendor_overdue{
+    font-weight: bold;
+}
+.vendor_owing{
+    color:#FF0000 !important;
+}
+.vendor_paid{
+}
+.template.selected{
+    background: #EFEFEF;
+}
+.template.selected div{
+    font-weight: bold !important;
+}
+.template{
+    border: 1px solid #CCC;
+    width:110px;
+    padding: 4px 0 0 0;
+    float:left;
+    margin: 2px;
+}.subscription{
+    padding: 4px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.subscription.active{
+    border: 1px solid #390;
+    padding: 8px;
+    margin: 5px;
+}
+.subscription ul{
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+.subscription ul li{
+    margin: 0;
+    padding: 0;
+}
+.next_due_date_change{
+    cursor: pointer;
+}.table_sort_btn,
+.table_sort_btn:link,
+.table_sort_btn:visited{
+    color:#ccc;
+    font-size: 0.8em;
+    float:right;
+    background: url(/crm/includes/plugin_table_sort/css/../images/icons_sort.png) no-repeat 2px 7px;
+    text-indent: -999px;
+    overflow: hidden;
+    display: inline-block;
+    width: 11px;
+    height: 14px;
+}
+.table_sort_desc,
+.table_sort_desc:link,
+.table_sort_desc:visited{
+    background-position: -26px 7px;
+}
+.table_sort_asc.current{
+    background-position: 2px -17px;
+}
+.table_sort_desc.current{
+    background-position: -26px -17px;
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>youtube-hero - Slider Revolution</title>
+		<meta name="description" content="Slider Revolution Example" />
+		<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
+		<meta name="author" content="ThemePunch" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- LOAD JQUERY LIBRARY -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+
+		<!-- LOADING FONTS AND ICONS -->
+		<link href="http://fonts.googleapis.com/css?family=Raleway:500,800" rel="stylesheet" property="stylesheet" type="text/css" media="all" /><link href="http://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet" property="stylesheet" type="text/css" media="all" /><link href="http://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+
+		<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+
+		<!-- REVOLUTION STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="css/settings.css">
+		<!-- REVOLUTION LAYERS STYLES -->
+		<style>.tp-caption.NotGeneric-SubTitle,.NotGeneric-SubTitle{color:rgba(255,255,255,1.00);font-size:13px;line-height:20px;font-weight:500;font-style:normal;font-family:Raleway;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:4px;text-align:left}</style>
+<style type="text/css">.button-down-slider a{color:#fff}.tp-caption.whitedivider3px{color:#000000;text-shadow:none;background-color:rgb(44,159,92);background-color:rgba(44,159,92,1);text-decoration:none;font-size:0px;line-height:0;min-width:656px;min-height:4px;border-width:0px;border-color:rgb(0,0,0);border-style:none}.tp-caption.store_button_full_black a,.tp-caption.store_button_full a{position:absolute; color:#fff; text-shadow:none; font-size:14px; line-height:18px !important; font-family:"Montserrat";padding:25px 40px 25px 40px !important;margin:0px;  cursor:pointer;   background:none;  border-radius:30px; height:0px;   background:#2C9F5C;   background-color:rgb(44,159,92);  background-color:rgba(44,159,92,0.8); text-transform:uppercase}.tp-caption.store_button_full a{background:#2C9F5C;  border:none; background-color:rgb(44,159,92); background-color:rgba(44,159,92,0.8); color:#fff !important}.tp-caption.store_button_full_black a{background:#121212;  background-color:rgb(18,18,18); background-color:rgba(18,18,18,0.9);  border:none; color:#fff !important}.tp-caption.store_button_full_black a,.tp-caption.store_button_full a{line-height:0px !important}.tp-caption.store_button a:hover,.tp-caption.store_button_full a:hover{background:#2C9F5C !important}.tp-caption.store_button_full_black a:hover{background:#121212}.tp-caption.pmc-button{border-bottom:none !important}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out;line-height:140%}.tp-caption a:hover{color:#ffa902}@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,700);.tp-caption a{color:#296169;text-shadow:none;text-decoration:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#296169}.tp-caption a{color:#296169;text-shadow:none;text-decoration:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#296169}.feature-round{color:#000;background:#fff;background:rgba(255,255,255,0.7);font-size:12px;width:100px;height:100px;line-height:14px;text-align:center;text-decoration:none;box-sizing:border-box;padding:35px 35px 35px 35px;background-color:transparent;border-radius:50px 50px 50px 50px;border-width:0px;border-color:#000000;border-style:none}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}</style>
+		<!-- REVOLUTION JS FILES -->
+		<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+		<script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+	</head>
+	
+	<body>
+			
+
+<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="youtube-hero" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.1.6 fullwidth mode -->
+	<div id="rev_slider_2_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.1.6">
+<ul>	<!-- SLIDE  -->
+    <li data-index="rs-2" data-transition="parallaxvertical,zoomout,cube" data-slotamount="default,default,default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default,default,default" data-easeout="default,default,default" data-masterspeed="default,default,default"  data-thumb="assets/d1216-3923742-Washington-state-road-map-with-Interstates-U-S-Highways-and-state-roads-All-elements-on-separate-lay-Stock-Vector.jpg"  data-delay="15969.556274414062"  data-rotate="0,0,0"  data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="assets/d1216-3923742-Washington-state-road-map-with-Interstates-U-S-Highways-and-state-roads-All-elements-on-separate-lay-Stock-Vector.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption  " 
+			 id="slide-2-layer-11" 
+			 data-x="['left','left','left','left']" data-hoffset="['-277','-277','-277','-277']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['16','16','16','16']" 
+						data-width="1612"
+			data-height="638"
+			data-whitespace="normal"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="opacity:0;s:300;e:Linear.easeNone;" 
+			 data-transform_out="opacity:0;" 
+			data-start="19.857177734375" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="off" 
+			data-responsive="off"
+			
+			style="z-index: 5; min-width: 1612px; max-width: 1612px; max-width: 638px; max-width: 638px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);"><iframe src="http://powersbroz.com/makersmap
+" style="margin: 10px;" width="1900px"  height="1000px"
+ ></iframe> 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption NotGeneric-SubTitle   tp-resizeme" 
+			 id="slide-2-layer-4" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
+			 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+			 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+			 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+			data-start="1000" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 6; white-space: nowrap;">BlackFox Gaming Studios Presents 
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-2-layer-12" 
+			 data-x="['left','left','left','left']" data-hoffset="['990','990','990','990']" 
+			 data-y="['top','top','top','top']" data-voffset="['220','220','220','220']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+				data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Power3.easeOut;"
+				data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;s:300;" 
+			data-start="1250" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			
+			style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Roboto;background-color:rgba(0, 0, 0, 0.75);padding:10px 30px 10px 30px;border-color:rgba(0, 0, 0, 1.00);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Seattle 
+		</div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-2-layer-13" 
+			 data-x="['left','left','left','left']" data-hoffset="['961','961','961','961']" 
+			 data-y="['top','top','top','top']" data-voffset="['269','269','269','269']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+				data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Power3.easeOut;"
+				data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;s:300;" 
+			data-start="1250" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			
+			style="z-index: 8; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Roboto;background-color:rgba(0, 0, 0, 0.75);padding:12px 35px 12px 35px;border-color:rgba(0, 0, 0, 1.00);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">King County 
+		</div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-2-layer-14" 
+			 data-x="['left','left','left','left']" data-hoffset="['953','953','953','953']" 
+			 data-y="['top','top','top','top']" data-voffset="['326','326','326','326']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+				data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Power3.easeOut;"
+				data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;s:300;" 
+			data-start="1250" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			
+			style="z-index: 9; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Roboto;background-color:rgba(0, 0, 0, 0.75);padding:12px 35px 12px 35px;border-color:rgba(0, 0, 0, 1.00);border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Pierce County 
+		</div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-2-layer-15" 
+			 data-x="['left','left','left','left']" data-hoffset="['930','930','930','930']" 
+			 data-y="['top','top','top','top']" data-voffset="['375','375','375','375']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+				data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Power3.easeOut;"
+				data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;s:300;" 
+			data-start="1250" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			
+			style="z-index: 10; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Roboto;background-color:rgba(0, 0, 0, 0.75);padding:12px 35px 12px 35px;border-color:rgba(0, 0, 0, 1.00);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Eastern Washington
+ 
+		</div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-2-layer-16" 
+			 data-x="['left','left','left','left']" data-hoffset="['283','283','283','283']" 
+			 data-y="['top','top','top','top']" data-voffset="['247','247','247','247']" 
+						data-width="844"
+			data-height="22"
+			data-whitespace="normal"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="x:right;skX:-85px;s:0.703829;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;e:Power2.easeInOut;s:300;e:Power2.easeInOut;" 
+			data-start="1249.9154663086" 
+			data-splitin="chars" 
+			data-splitout="none" 
+			data-actions=''
+			data-responsive_offset="on" 
+
+			data-elementdelay="0.39" 
+			
+			style="z-index: 11; min-width: 844px; max-width: 844px; max-width: 22px; max-width: 22px; white-space: normal; font-size: 50px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);">DreamLancers 2.0 
+		</div>
+	</li>
+	<!-- SLIDE  -->
+    <li data-index="rs-10" data-transition="fade" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="assets/transparent.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+</ul>
+<div class="tp-static-layers">
+</div>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+</div><!-- END REVOLUTION SLIDER -->
+		<script type="text/javascript">
+						var tpj=jQuery;
+			
+			var revapi2;
+			tpj(document).ready(function() {
+				if(tpj("#rev_slider_2_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_2_1");
+				}else{
+					revapi2 = tpj("#rev_slider_2_1").show().revolution({
+						sliderType:"standard",
+jsFileLocation:"//powersbroz.com/revslider-standalone/revslider/public/assets/js/",
+						sliderLayout:"fullwidth",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+							keyboardNavigation:"off",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation:"off",
+							onHoverStop:"off",
+							touch:{
+								touchenabled:"on",
+								swipe_threshold: 75,
+								swipe_min_touches: 50,
+								swipe_direction: "vertical",
+								drag_block_vertical: false
+							}
+							,
+							tabs: {
+								style:"",
+								enable:true,
+								width:100,
+								height:50,
+								min_width:100,
+								wrapper_padding:5,
+								wrapper_color:"transparent",
+								wrapper_opacity:"0.05",
+								tmp:'<span class="tp-thumb-image"></span>',
+								visibleAmount: 5,
+								hide_onmobile: false,
+								hide_onleave:false,
+								hide_delay:200,
+								direction:"horizontal",
+								span:false,
+								position:"inner",
+								space:5,
+								h_align:"center",
+								v_align:"bottom",
+								h_offset:0,
+								v_offset:20
+							}
+						},
+						responsiveLevels:[1240,1024,778,480],
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:[1240,1024,778,480],
+						gridheight:[600,500,400,270],
+						lazyType:"none",
+						parallax: {
+							type:"3D",
+							origo:"slidercenter",
+							speed:2000,
+							levels:[2,3,4,5,6,7,12,16,10,50,47,48,49,50,51,55],
+							type:"3D",
+							ddd_shadow:"on",
+							ddd_bgfreeze:"off",
+							ddd_overflow:"hidden",
+							ddd_layer_overflow:"hidden",
+							ddd_z_correction:65,
+						},
+						spinner:"off",
+						stopLoop:"on",
+						stopAfterLoops:0,
+						stopAtSlide:1,
+						shuffle:"off",
+						autoHeight:"on",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							nextSlideOnWindowFocus:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+			});	/*ready*/
+		</script>
+		
+
+		</body>
+</html>

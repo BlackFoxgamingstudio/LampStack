@@ -1,0 +1,334 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    
+    <title>Web Video editor - JS / PHP script GUI for FFmpeg (and Mencoder)</title>
+    
+    <meta name="description" content="Скрипт онлайн видеоредактора. Используется FFmpeg или Mencoder.">
+    <meta name="author" content="Andycoder">
+    <meta name="copyright" content="Andycoder">
+    <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    <meta name="date" content="2014-09-29T00:00:00+02:00">
+    
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    
+    <script src="assets/js/jquery.js"></script>
+    
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    
+    <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    
+    <script>document.createElement('section');var duration='500',easing='swing';</script>
+    <script src="assets/js/script.js"></script>
+    
+    <style>
+	html{background-color:#FFFFFF;color:#383838;}
+	::-moz-selection{background:#444444;color:#DDDDDD;}
+	::selection{background:#444444;color:#DDDDDD;}
+	#documenter_sidebar #documenter_logo{background-image:url();}
+	a{color:#0000FF;}
+	.btn {
+		border-radius:3px;
+	}
+	.btn-primary {
+		  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+		  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+		  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+		  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+		  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+		  background-image: linear-gradient(top, #0088CC, #0044CC);
+		  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+		  border-color: #0044CC #0044CC #bfbfbf;
+		  color:#FFFFFF;
+	}
+	.btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+	  border-color: #0088CC #0088CC #bfbfbf;
+	  background-color: #0044CC;
+	}
+	hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+	#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+	#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+	#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+	#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+	#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+	#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+	#documenter_copyright{display:block !important;visibility:visible !important;}
+    </style>
+    
+</head>
+<body class="documenter-project-web-video-editor">
+    
+    <div id="documenter_sidebar">
+	
+	<a href="#documenter_cover" id="documenter_logo"></a>
+	
+	<ul id="documenter_nav">
+	    <li><a class="current" href="#documenter_cover">Старт</a></li>
+	    <li><a href="#description" title="Description">Описание</a></li>
+	    <li><a href="#features" title="Features">Возможности и особенности</a></li>
+	    <li><a href="#requirments" title="requirments">Требования к системе</a></li>
+	    <li><a href="#install" title="Install">Установка</a></li>
+	    <li><a href="#install_onserver" title="Install server applications">Установка серверных приложений</a></li>
+	    <li><a href="#usage" title="Instructions for use">Инструкция по использованию</a></li>
+	    <li><a href="#used" title="Used">Используемые библиотеки</a></li>
+	</ul>
+	
+	<div id="documenter_copyright">
+	    Copyright Andycoder 2014<br>
+	    made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+	</div>
+	
+    </div>
+	
+    <div id="documenter_content">
+	
+	<section id="documenter_cover">
+	    <h1>Web Video Editor</h1>
+	    <h2>JS / PHP script - GUI for FFmpeg (and Mencoder)</h2>
+	    <hr>
+	    <ul>
+		<li>version: 1.5</li>
+		<li>created: 09/29/2014</li>
+		<li>latest update: 14/02/2015</li>
+		<li>by: Andycoder</li>
+		<li><a href=""></a></li>
+		<li>email: <a href="mailto:&#097;&#110;&#100;&#121;&#099;&#111;&#100;&#101;&#114;&#119;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#097;&#110;&#100;&#121;&#099;&#111;&#100;&#101;&#114;&#119;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+	    </ul>
+	    <p></p>
+	</section>
+	
+	<section id="description">
+	    <div class="page-header"><h3>Описание</h3><hr class="notop"></div>
+	    <p>
+	    JS / PHP скрипт онлайн видеоредактора, GUI для FFmpeg (или Mencoder). Позволяет разрезать видео на куски и соединять их. Конвертация видео в форматы: FLV, MP4, WEBM, OGV. Возможность быстрого разрезания видео на фрагменты без переконвертации.
+	    </p>
+	</section>
+	
+	<section id="features">
+	    <div class="page-header"><h3>Возможности и особенности</h3><hr class="notop"></div>
+	    <ul>
+		<li>Мгновенное разделение видео на куски без переконвертации.</li>
+		<li>Возможность склеивания кусков видео.</li>
+		<li>
+		    Для работы с видео используются серверные приложения:
+		    <a href="http://ffmpeg.org/" target="_blank">FFmpeg</a>,
+		    <a href="http://www.mplayerhq.hu/" target="_blank">Mencoder</a> (не обязательно),
+		    <a href="http://gpac.wp.mines-telecom.fr/mp4box/" target="_blank">MP4Box / gpac</a> (не обязательно),
+		    <a href="https://www.bunkus.org/videotools/mkvtoolnix/" target="_blank">MKVMerge</a> (не обязательно).
+		</li>
+		<li>Конвертация видео в форматы: FLV, MP4, WEBM, OGV.</li>
+		<li>Возможность редактирования аудио MP3 файлов.</li>
+		<li>Показ визуализации аудио-волны при редактировании MP3.</li>
+		<li>Показ прогресса конвертации в процентах.</li>
+		<li>Три HTML5 плеера на выбор.</li>
+		<li>Загрузка видео 3-мя способами: файл, по ссылке, с Youtube.</li>
+		<li>Список пользователей можно задать в конфигурационном файле или можно настроить авторизацию из таблицы базы данных MySQL.</li>
+		<li>Простая конфигурация (в файле).</li>
+		<li>Мультиязычность (сделаны переводы на Английском и Русском языках).</li>
+		<li>Приятный интерфейс и адаптивная верстка (Bootstrap 3.2).</li>
+		<li>Открытый чистый исходный код.</li>
+	    </ul>
+	</section>
+	
+	<section id="requirments">
+	    <div class="page-header"><h3>Требования к системе</h3><hr class="notop"></div>
+	    <p><b>Обязательные:</b></p>
+	    <ul>
+		<li>Linux или Windows сервер</li>
+		<li>PHP 5.3+</li>
+		<li>Веб-сервер Apache или Nginx</li>
+		<li>FFmpeg 1.2+</li>
+	    </ul>
+	    
+	    <p><b>Не обязательные:</b></p>
+	    <ul>
+		<li>Mencoder</li>
+		<li>MP4Box (gpac)</li>
+		<li>MKVMerge</li>
+	    </ul>
+	</section>
+	
+	<section id="install">
+	    <div class="page-header"><h3>Установка</h3><hr class="notop"></div>
+	    <ol>
+		<li>Установить серверные приложения (инструкция ниже).</li>
+		<li>Загрузить содержимое архива <b>videoeditor</b> на сервер (например в папку <b>videoeditor/</b>).</li>
+		<li>Установить права <b>777</b> на папки: <b>input/</b>, <b>output/</b>, <b>tmp/</b>.</li>
+		<li>Открыть в браузере адрес папки, в которую загрузили файлы. Например: <b>http://[адрес сайта]/videoeditor/</b>.</li>
+		<li>Открыть в текстовом редакторе файл <b>config.php</b> и настроить конфигурацию (в файле есть комментарии).</li>
+		<li>Готово.</li>
+	    </ol>
+	    
+	    <h5>Создание MySQL таблицы для авторизации пользователей</h5>
+	    
+	    <p>В <b>config.php</b> можно задать список пользователей ( $config['users'] ). Также авторизация пользователей может происходить по данным из базы данных MySQL.</p>
+	    
+	    <ol>
+		<li>Создайте таблицу в базе занных MySQL.</li>
+		<li>Заполните данные конфигурации для подключения к этой базе занных в <b>config.php</b> ( $config['db'] ).</li>
+		<li>
+		    Если таблица пользователей не создана, создайте её, используя пример структуры из файла <b>db_users_example.sql</b>.
+		    <br>
+		    Для этого, например, можно использовать phpMyAdmin. Откройте таблицу и затем перейдите на страницу "SQL". Вставьте в поле запрос из файла <b>db_users_example.sql</b>. Нажмите "OK".
+		</li>
+		<li>Затем в таблице нужно создать пользователей. Типы пользователей могут быть: "admin" и "user". Пароль нужно шифровать по алгоритму MD5.</li>
+		<li>Готово.</li>
+	    </ol>
+	    
+	</section>
+	
+	<section id="install_onserver">
+	    <div class="page-header"><h3>Установка серверных приложений</h3><hr class="notop"></div>
+	    
+	    <p>
+		Для работы видеоредактора необходим только FFmpeg, остальные приложения по желанию, если по каким либо причинам FFmpeg не устроит.
+		<br />
+		Например, FFmpeg точно разрезает видео в установленных местах, но в начале видеофрагмента будет остановка видеопотока.
+		Остальные режут видео лучше, но не точно в установленных местах (по ключевым кадрам).
+	    </p>
+	    
+	    <h4>Установка FFmpeg на Windows</h4>
+	    
+	    <p>
+		Скачать FFmpeg для Windows можно здесть: <a href="http://ffmpeg.org/download.html#build-windows" target="_blank">http://ffmpeg.org/download.html#build-windows</a>.
+	    </p>
+	    <p>
+		Распаковать архив и загрузить содержимое на диск. Например, адрес должен получиться такой:<br>
+		<b>"C:\ffmpeg\bin\ffmpeg.exe"</b>
+	    </p>
+	    <p>
+		В <b>config.php</b> нужно указать этот адрес в параметре <b>$config['ffmpeg_path']</b>.
+	    </p>
+	    
+	    <h4>Установка FFmpeg на Linux</h4>
+	    
+	    <p>
+		Сайт разработчика: <a href="http://ffmpeg.org/" target="_blank">http://ffmpeg.org/</a>
+	    </p>
+	    
+	    <p>
+		Устанавливать FFmpeg рекомендуется по этой инструкции:
+		<a href="https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu" target="_blank">https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu</a>
+		<br />
+		Нужно установить все дополнительные приложения, которые перечислены в данной инструкции.
+	    </p>
+	    <p>
+		<b>Внимание!</b>
+		<br />
+		Настоятельно рекомендуется устанавливать все приложения в папки <b>/usr/bin/</b> и <b>/usr/ffmpeg_build/</b>.
+		<br />
+		Для этого в инструкции нужно заменить все "$HOME" на "/usr". Для устновки откройте командную строку (терминад).
+		<br />
+		<b>Пример:</b>
+	    </p>
+	    
+	    <pre class="prettyprint">
+mkdir ~/ffmpeg_sources
+cd ~/ffmpeg_sources
+wget http://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2
+tar xjvf ffmpeg-snapshot.tar.bz2
+cd ffmpeg
+PATH="$PATH:/usr/bin" PKG_CONFIG_PATH="/usr/ffmpeg_build/lib/pkgconfig" ./configure \
+  --prefix="/usr/ffmpeg_build" \
+  --extra-cflags="-I/usr/ffmpeg_build/include" \
+  --extra-ldflags="-L/usr/ffmpeg_build/lib" \
+  --bindir="/usr/bin" \
+  --enable-gpl \
+  --enable-libass \
+  --enable-libfdk-aac \
+  --enable-libfreetype \
+  --enable-libmp3lame \
+  --enable-libopus \
+  --enable-libtheora \
+  --enable-libvorbis \
+  --enable-libvpx \
+  --enable-libx264 \
+  --enable-nonfree \
+  --enable-x11grab
+PATH="$PATH:/usr/bin" make
+sudo make install
+make distclean
+hash -r
+</pre>
+	    
+	    <h4>Установка Mencoder (не обязательно) - Linux</h4>
+	    
+	    <p>
+		Сайт разработчика: <a href="http://www.mplayerhq.hu/" target="_blank">http://www.mplayerhq.hu/</a>
+	    </p>
+	    
+	    <p>Для Ubuntu (Debian) Mencoder можно установить так:</p>
+	    
+	    <pre class="prettyprint">sudo apt-get install mencoder</pre>
+	    
+	    
+	    
+	    <h4>Установка MP4Box / gpac (не обязательно) - Linux</h4>
+	    
+	    <p>
+		Сайт разработчика: <a href="http://gpac.wp.mines-telecom.fr/mp4box/" target="_blank">http://gpac.wp.mines-telecom.fr/mp4box/</a>
+	    </p>
+	    
+	    <p>Для Ubuntu (Debian) MP4Box можно установить так:</p>
+	    
+	    <pre class="prettyprint">sudo apt-get install gpac</pre>
+	    
+	    
+	    
+	    <h4>Установка MKVMerge (не обязательно) - Linux</h4>
+	    
+	    <p>
+		Сайт разработчика: <a href="https://www.bunkus.org/videotools/mkvtoolnix/" target="_blank">https://www.bunkus.org/videotools/mkvtoolnix/</a>
+	    </p>
+	    
+	    <p>Для Ubuntu (Debian) MKVMerge можно установить так:</p>
+	    
+	    <pre class="prettyprint">sudo apt-get install mkvtoolnix</pre>
+	    
+	    
+	    <p>Для других систем инструкции по установке можно найти на сайтах разработчиков.</p>
+	    
+	    
+	</section>
+	
+	<section id="usage">
+	    <div class="page-header"><h3>Инструкция по использованию</h3><hr class="notop"></div>
+	    
+	    <p>Смотрите видео:</p>
+	    
+	    <iframe width="853" height="480" src="http://www.youtube-nocookie.com/embed/N9Dsmqf-1X0" frameborder="0" allowfullscreen></iframe>
+	    
+	    <p>
+		<a href="http://www.youtube.com/watch?v=N9Dsmqf-1X0" target="_blank">http://www.youtube.com/watch?v=N9Dsmqf-1X0</a>
+	    </p>
+	    
+	</section>
+	
+	<section id="used">
+	    <div class="page-header"><h3>Используемые библиотеки и др. инструменты</h3><hr class="notop"></div>
+	    
+	    <ul>
+		<li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+		<li><a href="http://jqueryui.com/" target="_blank">jQuery UI</a></li>
+		<li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+		<li><a href="https://flowplayer.org/player/" target="_blank">Flowplayer</a></li>
+		<li><a href="http://www.videojs.com/" target="_blank">VideoJS</a></li>
+		<li><a href="http://www.codoplayer.com/" target="_blank">Codoplayer</a></li>
+	    </ul>
+	    
+	</section>
+	
+    </div>
+</body>
+</html>

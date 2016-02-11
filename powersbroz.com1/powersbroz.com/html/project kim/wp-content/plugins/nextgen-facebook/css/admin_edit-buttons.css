@@ -1,0 +1,21 @@
+/* Save an empty style text box to reload the default example styles.
+ * These styles are provided as examples only - modifications may be 
+ * necessary to customize the layout for your website. Social sharing
+ * buttons can be aligned vertically, horizontally, floated, etc.
+ */
+
+/* align the buttons vertically in two 117px wide columns */
+.ngfb-admin_edit-buttons { 
+	text-align:left; 
+}
+.ngfb-admin_edit-buttons .ngfb-buttons { 
+	margin:0;
+}
+.ngfb-admin_edit-buttons .ngfb-buttons > div { 
+	display:inline-block;
+	vertical-align:top;
+	padding:0;
+	margin:5px;
+	width:117px; 
+	height:20px;
+}

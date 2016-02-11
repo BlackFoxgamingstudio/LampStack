@@ -1,0 +1,39 @@
+ENTITY-CC CHANGELOG
+
+Version 2.0.1, Build 02 January 2016
+
+- Bug Fixes:
+    - Fixed and updated action buttons on single group page
+    - Fixed SQL insert query for creating stage task
+    - Fixed foreign key constraint on SQL file for users and their created invoices
+    - Fixed implementation where bugs were not being shown on health monitor page
+    - Fixed project stage task assignment functionality
+    - Added fix to Foreign key issue in installation SQL
+    - Fixed project history to excel file export
+    - Removed the ability to mark a project complete if it hasn't started yet
+    - Fixed problem with users being visible to anyone in the application regardless of role permissions
+
+Files affected:
+    - app/actions/assign.controller.php
+    - app/actions/create.controller.php
+    - app/actions/export.controller.php
+    - app/actions/settings.controller.php
+    - app/classes/Log.php
+    - app/classes/Project.php
+    - app/classes/StageTask.php
+    - app/classes/Setting.php
+    - app/classes/User.php
+    - app/controllers/UsersController.php
+    - app/views/health.monitor.html.php
+    - app/views/single.group.html.php
+    - app/views/single.project.html.php
+    - app/views/single.user.html.php
+    - app/views/forms/assign.user.task.form.php
+
+Upgrade Instructions:
+    - Option One: Replace entire app folder (BACKUP your config.php file before doing this)
+    - Option Two: Replace Files affected
+
+=====================================
+
+Version 2.0.0, Build 03 OCTOBER 2015 (Initial Release)

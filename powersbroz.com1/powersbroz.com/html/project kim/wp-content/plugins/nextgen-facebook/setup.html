@@ -1,0 +1,100 @@
+<p>The following Setup Guide is a collection of suggestions and hints to help you get started with the NGFB plugin. NGFB works great "<em>right out of the box</em>" and you may decide to keep the default settings as-is, but taking a few minutes to review the settings will help maximize your social presence and click-through rate.</p>
+
+<ol style="list-style-type:numeric">
+
+<li>
+<h3>WebSite Social Accounts</h3>
+<p>Create a Facebook Page, Twitter account, and Google+ account (or Page) for your website / business (if you haven't already). You can enter your website's social accounts information on the WordPress <u>Settings &gt; Website / Business Social Accounts</u> page. The social account values are used by NGFB for Google / SEO, Schema, Open Graph, and other meta tags -- including the publisher (Organization) social profiles markup in schema.org JSON-LD format. These social accounts may appear in Google Search results to highlight your website / business social pages.<p>
+</li>
+
+<li>
+<h3>Author Social Accounts</h3>
+<p>Ask your authors to enter their Facebook, Google+, and Twitter contact information on their profile page. Each author's contact information can appear in various meta tags and schema.org JSON-LD markup -- but only if they complete their user profile. All URLs found in the author's contact methods will be listed in the author (Person) social profile markup for Google. Authors should take a moment to update their <a href="https://www.facebook.com/settings?tab=followers">Facebook Follower Settings</a> to enable a Follow button on Facebook. In this way, authors can publish both private (for friends) and public (for friends and followers) content on their Facebook wall.</p>
+</li>
+
+<li>
+<h3>Essential Settings</h3>
+<p>Review the Site Description on the NGFB <u>Essential Settings</u> page and select a Default / Fallback Image ID. NGFB uses information from the first post on index / archive and search webpages. If you define a <em>Default Image ID</em> (or Default Image URL), NGFB can use this image as a fallback in case a Post / Page does not contain a suitable image, and/or force the default image on index / archive and search webpages. See the NGFB <u>General Settings &gt; Images</u> tab for these and other image related options.</p>
+</li>
+
+<li>
+<h3>Image Dimensions</h3>
+
+<p>Review the WordPress <u>Settings &gt; Social Image Dimensions</u> values. If your original images are large enough, you should set the Open Graph image dimensions to 1200x630px cropped or larger. Images that are 600px and wider are displayed more prominently on Facebook, and 1200px and wider is required to avoid web browsers upscaling (stretching) images for retina / high-PPI displays &mdash; so it's worth taking the time to make sure <em>all</em> your original / full-size featured images are at least 1200px in width and 630px in height, along with setting an Open Graph image dimension of 1200x630px cropped.</p>
+
+<p>The default Open Graph image dimensions are 600x315px cropped. You can reduce these values down to 200x200px cropped, but Facebook will display small images as thumbnails in user timelines. The minimum recommended image dimensions are 600x315px cropped &mdash; and for best results, use 1200px or wider.</p>
+
+<p>If your original images are large enough, you can also double the default Twitter Card image dimensions from 600x600px to 1200x1200px, and from 300x300px to 600x600px. By offering larger images, you allow Twitter to provide higher resolution images for retina / high-PPI displays.</p>
+
+<blockquote>
+<h4>Cropped vs Uncropped</h4>
+
+<p>The difference between cropped and uncropped image dimensions is important -- when resizing <em>and</em> cropping an image, it will be resized so that <em>both</em> sides meet or exceed the image dimensions, and <u>any excess width or height will be trimmed</u>. As an example, an image of 3264x2448px resized to 1200x630px cropped with have dimensions of 1200x630px, loosing 135px on both top and bottom (270px total). The same image resized to 1200x630px uncropped will have dimensions of 840x630px -- the original aspect ratio was preserved and no parts of the image were sacrificed, but its width is not optimal for Facebook. The suggested Open Graph image dimensions are 600x315px or 1200x630px cropped since Facebook will crop Open Graph images to this aspect ratio for display anyway.</p>
+</blockquote>
+
+<blockquote>
+<h4>Upscale (Enlarge) Images or Not?</h4>
+
+<p>WordPress does not upscale (enlarge) images &mdash; WordPress only creates smaller images from larger full-size originals. Upscaled images do not look as sharp or clean when upscaled, and if enlarged too much, images will look fuzzy and unappealing &mdash; not something you want to promote on social sites. NGFB Pro includes an optional module that allows upscaling of WordPress Media Library images for NGFB image sizes (up to a maximum upscale percentage). For example, a full-size image of 100x200px could be upscaled up to 150x300px using the default maximum of 50%, but resizing the images any larger would fail (unless you increased the maximum).</p> 
+
+<p>If you feel strongly that upscaling small images in your WordPress Media Library is something you want (instead of uploading larger full-size originals), you can enable this feature under the <u>Advanced &gt; WP / Theme Integration</u> tab. <em>Do not enable this feature unless you want to publish lower quality images on social sites.</em></p>
+
+<p><strong>Not sure?</strong><p>
+
+<p>You can simulate the upscaling feature to generate the upscaling success / failure notice messages, without having WordPress save the resulting images &mdash; simply define the <code>NGFB_IMAGE_UPSCALE_TEST</code> constant as true or hook the 'ngfb_image_upscale_test' filter and return true. Other constants and filters are also available to upscale all images (not just the NGFB image sizes) and adjust the maximum percentage.</p>
+</blockquote>
+
+</li>
+
+<li>
+<h3>Validation Tools</h3>
+
+<p>Submit a few sample Posts and Pages to the <a href="https://developers.facebook.com/tools/debug/">Facebook Debugger</a></strong> to verify your Open Graph meta tags. A link to the Facebook Debugger is available under the Validate tab in the <u>Social Settings</u> metabox. Submitting a URL to the Facebook Debugger can also be used to clear Facebook's cache (after clicking the "Fetch new scrape information" button a few times). If you're validating older posts / pages, pre-dating the activation of NGFB, <a href="http://surniaulula.com/codex/plugins/nextgen-facebook/faq/why-does-facebook-show-the-wrong-image-text/">Facebook may continue to use the old meta tag values from its cache</a>.</p>
+
+<p>Submit a Post / Page to the <a href="http://developers.pinterest.com/rich_pins/validator/">Pinterest Rich Pin Validator</a> and request approval for Rich Pins. Pinterest Rich Pins are an extension of Open Graph meta tags, but the Rich Pin Validator can be a little buggy, so double check any errors with the Facebook Debugger to make sure they are actual / real errors.  Once approved, you can zoom a Pin to view its Rich Pin information.</p>
+
+<p>Submit index / archive and Post / Page URLs to the <A href="https://validator.w3.org/">W3C Markup Validation Service</a> to verify the HTML of your theme templates. Social crawlers expect properly coded HTML markup that conforms to current HTML / XHTML standards. If your webpages contain serious markup errors, social and/or search engine crawlers may be unable to parse your webpage content. Fix and/or report any template markup issues with your theme author. NGFB uses &lt;noscript&gt; containers to include additional schema markup in webpage headers. The W3C validation tool may report errors for these meta tags. These errors can be safely ignored, or uncheck the "Use Meta Property Containers" option under the NGFB <u>General Settings &gt; Google / Schema</u> tab.</p>
+
+</li>
+
+<li>
+<h3>Interface and General Usage</h3>
+<p>On most WordPress admin pages you'll find a <em>Screen Options</em> drop-down tab on the upper right-hand side of the page. You can use these options to include/exclude certain NGFB metaboxes and columns from the current page. For example, when viewing the Posts or Pages list you can use the <em>Screen Options</em> drop-down tab to hide / view the "Social Img" and "Social Desc" columns.</p>
+<p>When editing a Post, Page, category, tag, etc., you'll find a <u>Social Settings</u> metabox at the bottom of the page, where you can edit various social texts and image values. The "Social Preview" tab gives you an idea of what sharing a link to this webpage might look like on Facebook, the "Head Tags" tab shows a complete listing of meta tags created by NGFB, including additional Schema markup and LD+JSON for Google, and the "Validate" tab allows you to submit the current webpage URL to a number of test and validation tools.</p>
+</li>
+
+<li>
+<h3>Documentation and Resources</h3>
+<p>NGFB is a powerful tool and social framework that detects images and videos from a variety of sources (attached, featured, content, etc.), along with 3rd party plugins and e-commerce product information. It's worth noting some of the most common questions, to get an idea of what NGFB can do, and some of the issues that may come up. Some of the most relevant / popular frequently asked questions are:</p>
+
+<h4>Frequently Asked Questions</h4>
+<ul>
+	<li><a href="http://surniaulula.com/codex/plugins/nextgen-facebook/faq/social-sharing-buttons/can-i-use-other-social-sharing-buttons/">Can I use other social sharing buttons?</a></li>
+	<li><a href="http://surniaulula.com/codex/plugins/nextgen-facebook/faq/how-does-ngfb-find-detect-select-images/">How does NGFB find / detect / select images?</a></li>
+	<li><a href="http://surniaulula.com/codex/plugins/nextgen-facebook/faq/why-does-facebook-show-the-wrong-image-text/">Why does Facebook show the wrong image / text?</a></li>
+	<li>More <a href="http://surniaulula.com/codex/plugins/nextgen-facebook/faq/">frequently asked questions</a>...</li>
+</ul>
+
+<h4>Additional Documentation</h4>
+<ul>
+	<li><a href="http://surniaulula.com/codex/plugins/nextgen-facebook/installation/performance-tuning/">Performance Tuning</a></li>
+	<li><a href="http://surniaulula.com/codex/plugins/nextgen-facebook/installation/debugging-and-problem-solving/">Debugging and Problem Solving</a></li>
+	<li><a href="http://surniaulula.com/codex/plugins/nextgen-facebook/notes/working-with-image-attachments/">Working with Image Attachments</a></li>
+	<li><a href="http://surniaulula.com/codex/plugins/nextgen-facebook/notes/developer/">Developer Resources</a></li>
+	<li>More <a href="http://surniaulula.com/codex/plugins/nextgen-facebook/notes/">documentation and notes</a>...</li>
+</ul>
+</li>
+
+<li>
+<h3>Developers and Designers</h3>
+<p>Website developers / designers will probably want to look at a few options on the Advanced Settings page...</p>
+<ol>
+	<li>If your site uses shortcodes, you'll want to enable the "Apply WordPress Content Filters" option to expand shortcodes in the content for description text and/or image meta tags (the content can be searched for images).</li>
+	<li>Users can hide / view the "Social Img" and "Social Desc" columns using the <em>Screen Options</em> drop-down tab, but you can also enable / disable both these columns globally by post type under the <u>Social Settings</u> tab.</li>
+	<li>If your theme uses custom fields to manage additional image and video URLs (and embed video HTML), you can enter those custom field names (aka post meta names) under the <u>Social Settings</u> tab.</li>
+	<li>If you know that your theme header templates do not include any social meta tags, and no other plugin is adding social meta tags to your webpages, then you could disable the "Check for Duplicate Meta Tags" option.</li>
+	<li>By default, NGFB modifies the <code>&lt;head&gt;</code> element attributes to add a Schema itemtype for the <code>&lt;head&gt;</code> section only. To have NGFB add the Schema itemtype for the whole page instead, change the "&lt;head&gt; Attributes Filter Hook" value from 'head_attributes' to 'language_attributes'.</li>
+</ol>
+</li>
+
+</ol>

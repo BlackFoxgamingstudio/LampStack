@@ -1,0 +1,8 @@
+.customer_overdue{
+    font-weight: bold;
+}
+.customer_owing{
+    color:#FF0000 !important;
+}
+.customer_paid{
+}

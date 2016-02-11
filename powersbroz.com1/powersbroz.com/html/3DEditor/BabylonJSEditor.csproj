@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{E3E372C2-E767-497B-9F68-AFE3B0EDB09E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.7</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="css\babylon.editor.css" />
+    <Content Include="css\dat.gui.css" />
+    <Content Include="css\images\abstract_mesh.png" />
+    <Content Include="css\images\abstract_mesh2.png" />
+    <Content Include="css\images\add.png" />
+    <Content Include="css\images\animated_mesh.png" />
+    <Content Include="css\images\billboard.png" />
+    <Content Include="css\images\bounding_box.png" />
+    <Content Include="css\images\camera.png" />
+    <Content Include="css\images\clone.png" />
+    <Content Include="css\images\console.png" />
+    <Content Include="css\images\cube.png" />
+    <Content Include="css\images\diffuse_color.png" />
+    <Content Include="css\images\directional_light.png" />
+    <Content Include="css\images\edit.png" />
+    <Content Include="css\images\effects.png" />
+    <Content Include="css\images\error.png" />
+    <Content Include="css\images\export.png" />
+    <Content Include="css\images\focus.png" />
+    <Content Include="css\images\hill_plane.png" />
+    <Content Include="css\images\light.png" />
+    <Content Include="css\images\open.png" />
+    <Content Include="css\images\particles.png" />
+    <Content Include="css\images\play_game.png" />
+    <Content Include="css\images\pointcloud.png" />
+    <Content Include="css\images\position.png" />
+    <Content Include="css\images\primitives.png" />
+    <Content Include="css\images\render.png" />
+    <Content Include="css\images\rotation.png" />
+    <Content Include="css\images\save.png" />
+    <Content Include="css\images\scale.png" />
+    <Content Include="css\images\scene.png" />
+    <Content Include="css\images\shaders.png" />
+    <Content Include="css\images\sound.png" />
+    <Content Include="css\images\sphere.png" />
+    <Content Include="css\images\wireframe.png" />
+    <Content Include="css\w2ui-1.4.1.css" />
+    <Content Include="libs\ace\ace.js" />
+    <Content Include="libs\ace\mode-javascript.js" />
+    <Content Include="libs\ace\theme-clouds.js" />
+    <Content Include="libs\babylon.js" />
+    <Content Include="libs\babylon.max.js" />
+    <Content Include="libs\dat.gui.min.js" />
+    <Content Include="libs\jquery.min.js" />
+    <Content Include="libs\materials\babylon.pbrMaterial.js" />
+    <Content Include="libs\materials\babylon.skyMaterial.js" />
+    <Content Include="libs\w2ui-1.4.1.js" />
+    <Content Include="website\test.html" />
+    <Content Include="website\index.html" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <TypeScriptCompile Include="defines\babylon.d.ts" />
+    <TypeScriptCompile Include="defines\babylon.editor.d.ts" />
+    <TypeScriptCompile Include="defines\babylon.editor.gui.d.ts" />
+    <TypeScriptCompile Include="defines\dat.gui.d.ts" />
+    <TypeScriptCompile Include="defines\jQuery.d.ts" />
+    <TypeScriptCompile Include="defines\materials\babylon.pbrMaterial.d.ts" />
+    <TypeScriptCompile Include="defines\materials\babylon.skyMaterial.d.ts" />
+    <TypeScriptCompile Include="defines\oneDrive.d.ts" />
+    <TypeScriptCompile Include="defines\w2ui.d.ts" />
+    <TypeScriptCompile Include="defines\ace\ace.d.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.core.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.editionTool.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.editPanel.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.main.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.mainToolbar.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.sceneGraphTool.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.sceneToolbar.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.toolsToolbar.ts" />
+    <TypeScriptCompile Include="sources\babylon.editor.transformer.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.abstractDatTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.abstractTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.animationTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.audioTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.generalTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.lightTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.materialTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.particleSystemTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.postProcesses.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.reflectionProbeTool.ts" />
+    <TypeScriptCompile Include="sources\editionTools\babylon.editor.sceneTool.ts" />
+    <TypeScriptCompile Include="sources\export\babylon.editor.exporter.ts" />
+    <TypeScriptCompile Include="sources\export\babylon.editor.storageExporter.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiDialog.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiEdit.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiElement.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiForm.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiGraph.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiGrid.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiList.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiPanel.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiLayouts.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiToolbar.ts" />
+    <TypeScriptCompile Include="sources\gui\babylon.editor.guiWindow.ts" />
+    <TypeScriptCompile Include="sources\internal\babylon.editor.event.ts" />
+    <TypeScriptCompile Include="sources\internal\babylon.editor.tools.ts" />
+    <TypeScriptCompile Include="sources\scene\babylon.editor.filesInput.ts" />
+    <TypeScriptCompile Include="sources\scene\babylon.editor.sceneFactory.ts" />
+    <TypeScriptCompile Include="sources\scene\babylon.editor.sceneManager.ts" />
+    <TypeScriptCompile Include="sources\storage\babylon.editor.oneDriveStorage.ts" />
+    <TypeScriptCompile Include="sources\storage\babylon.editor.storage.ts" />
+    <TypeScriptCompile Include="sources\userInterfaces\babylon.editor.launchEditor.ts" />
+    <TypeScriptCompile Include="sources\userInterfaces\babylon.editor.particleSystemEditor.ts" />
+    <TypeScriptCompile Include="sources\userInterfaces\babylon.editor.animationEditor.ts" />
+    <TypeScriptCompile Include="sources\userInterfaces\babylon.editor.objectPicker.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>BabylonJSEditor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>33404</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:33404/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <DefineConstants>DEBUG</DefineConstants>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>None</TypeScriptModuleKind>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

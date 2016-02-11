@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){if (navigator.userAgent.indexOf("Firefox") > 0){}else{jQuery(".fts-simple-fb-wrapper video, .fts-slicker-facebook-posts video").click(function(){jQuery(this).trigger(this.paused?this.paused?"play":"play":"pause")})};if(jQuery.fn.masonry){jQuery(".fts-slicker-instagram").masonry({itemSelector:".slicker-instagram-placeholder"})}})

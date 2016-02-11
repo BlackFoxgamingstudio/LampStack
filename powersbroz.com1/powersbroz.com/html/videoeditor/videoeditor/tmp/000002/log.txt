@@ -1,0 +1,88 @@
+
+
+22/01/2016 01:49:29
+ffmpeg -ss 00:00:00 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-in.jpg" 2>&1
+
+22/01/2016 01:49:29
+ffmpeg -ss :0 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+22/01/2016 01:50:01
+ffmpeg -ss 00:00:00 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-in.jpg" 2>&1
+
+22/01/2016 01:50:01
+ffmpeg -ss :0 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+22/01/2016 01:50:03
+ffmpeg -ss 00:00:00 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-in.jpg" 2>&1
+
+22/01/2016 01:50:03
+ffmpeg -ss :0 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+22/01/2016 01:50:31
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -ss 00:00:00.00 -to 00:00:04.17 -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_preview.mp4" 2>&1
+
+22/01/2016 01:50:31
+ffmpeg -ss 00:01:32.80 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+22/01/2016 01:50:44
+ffmpeg -ss 00:00:00.87 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+22/01/2016 01:50:59
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -ss 00:00:00.00 -to 00:00:00.87 -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/videoplayback-0.mp4" 2>&1
+
+22/01/2016 01:50:59
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/output/000002/my_encode_source.mp4" -vcodec libx264 -s 480x360 -aspect 4:3 -b:v 800k -acodec libmp3lame -b:a 64k -f mp4 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/output/000002/output-22-01-16_01-50-59_56a1fb8342c7f.mp4" 2> "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_video.log"
+
+22/01/2016 02:01:01
+ffmpeg -ss 00:00:00 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-in.jpg" 2>&1
+
+22/01/2016 02:01:01
+ffmpeg -ss :0 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+22/01/2016 02:01:07
+ffmpeg -ss 00:00:00.26 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+22/01/2016 02:01:26
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -ss 00:00:00.00 -to 00:00:00.26 -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/videoplayback-0.mp4" 2>&1
+
+22/01/2016 02:01:26
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/output/000002/my_encode_source.mp4" -vcodec libx264 -s 480x360 -aspect 4:3 -b:v 600k -acodec libmp3lame -b:a 64k -f mp4 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/output/000002/output-22-01-16_02-01-26_56a1fdf6553f3.mp4" 2> "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_video.log"
+
+22/01/2016 02:01:53
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -ss 00:00:00.00 -to 00:00:00.26 -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/videoplayback-0.mp4" 2>&1
+
+22/01/2016 02:01:53
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -ss 00:00:00.00 -to 00:00:00.26 -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/videoplayback-1.mp4" 2>&1
+
+22/01/2016 02:01:53
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -ss 00:00:00.00 -to 00:00:00.26 -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/videoplayback-2.mp4" 2>&1
+
+22/01/2016 02:01:53
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -ss 00:00:00.00 -to 00:00:00.26 -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/videoplayback-3.mp4" 2>&1
+
+22/01/2016 02:01:53
+ffmpeg -f concat -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/concate-list.txt" -c copy -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/output/000002/output-22-01-16_02-01-53.mp4" 2> "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_video.log"
+
+22/01/2016 02:01:53
+ffmpeg -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/output/000002/my_encode_source.mp4" -vcodec libx264 -s 480x360 -aspect 4:3 -b:v 600k -acodec libmp3lame -b:a 64k -f mp4 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/output/000002/output-22-01-16_02-01-53_56a1fe112b211.mp4" 2> "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_video.log"
+
+22/01/2016 17:08:57
+ffmpeg -ss 00:00:00 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-in.jpg" 2>&1
+
+22/01/2016 17:08:57
+ffmpeg -ss :0 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+24/01/2016 19:33:24
+ffmpeg -ss 00:00:00 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-in.jpg" 2>&1
+
+24/01/2016 19:33:24
+ffmpeg -ss :0 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+24/01/2016 19:33:28
+ffmpeg -ss 00:00:00 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-in.jpg" 2>&1
+
+24/01/2016 19:33:28
+ffmpeg -ss :0 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1
+
+24/01/2016 19:33:44
+ffmpeg -ss 00:00:00.41 -i "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/input/000002/videoplayback.mp4" -frames:v 1 -y "/nfs/c12/h02/mnt/212369/domains/powersbroz.com/html/videoeditor/videoeditor/tmp/000002/my_frame-out.jpg" 2>&1

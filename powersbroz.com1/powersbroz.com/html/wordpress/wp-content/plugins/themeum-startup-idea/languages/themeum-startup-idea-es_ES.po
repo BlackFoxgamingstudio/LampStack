@@ -1,0 +1,1142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themeum Startup Idea\n"
+"POT-Creation-Date: 2015-08-07 17:38+0600\n"
+"PO-Revision-Date: 2015-08-07 17:38+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/dashboard.php:7
+msgid "Themeum Startup Status"
+msgstr ""
+
+#: admin/dashboard.php:18 post-type/themeum-project.php:11
+#: shortcodes/themeum-project.php:76
+msgid "Project"
+msgstr ""
+
+#: admin/dashboard.php:23
+msgid "Sales"
+msgstr ""
+
+#: admin/dashboard.php:28
+msgid "Pending Project"
+msgstr ""
+
+#: admin/dashboard.php:33
+msgid "Publish in this month"
+msgstr ""
+
+#: admin/menus.php:9
+msgid "General Settings"
+msgstr ""
+
+#: admin/menus.php:14
+msgid "Currency"
+msgstr ""
+
+#: admin/menus.php:18
+msgid "Australian Dollar($)"
+msgstr ""
+
+#: admin/menus.php:19
+msgid "Brazilian Real(R$)"
+msgstr ""
+
+#: admin/menus.php:20
+msgid "Canadian Dollar($)"
+msgstr ""
+
+#: admin/menus.php:21
+msgid "Czech Koruna(Kč)"
+msgstr ""
+
+#: admin/menus.php:22
+msgid "Danish Krone(kr.)"
+msgstr ""
+
+#: admin/menus.php:23
+msgid "Euro(€)"
+msgstr ""
+
+#: admin/menus.php:24
+msgid "Hong Kong Dollar(HK$)"
+msgstr ""
+
+#: admin/menus.php:25
+msgid "Hungarian Forint(Ft)"
+msgstr ""
+
+#: admin/menus.php:26
+msgid "Israeli New Sheqel(₪)"
+msgstr ""
+
+#: admin/menus.php:27
+msgid "Japanese Yen(¥)"
+msgstr ""
+
+#: admin/menus.php:28
+msgid "Malaysian Ringgit(RM)"
+msgstr ""
+
+#: admin/menus.php:29
+msgid "Mexican Peso(Mex$)"
+msgstr ""
+
+#: admin/menus.php:30
+msgid "Norwegian Krone(kr)"
+msgstr ""
+
+#: admin/menus.php:31
+msgid "New Zealand Dollar($)"
+msgstr ""
+
+#: admin/menus.php:32
+msgid "Philippine Peso(₱)"
+msgstr ""
+
+#: admin/menus.php:33
+msgid "Polish Zloty(zł)"
+msgstr ""
+
+#: admin/menus.php:34
+msgid "Pound Sterling(£)"
+msgstr ""
+
+#: admin/menus.php:35
+msgid "Russian Ruble(₽)"
+msgstr ""
+
+#: admin/menus.php:36
+msgid "Singapore Dollar($)"
+msgstr ""
+
+#: admin/menus.php:37
+msgid "Swedish Krona(kr)"
+msgstr ""
+
+#: admin/menus.php:38
+msgid "Swiss Franc(CHF)"
+msgstr ""
+
+#: admin/menus.php:39
+msgid "Taiwan New Dollar(角)"
+msgstr ""
+
+#: admin/menus.php:40
+msgid "Thai Baht(฿)"
+msgstr ""
+
+#: admin/menus.php:41
+msgid "Turkish Lira(TRY)"
+msgstr ""
+
+#: admin/menus.php:42
+msgid "U.S. Dollar($)"
+msgstr ""
+
+#: admin/menus.php:48
+msgid "Per Project Commission"
+msgstr ""
+
+#: admin/menus.php:57
+msgid "Profile/Dashboard Page"
+msgstr ""
+
+#: admin/menus.php:78
+msgid "Fund/Checkout Page"
+msgstr ""
+
+#: admin/menus.php:100
+msgid "Payment Success Return Page"
+msgstr ""
+
+#: admin/menus.php:121
+msgid "Payment Cancel Return Page"
+msgstr ""
+
+#: admin/menus.php:146
+msgid "Paypal Settings"
+msgstr ""
+
+#: admin/menus.php:147
+msgid ""
+"PayPal standard works by sending customers to PayPal where they can enter "
+"their payment information."
+msgstr ""
+
+#: admin/menus.php:151 admin/menus.php:187
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/menus.php:155 admin/menus.php:191
+msgid "Disable"
+msgstr ""
+
+#: admin/menus.php:156 admin/menus.php:192
+msgid "Enable"
+msgstr ""
+
+#: admin/menus.php:162
+msgid "Paypal Email Address"
+msgstr ""
+
+#: admin/menus.php:167 admin/menus.php:172
+msgid "PayPal"
+msgstr ""
+
+#: admin/menus.php:171
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: admin/menus.php:181
+msgid "Stipe Settings"
+msgstr ""
+
+#: admin/menus.php:182
+msgid "Stipe allows user to pay in crad like visa, mastard card etc."
+msgstr ""
+
+#: admin/menus.php:198
+msgid "Stipe Email Address"
+msgstr ""
+
+#: admin/menus.php:203
+msgid "Stipe Secret Key"
+msgstr ""
+
+#: admin/menus.php:208
+msgid "Stipe Webhooks Receive URL"
+msgstr ""
+
+#: admin/menus.php:216
+msgid "Stipe Pop-up Form Site Name"
+msgstr ""
+
+#: admin/menus.php:221
+msgid "Stipe Pop-up Form Description"
+msgstr ""
+
+#: admin/menus.php:226
+msgid "Stipe Pop-up Form Logo ( image url )"
+msgstr ""
+
+#: admin/menus.php:235
+msgid "Fund/Checkout Page Setting"
+msgstr ""
+
+#: admin/menus.php:236
+msgid "This is fund/checkout page content setting."
+msgstr ""
+
+#: admin/menus.php:241
+msgid "Default Payment System"
+msgstr ""
+
+#: admin/menus.php:249
+msgid "Fund/Checkout Page Notice Title"
+msgstr ""
+
+#: admin/menus.php:253
+msgid "Fund/Checkout Page Notice Content"
+msgstr ""
+
+#: admin/menus.php:257
+msgid "Fund/Checkout Page 2nd Title"
+msgstr ""
+
+#: admin/menus.php:262
+msgid "Fund/Checkout Page 2nd Content"
+msgstr ""
+
+#: admin/menus.php:328
+msgid "Withdraw Request"
+msgstr ""
+
+#: admin/menus.php:348 admin/menus.php:445
+msgid "Name"
+msgstr ""
+
+#: admin/menus.php:349 admin/menus.php:446
+msgid "Author"
+msgstr ""
+
+#: admin/menus.php:350 admin/menus.php:447
+msgid "Budget"
+msgstr ""
+
+#: admin/menus.php:351 admin/menus.php:448
+msgid "Comission"
+msgstr ""
+
+#: admin/menus.php:352
+msgid "Action"
+msgstr ""
+
+#: admin/menus.php:381
+msgid "Confirm"
+msgstr ""
+
+#: admin/menus.php:425
+msgid "Withdraw Done"
+msgstr ""
+
+#: admin/menus.php:449 payment/themeum_payment_startup_idea.php:21
+msgid "Status"
+msgstr ""
+
+#: admin/menus.php:515
+msgid "Startup Idea"
+msgstr ""
+
+#: admin/menus.php:515
+msgid "Startup Settings"
+msgstr ""
+
+#: admin/menus.php:516
+msgid "Themeum Settings"
+msgstr ""
+
+#: admin/menus.php:516
+msgid "Settings"
+msgstr ""
+
+#: admin/menus.php:517
+msgid "Withdraw"
+msgstr ""
+
+#: admin/menus.php:518
+msgid "Paid project"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:16 post-type/meta_box.php:97
+#: shortcodes/handpick-project.php:78
+msgid "Project Name"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:17
+#: payment/themeum_payment_startup_idea.php:73
+msgid "Project ID"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:18
+msgid "Donor User ID"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:19
+msgid "Amount"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:20
+#: payment/themeum_payment_startup_idea.php:75 post-type/meta_box.php:144
+msgid "Payment ID"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:72
+msgid "User ID"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:74
+msgid "Price"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:76
+msgid "themeum_status_all"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:106
+msgid "Warning!"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:106
+msgid "Please contact with site owner. No payment system is active."
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:109
+msgid "Funding"
+msgstr ""
+
+#: payment/themeum_payment_startup_idea.php:114
+msgid "Login First To Checkout."
+msgstr ""
+
+#: post-type/meta-box/inc/common.php:53
+msgid "Documentation"
+msgstr ""
+
+#: post-type/meta-box/inc/common.php:54
+msgid "Extensions"
+msgstr ""
+
+#: post-type/meta-box/inc/field.php:244
+msgid "+"
+msgstr ""
+
+#: post-type/meta-box/inc/field.php:257
+msgid "&#8211;"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/autocomplete.php:18
+#: post-type/meta-box/inc/fields/autocomplete.php:83
+#: post-type/meta-box/inc/fields/autocomplete.php:100
+msgid "Delete"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/checkbox.php:75
+msgid "Yes"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/checkbox.php:75
+msgid "No"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file-advanced.php:66
+msgctxt "file upload"
+msgid "Select or Upload Files"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file-advanced.php:103
+#: post-type/meta-box/inc/fields/file.php:168
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file-advanced.php:104
+#: post-type/meta-box/inc/fields/file.php:169
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file-input.php:40
+#: post-type/meta-box/inc/fields/select.php:207
+msgid "Select"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file.php:98
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file.php:111
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/file.php:112
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/image-advanced.php:23
+msgid "Select Images"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/image-advanced.php:71
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/image-advanced.php:108
+#: post-type/meta-box/inc/fields/image.php:136
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/image-advanced.php:109
+#: post-type/meta-box/inc/fields/image.php:137
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/image.php:70
+#: post-type/meta-box/inc/fields/thickbox-image.php:34
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/image.php:71
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/key-value.php:19
+msgid "Key"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/key-value.php:20
+msgid "Value"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/map.php:46
+msgid "Find Address"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/oembed.php:55
+msgid "Embed HTML not available."
+msgstr ""
+
+#: post-type/meta-box/inc/fields/oembed.php:77
+msgid "Preview"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/plupload-image.php:105
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/plupload-image.php:106
+msgctxt "image upload"
+msgid "or"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/plupload-image.php:107
+msgctxt "image upload"
+msgid "Select Files"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/plupload-image.php:182
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/post.php:67
+msgid "Select a post"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/post.php:71
+#: post-type/meta-box/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/select.php:207
+msgid "All"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/select.php:207
+msgid "None"
+msgstr ""
+
+#: post-type/meta-box/inc/fields/user.php:49
+msgid "Select an user"
+msgstr ""
+
+#: post-type/meta-box/inc/meta-box.php:245
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: post-type/meta_box.php:79
+msgid "Order Item Settings"
+msgstr ""
+
+#: post-type/meta_box.php:103
+msgid "Select Project Name"
+msgstr ""
+
+#: post-type/meta_box.php:108
+msgid "Invest ID"
+msgstr ""
+
+#: post-type/meta_box.php:110
+msgid "Investment ID"
+msgstr ""
+
+#: post-type/meta_box.php:117 post-type/meta_box.php:119
+msgid "Investor User ID"
+msgstr ""
+
+#: post-type/meta_box.php:125
+msgid "Investment Project ID"
+msgstr ""
+
+#: post-type/meta_box.php:131
+msgid "Select Project"
+msgstr ""
+
+#: post-type/meta_box.php:136
+msgid "Investment Amount"
+msgstr ""
+
+#: post-type/meta_box.php:138
+msgid "Investment Amount Ex. 4500"
+msgstr ""
+
+#: post-type/meta_box.php:146
+msgid "Payment ID Ex. 333333"
+msgstr ""
+
+#: post-type/meta_box.php:152
+msgid "Payment Method"
+msgstr ""
+
+#: post-type/meta_box.php:154
+msgid "Add Payment Method"
+msgstr ""
+
+#: post-type/meta_box.php:160 post-type/meta_box.php:162
+msgid "Investment Date"
+msgstr ""
+
+#: post-type/meta_box.php:168
+msgid "Comments"
+msgstr ""
+
+#: post-type/meta_box.php:170
+msgid "Add Your Comments Here"
+msgstr ""
+
+#: post-type/meta_box.php:176
+msgid "Investment Status"
+msgstr ""
+
+#: post-type/meta_box.php:178
+msgid "Select Investment Status"
+msgstr ""
+
+#: post-type/themeum-investment.php:25
+msgctxt "Investments"
+msgid "Investments"
+msgstr ""
+
+#: post-type/themeum-investment.php:26
+msgctxt "Investment"
+msgid "Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:27
+msgid "Investments"
+msgstr ""
+
+#: post-type/themeum-investment.php:28
+msgid "Parent Investment:"
+msgstr ""
+
+#: post-type/themeum-investment.php:29
+msgid "All Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:30
+msgid "View Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:31
+msgid "Add New Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:32
+msgid "New Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:33
+msgid "Edit Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:34
+msgid "Update Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:35
+msgid "Search Investment"
+msgstr ""
+
+#: post-type/themeum-investment.php:36 post-type/themeum-management.php:36
+#: post-type/themeum-project.php:20
+msgid "No article found"
+msgstr ""
+
+#: post-type/themeum-investment.php:37 post-type/themeum-management.php:37
+#: post-type/themeum-project.php:21
+msgid "No article found in Trash"
+msgstr ""
+
+#: post-type/themeum-investment.php:74
+#, php-format
+msgid "Investment updated. <a href=\"%s\">View Investment</a>"
+msgstr ""
+
+#: post-type/themeum-investment.php:75 post-type/themeum-management.php:75
+#: post-type/themeum-project.php:55
+msgid "Custom field updated."
+msgstr ""
+
+#: post-type/themeum-investment.php:76 post-type/themeum-management.php:76
+#: post-type/themeum-project.php:56
+msgid "Custom field deleted."
+msgstr ""
+
+#: post-type/themeum-investment.php:77
+msgid "Investment updated."
+msgstr ""
+
+#: post-type/themeum-investment.php:78
+#, php-format
+msgid "Investment restored to revision from %s"
+msgstr ""
+
+#: post-type/themeum-investment.php:79
+#, php-format
+msgid "Investment published. <a href=\"%s\">View Investment</a>"
+msgstr ""
+
+#: post-type/themeum-investment.php:80
+msgid "Investment saved."
+msgstr ""
+
+#: post-type/themeum-investment.php:81
+#, php-format
+msgid ""
+"Investment submitted. <a target=\"_blank\" href=\"%s\">Preview Investment</a>"
+msgstr ""
+
+#: post-type/themeum-investment.php:82
+#, php-format
+msgid ""
+"Investment scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Investment</a>"
+msgstr ""
+
+#: post-type/themeum-investment.php:82 post-type/themeum-management.php:82
+#: post-type/themeum-project.php:62
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: post-type/themeum-investment.php:83
+#, php-format
+msgid ""
+"Investment draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"Investment</a>"
+msgstr ""
+
+#: post-type/themeum-management.php:25 post-type/themeum-management.php:26
+msgctxt "Management"
+msgid "Management"
+msgstr ""
+
+#: post-type/themeum-management.php:27
+msgid "Management"
+msgstr ""
+
+#: post-type/themeum-management.php:28
+msgid "Parent Management:"
+msgstr ""
+
+#: post-type/themeum-management.php:29
+msgid "All Management"
+msgstr ""
+
+#: post-type/themeum-management.php:30
+msgid "View Management"
+msgstr ""
+
+#: post-type/themeum-management.php:31
+msgid "Add New Management"
+msgstr ""
+
+#: post-type/themeum-management.php:32
+msgid "New Management"
+msgstr ""
+
+#: post-type/themeum-management.php:33
+msgid "Edit Management"
+msgstr ""
+
+#: post-type/themeum-management.php:34
+msgid "Update Management"
+msgstr ""
+
+#: post-type/themeum-management.php:35
+msgid "Search Management"
+msgstr ""
+
+#: post-type/themeum-management.php:74
+#, php-format
+msgid "Management updated. <a href=\"%s\">View Management</a>"
+msgstr ""
+
+#: post-type/themeum-management.php:77
+msgid "Management updated."
+msgstr ""
+
+#: post-type/themeum-management.php:78
+#, php-format
+msgid "Management restored to revision from %s"
+msgstr ""
+
+#: post-type/themeum-management.php:79
+#, php-format
+msgid "Management published. <a href=\"%s\">View Management</a>"
+msgstr ""
+
+#: post-type/themeum-management.php:80
+msgid "Management saved."
+msgstr ""
+
+#: post-type/themeum-management.php:81
+#, php-format
+msgid ""
+"Management submitted. <a target=\"_blank\" href=\"%s\">Preview Management</a>"
+msgstr ""
+
+#: post-type/themeum-management.php:82
+#, php-format
+msgid ""
+"Management scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Management</a>"
+msgstr ""
+
+#: post-type/themeum-management.php:83
+#, php-format
+msgid ""
+"Management draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"Management</a>"
+msgstr ""
+
+#: post-type/themeum-project.php:9 post-type/themeum-project.php:10
+msgctxt "Project"
+msgid "Project"
+msgstr ""
+
+#: post-type/themeum-project.php:12
+msgid "Parent Project:"
+msgstr ""
+
+#: post-type/themeum-project.php:13
+msgid "All Project"
+msgstr ""
+
+#: post-type/themeum-project.php:14
+msgid "View Project"
+msgstr ""
+
+#: post-type/themeum-project.php:15
+msgid "Add Project Title"
+msgstr ""
+
+#: post-type/themeum-project.php:16
+msgid "New Project"
+msgstr ""
+
+#: post-type/themeum-project.php:17
+msgid "Edit Project"
+msgstr ""
+
+#: post-type/themeum-project.php:18
+msgid "Update Project"
+msgstr ""
+
+#: post-type/themeum-project.php:19
+msgid "Search Project"
+msgstr ""
+
+#: post-type/themeum-project.php:54
+#, php-format
+msgid "Project updated. <a href=\"%s\">View Project</a>"
+msgstr ""
+
+#: post-type/themeum-project.php:57
+msgid "Project updated."
+msgstr ""
+
+#: post-type/themeum-project.php:58
+#, php-format
+msgid "Project restored to revision from %s"
+msgstr ""
+
+#: post-type/themeum-project.php:59
+#, php-format
+msgid "Project published. <a href=\"%s\">View Project</a>"
+msgstr ""
+
+#: post-type/themeum-project.php:60
+msgid "Project saved."
+msgstr ""
+
+#: post-type/themeum-project.php:61
+#, php-format
+msgid ""
+"Project submitted. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#: post-type/themeum-project.php:62
+#, php-format
+msgid ""
+"Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Project</a>"
+msgstr ""
+
+#: post-type/themeum-project.php:63
+#, php-format
+msgid ""
+"Project draft updated. <a target=\"_blank\" href=\"%s\">Preview Project</a>"
+msgstr ""
+
+#: post-type/themeum-project.php:78
+msgctxt "taxonomy general name"
+msgid "Project Categories"
+msgstr ""
+
+#: post-type/themeum-project.php:79
+msgctxt "taxonomy singular name"
+msgid "Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:80
+msgid "Search Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:81
+msgid "All Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:82
+msgid "Parent Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:83
+msgid "Parent Project Category:"
+msgstr ""
+
+#: post-type/themeum-project.php:84
+msgid "Edit Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:85
+msgid "Update Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:86
+msgid "Add New Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:87
+msgid "New Project Category Name"
+msgstr ""
+
+#: post-type/themeum-project.php:88
+msgid "Project Category"
+msgstr ""
+
+#: post-type/themeum-project.php:115
+msgctxt "taxonomy general name"
+msgid "Project Tags"
+msgstr ""
+
+#: post-type/themeum-project.php:116
+msgctxt "taxonomy singular name"
+msgid "Project Tag"
+msgstr ""
+
+#: post-type/themeum-project.php:117
+msgid "Search Project Tags"
+msgstr ""
+
+#: post-type/themeum-project.php:118
+msgid "Popular Project Tags"
+msgstr ""
+
+#: post-type/themeum-project.php:119
+msgid "All Project Tags"
+msgstr ""
+
+#: post-type/themeum-project.php:122
+msgid "Edit Project Tag"
+msgstr ""
+
+#: post-type/themeum-project.php:123
+msgid "Update Project Tag"
+msgstr ""
+
+#: post-type/themeum-project.php:124
+msgid "Add New Project Tag"
+msgstr ""
+
+#: post-type/themeum-project.php:125
+msgid "New Project Tag Name"
+msgstr ""
+
+#: post-type/themeum-project.php:126
+msgid "Separate Project tags with commas"
+msgstr ""
+
+#: post-type/themeum-project.php:127
+msgid "Add or remove Project tags"
+msgstr ""
+
+#: post-type/themeum-project.php:128
+msgid "Choose from the most used Project tags"
+msgstr ""
+
+#: post-type/themeum-project.php:129
+msgid "Project Tags"
+msgstr ""
+
+#: shortcodes/handpick-project.php:21
+msgid "Fund Raised"
+msgstr ""
+
+#: shortcodes/handpick-project.php:30
+msgid "Total Investment:"
+msgstr ""
+
+#: shortcodes/handpick-project.php:34
+msgid "See Idea"
+msgstr ""
+
+#: shortcodes/handpick-project.php:68
+msgid "Hand Pick Project"
+msgstr ""
+
+#: shortcodes/handpick-project.php:72
+#: shortcodes/themeum-category-projects.php:112
+#: shortcodes/themeum-project-listing.php:88 shortcodes/themeum-project.php:80
+msgid "Widget Project"
+msgstr ""
+
+#: shortcodes/handpick-project.php:73
+#: shortcodes/themeum-category-projects.php:113
+#: shortcodes/themeum-feature-ideas.php:125
+#: shortcodes/themeum-project-categories.php:54
+#: shortcodes/themeum-project-listing.php:89 shortcodes/themeum-project.php:81
+msgid "Themeum"
+msgstr ""
+
+#: shortcodes/handpick-project.php:80
+msgid "Eelect your Hand Pick Project"
+msgstr ""
+
+#: shortcodes/handpick-project.php:86
+msgid "Custom Class "
+msgstr ""
+
+#: shortcodes/themeum-category-projects.php:51
+#: shortcodes/themeum-feature-ideas.php:78
+#: shortcodes/themeum-project-listing.php:44 shortcodes/themeum-project.php:45
+msgid "Rise Funded"
+msgstr ""
+
+#: shortcodes/themeum-category-projects.php:65
+#: shortcodes/themeum-project-listing.php:58
+msgid "investment:"
+msgstr ""
+
+#: shortcodes/themeum-category-projects.php:108
+msgid "Category Project List"
+msgstr ""
+
+#: shortcodes/themeum-category-projects.php:117
+msgid "Project Category:"
+msgstr ""
+
+#: shortcodes/themeum-category-projects.php:123
+#: shortcodes/themeum-project-categories.php:65
+msgid "Order:"
+msgstr ""
+
+#: shortcodes/themeum-feature-ideas.php:92
+msgid "Total Investment"
+msgstr ""
+
+#: shortcodes/themeum-feature-ideas.php:97
+msgid "See Ideas"
+msgstr ""
+
+#: shortcodes/themeum-feature-ideas.php:120
+msgid "Feature Ideas"
+msgstr ""
+
+#: shortcodes/themeum-feature-ideas.php:124
+msgid "Widget Title Heading"
+msgstr ""
+
+#: shortcodes/themeum-feature-ideas.php:130
+msgid "Number Of Category"
+msgstr ""
+
+#: shortcodes/themeum-feature-ideas.php:132
+msgid "Enter the number of Category you want to display."
+msgstr ""
+
+#: shortcodes/themeum-feature-ideas.php:138
+#: shortcodes/themeum-project-categories.php:59
+#: shortcodes/themeum-project-listing.php:102
+#: shortcodes/themeum-project.php:94
+msgid "Order By:"
+msgstr ""
+
+#: shortcodes/themeum-project-categories.php:49
+msgid "Project Categories"
+msgstr ""
+
+#: shortcodes/themeum-project-categories.php:53
+msgid "Startup Project Category list"
+msgstr ""
+
+#: shortcodes/themeum-project-categories.php:71
+msgid "Show Count:"
+msgstr ""
+
+#: shortcodes/themeum-project-listing.php:84
+msgid "Project Listing"
+msgstr ""
+
+#: shortcodes/themeum-project-listing.php:94 shortcodes/themeum-project.php:86
+msgid "Number Of Project"
+msgstr ""
+
+#: shortcodes/themeum-project-listing.php:96 shortcodes/themeum-project.php:88
+msgid "Enter the number of Project you want to display."
+msgstr ""
+
+#: shortcodes/themeum-project.php:59
+msgid "total investment:"
+msgstr ""
+
+#: shortcodes/themeum-project.php:100
+msgid "Animation"
+msgstr ""
+
+#: shortcodes/themeum-project.php:106
+msgid "Animation Duration"
+msgstr ""
+
+#: shortcodes/themeum-project.php:113
+msgid "Animation Delay"
+msgstr ""

@@ -1,0 +1,19 @@
+#adminmenu .menu-icon-album div.wp-menu-image:before {
+  content: '\f127';
+}
+
+#adminmenu .menu-icon-event div.wp-menu-image:before {
+  content: '\f145';
+}
+
+#adminmenu .menu-icon-price div.wp-menu-image:before {
+  content: "\f323";
+}
+
+#adminmenu .menu-icon-performer div.wp-menu-image:before {
+  content: "\f488";
+}
+
+#adminmenu .menu-icon-gallery div.wp-menu-image:before {
+  content: "\f161";
+}

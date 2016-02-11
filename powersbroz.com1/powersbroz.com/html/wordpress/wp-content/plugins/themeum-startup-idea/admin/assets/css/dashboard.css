@@ -1,0 +1,70 @@
+#themeum_lms_dashboard_widget .inside {
+	padding: 0;
+}
+
+#themeum_lms_dashboard_widget ul {
+	margin: 0;
+}
+
+#themeum_lms_dashboard_widget ul li {
+	float: left;
+	width: 50%;
+	display: block;
+	color: #fff;
+	padding: 15px;
+	font-size: 15px;
+	border-right: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	background-color: rgb(30, 115, 190);
+}
+.themeum-lms-data .total-sales a,
+.themeum-lms-data .total-orders a,
+.themeum-lms-data .pending-orders a,
+.themeum-lms-data .total-project a{
+	color: #fff;
+}
+
+#themeum_lms_dashboard_widget ul li span {
+	margin-right: 2px;
+}
+
+#themeum_lms_dashboard_widget ul li:first-child {
+	background-color: #3cb878;
+}
+#themeum_lms_dashboard_widget ul li:nth-child(2){
+	background-color: #ff7302;
+}
+#themeum_lms_dashboard_widget ul li:nth-child(4){
+	background-color: rgb(96, 92, 168);
+}
+
+
+#themeum_lms_dashboard_widget .themeum-lms-chart {
+	margin-top: 30px;
+	padding: 0 15px;
+}
+#themeum_lms_dashboard_widget .themeum-lms-chart > div {
+	width: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.tablenav .tablenav-pages a.actives {
+  color: #fff;
+  background: #2ea2cc;
+}

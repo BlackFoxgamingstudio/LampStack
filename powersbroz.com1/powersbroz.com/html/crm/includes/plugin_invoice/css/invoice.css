@@ -1,0 +1,4 @@
+.invoice_cancel{
+    text-decoration: line-through !important;
+    color: #FF0000 !important;
+}

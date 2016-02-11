@@ -1,0 +1,170 @@
+1.6
+added: compatible with WordPress 4.4
+added: compatible with The Events Calendar 4.0
+added: compatible with Event Tickets 
+added: compatible with Event Tickets Plus
+updated: Visual Composer 4.9
+updated: TGMPA 2.5.2
+
+1.5.1
+added: The Events Calendar uses WooCommerce currency settings when WooCommerce is active!
+added: TEC WooTicket - option to show event attendees list on Single Event page (per event)
+added: TEC WooTicket - new responsive style for ticket table
+added: Mailchimp4WP v3 support
+updated: responsive cart page
+updated: contact form
+updated: Visual Composer Plugin 4.8.1
+
+1.5.0
+updated: Visual Composer Plugin 4.7.4
+
+1.4.9
+added: option to hide Page Title globally
+added: better styling for WooTicket ticket table
+updated: Visual Composer 4.6.2
+updated: better submenu indicator using fa-angle-down and fa-angle-left
+updated: better responsive for single blog page & comment
+updated: use new TEC 3.11 class name
+fixed: missing event cost on single event page
+fixed: event cost is converted to integer value in WooCommerce
+fixed: missing Subscribe Form option when Mailchimp plugin is not active
+fixed: bug on home search block
+fixed: Google Maps link should open in new window
+fixed: missing Single Venue page after TEC 3.11 update
+fixed: missing Single Organizer page after TEC 3.11 update
+
+1.4.8
+added: option to change body font size via Appearance - Customize - Fonts
+added: "Return To Top" icon
+added: The Events Calendar WooTicket - option to change minimum quantity input from 0 to 1 via Appearance - Theme Options - Events
+updated: replace favicon uploader with WP4.3 site icon
+
+1.4.7
+added: pre option filter to always use "Default Events Template" for Events Template option
+fixed: quantity number issue on Cart page because of WooTickets product number input filter
+updated: WooCommerce 2.4 template override notice
+
+1.4.6
+updated: use new TEC 3.11 class name
+fixed: list view navigation issue after TEC 3.11 update
+fixed: hamburger menu icon color on mobile use logo text color
+
+1.4.5
+added: event list styling when "Include events in main blog loop" option is ON
+fixed: max-width of event page when tribe bar is disabled
+fixed: frontend submission style issue, it is bug on the latest CMB2 plugin
+
+1.4.4
+updated: Visual Composer 4.5.3, addressing PrettyPhoto security issue
+
+1.4.3
+fixed: wrong download URL for Eventica Visual Composer elements plugin package
+
+1.4.2
+added: The Events Calendar WooTicket - set minimum quantity to 1
+added: numbers & category option for Upcoming Events and Events Slider
+added: hide buy ticket button for passed events
+added: https support for google fonts and placeholders
+added: exclude option for Upcoming Events
+fixed: stretched / not aligned logo image issue
+fixed: Event IDs ordering issue on event slider
+fixed: hide Google Maps issue
+
+1.4.1
+fixed: security vulnerability issue with add_query_arg
+fixed: bugs on TGMPA class
+
+1.4
+added: Customizer options to change body fonts and heading fonts
+added: Frontend Submission for The Events Calendar
+
+1.3
+added: Many Customizer options to change important colors on Content, Home, Events, WooCommerce
+added: The Events Calendar Filter Bar compatibility
+added: UberMenu compatibility
+added: Events Venue shortcode
+added: new single venue page
+added: option to link venue name on single event to venue page
+added: Events Organizer shortcode
+added: new single organizer page
+added: option to link organizer name on single event to organizer page
+added: option to choose category on upcoming events element
+added: "Return To Events" button on Cart page when cart is empty
+added: option to show comment form on single event page
+added: Visual Composer Elements plugin is translatable now
+fixed: Events Slider not show past event with specific ID
+fixed: Events list box are not aligned properly
+fixed: custom background issue
+fixed: search form widget style
+
+1.2.1
+added: option to enable/disable sticky header
+updated: smooth sticky header
+updated: TEC PRO - link venue name to venue page
+updated: TEC PRO - link organizer name to organizer page
+fixed: missing organizer link
+fixed: mobile not not easy clickable on touch device
+fixed: html5 validation issues
+
+1.2
+added: Visual Composer v4.4.2
+added: Eventica Visual Composer elements and shortcodes
+added: Visual Composer (blank) page template
+added: "full width" page template
+added: "no title" page template
+added: "full width + no title" page template
+added: "with comments" page template
+added: option to hide page title and sidebar on events and single event page
+added: option to hide page title and sidebar on contact page template
+added: option to hide page title and sidebar on main shop page
+added: option to hide product rating on shop page
+added: The Events Calendar Pro - additional fields output on event detail
+updated: use "Visit Organizer Website" for organizer link on event detail
+updated: sticky header
+updated: WooCommerce 2.3 styling
+fixed: TGMPA Bulk Installer issue
+fixed: The Events Calendard Pro - Photo view issue
+fixed: WooCommerce product category column issue
+
+1.1.1
+added: ability to sell ticket with WooCommerce
+added: options to customize header and footer colors via Customizer
+fixed: custom background output issue
+fixed: event custom content sanitization issue
+fixed: event gallery grid on small device
+fixed: event time formatting for multiday event to support PHP 5.2
+
+1.1.0
+added: event gallery
+added: customizable call to action text and link per event
+added: option to add custom content below event schedule
+added: favicon option
+added: header & footer script options
+added: The Events Calendar Pro compatible - Week view suport
+added: The Events Calendar Pro compatible - Map view suport
+added: The Events Calendar Pro compatible - Photo view support
+added: The Events Calendar Pro compatible - Venue page support
+added: The Events Calendar Pro compatible - Organizer page support
+added: The Events Calendar Pro compatible - Widget styling
+added: The Events Calendar Pro compatible - hide related events, we already have this one
+added: The Events Calendar - WooCommerce Ticket compatible
+added: The Events Calendar - Community Event extension compatible
+updated: options to disable most of elements in Home page template
+updated: better breadcrumb for event and blog
+updated: show TEC page title in correct position to fully support the ajax
+fixed: show upcoming events for related events
+fixed: remove double title issue
+fixed: sponsor width issue on Firefox
+
+1.0.4
+fixed: header menu issue
+fixed: prev and next events color on mobile device
+
+1.0.3
+fixed: theme option issue
+fixed: widget issue when widget title missing
+fixed: set max width for video
+added: get first attached image of blog post when featured image is not available
+
+1.0.2
+first release on ThemeForest

@@ -1,0 +1,159 @@
+﻿/* Style sheet for custom icons etc. for the Babylon.js Editor */
+
+/* CSS */
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#BABYLON-EDITOR-MAIN-CANVAS {
+    width: 100%;
+    height: 100%;
+}
+
+#BABYLON-EDITOR-EDITION-TOOL {
+    width: 98%;
+    height: 98%;
+}
+
+.block {
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    color: #999;
+}
+
+.w2ui-tab {
+    font-size: 12px;
+    font-weight: normal;
+    font-family:'MS Reference Sans Serif';
+}
+
+.w2ui-node {
+    font-size: 12px;
+    font-family:'MS Reference Sans Serif';
+}
+
+.w2ui-sidebar .w2ui-sidebar-div .w2ui-node .w2ui-node-image {
+    width: 16px;
+}
+
+#BABYLON-EDITOR-TOP-TOOLBAR-PANEL {
+    overflow: hidden;
+}
+
+/*
+    ICONS
+*/
+.w2ui-icon.icon-error {
+    background: url("images/error.png");
+}
+
+.w2ui-icon.icon-light {
+    background: url("images/light.png");
+}
+.w2ui-icon.icon-directional-light {
+    background: url("images/directional_light.png");
+}
+
+.w2ui-icon.icon-mesh {
+    background: url("images/abstract_mesh.png");
+}
+
+.w2ui-icon.icon-camera {
+    background: url("images/camera.png");
+}
+
+.w2ui-icon.icon-open-file {
+    background: url("images/open.png");
+}
+
+.w2ui-icon.icon-edit {
+    background: url("images/edit.png");
+}
+
+.w2ui-icon.icon-primitives {
+    background: url("images/primitives.png");
+}
+
+.w2ui-icon.icon-add {
+    background: url("images/add.png");
+}
+
+.w2ui-icon.icon-shaders {
+    background: url("images/shaders.png");
+}
+
+.w2ui-icon.icon-particles {
+    background: url("images/particles.png");
+}
+
+.w2ui-icon.icon-effects {
+    background: url("images/effects.png");
+}
+
+.w2ui-icon.icon-mesh {
+    background: url("images/pointcloud.png");
+}
+
+.w2ui-icon.icon-animated-mesh {
+    background: url("images/animated_mesh.png");
+}
+
+.w2ui-icon.icon-play-game {
+    background: url("images/play_game.png");
+}
+
+.w2ui-icon.icon-position {
+    background: url("images/position.png");
+}
+
+.w2ui-icon.icon-rotation {
+    background: url("images/rotation.png");
+}
+
+.w2ui-icon.icon-scaling {
+    background: url("images/scale.png");
+}
+
+.w2ui-icon.icon-console {
+    background: url("images/console.png");
+}
+
+.w2ui-icon.icon-scene {
+    background: url("images/scene.png");
+}
+
+.w2ui-icon.icon-export {
+    background: url("images/export.png");
+}
+
+.w2ui-icon.icon-sound {
+    background: url("images/sound.png");
+}
+
+.w2ui-icon.icon-wireframe {
+    background: url("images/wireframe.png");
+}
+
+.w2ui-icon.icon-focus {
+    background: url("images/focus.png");
+}
+
+.w2ui-icon.icon-clone {
+    background: url("images/clone.png");
+}
+
+.w2ui-icon.icon-bounding-box {
+    background: url("images/bounding_box.png");
+}
+
+.w2ui-icon.icon-helpers {
+    background: url("images/helpers.png");
+}
+
+.w2ui-icon.icon-one-drive {
+    background: url("images/onedrive.png");
+}
