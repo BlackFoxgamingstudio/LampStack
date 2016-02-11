@@ -1,0 +1,29 @@
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.success {
+	background: green;
+	color:#fff;
+	padding: 12px 20px;
+}
+
+.error {
+	background: red;
+	color: #fff;
+	padding: 12px 20px;
+}
+
+#email-form {
+	width: 400px;
+}
+
+#email-form input[name="email"] {
+	width: 400px;
+}
+
+#email-form input[name="submit"] {
+	float: right;
+}

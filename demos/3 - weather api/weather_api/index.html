@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather API</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("form").submit(function(){
+				$.get($(this).attr("action") + "?callback=?",
+					  $(this).serialize(),
+					  function(dojo){
+					  	console.log(dojo)
+					  	var temp_f = dojo.data.current_condition[0].temp_F,
+					  		temp_c = dojo.data.current_condition[0].temp_C,
+					  		windSpeed = dojo.data.current_condition[0].windspeedMiles,
+					  		weather = dojo.data.current_condition[0].weatherDesc[0].value;
+
+					  	$("#forecast").html("<p>The current temperature F: " + temp_f + "</p><p>The current temperature C: " + temp_c +"</p><p>The current windspeed: " + windSpeed + "mph</p><p>Weather Description: " + weather + "</p>");
+					  }, "json");
+
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+	<span>The Codingdojo weather report!</span>
+	<form action="http://api.worldweatheronline.com/free/v2/weather.ashx" method="get">
+		<select name="q">
+			<option value="94303">Mountain View</option>
+			<option value="98005">Seattle</option>
+			<option value="77005">Houston</option>
+		</select>
+		<input type="hidden" name="key" value="65a3ab02df9148348f2c1b225ca2d">
+		<input type="hidden" name="format" value="json">
+		<input type="submit" value="Get weather!">
+	</form>
+	<div id="forecast"></div>
+</body>
+</html>

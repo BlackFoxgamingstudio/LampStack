@@ -1,0 +1,16 @@
+<!--
+	Create an array that contains all the odd numbers between 1 to 2,000,000. 
+	var_dump this array at the end to make sure you did it correctly.
+-->
+<?php
+	$odd_numbers = array();
+	for($counter = 0; $counter <= 2000000; $counter++)
+	{
+		if($counter % 2 != 0)
+			$odd_numbers[] = $counter;
+	}
+
+	var_dump($odd_numbers);
+?>
+	
+	

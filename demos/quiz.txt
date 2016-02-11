@@ -1,0 +1,38 @@
+Score: 57.14% (4/7)
+
+1. PHP processes HTTP GET and POST requests.
+
+True
+False
+2. $_SESSION, $_POST, $_GET and $_SERVER variables are all superglobal arrays.
+
+True
+False
+3. $_GET variable contains data passed from a JQuery function.
+
+True
+False
+4. $_GET['id'] = 1; 
+$_GET['name'] = 'Gideon'; 
+What is the right URL structure to have these variables available to the php codes?
+
+domain.com/search&?id=1?name=Gideon
+domain.com/search?id=1&name=Gideon
+domain.com/search?{id:1,name:Gideon}
+none of the above
+5. $_POST variables are set when parameters are sent to the URL.
+
+True
+False
+6. Let's say we have an input field in a form - <input type='text' name='field'> 
+How would you capture this in the backend?
+
+field()
+$_POST['field_variable']
+$this->input->get_post('field')
+$_POST_field
+none of the above
+7. $_GET variable are numerical arrays.
+
+True
+False

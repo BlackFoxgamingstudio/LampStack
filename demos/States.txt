@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic 2</title>
+</head>
+<body>
+	<form>
+		<label for="states">States</label>
+		
+		<!-- FIRST DROPDOWN MENU -->
+		<select name="states" id="">
+		<?php
+			/* Here we created an array of states and stored it in $states variable. We will
+			* use the $states variable to iterate through each states and echo it out using
+			* for loop and foreach loop inside the <option> tag.
+			*/
+			$states = array("CA", "WA", "VA", "UT", "AZ"); 
+		
+			/* We used for loop for this example to iterate through the states in $states variable.
+			* In order to do this, we use the $counter variable and use it as the index for our array.
+			* Since the value of $counter at first run is 0 then $states[0] will echo out "CA"
+			* as the first <option> in the <select> tag.
+			*/
+			for($counter=0; $counter<count($states); $counter++)
+			{	
+				echo "<option value='" . $states[$counter] . "' >".$states[$counter]."</option>";
+			}
+		?>
+		</select>
+	</form>
+
+	<form>
+		<label for="states">States</label>
+		
+		<!-- SECOND DROPDOWN MENU -->
+		<select name="states" id="">
+		<?php
+		
+			/* We used foreach loop for this example to iterate through the states in $states variable.
+			* In order to do this, we store each states in the $state variable and simply echo it out
+			* as <option> for our <select> tag. Since the $states tag contains 5 states, it will 
+			* loop through the $states array 5 times and will echo each states out at each loop.
+			*/
+			foreach($states as $state)
+			{
+				echo "<option value='" . $state ."' >".$state."</option>";
+			}
+			
+		?>
+		</select>
+	</form>
+
+	<form>
+		<label for="states">States</label>
+		
+		<!-- THIRD DROPDOWN MENU -->
+		<select>
+		<?php
+		
+			/* We used array_push() function to push new states into our $states variable.
+			* The first parameter: $states and second parameter e.g: NJ, NY, DE are required.
+			* The first parameter is the array variable where you want new items to be inserted. The
+			* second parameter is where you will put the items you want inserted to your array.
+			*/
+			array_push($states, "NJ", "NY", "DE");
+			
+			foreach($states as $state)
+			{
+				echo "<option value='" .$state. "' >".$state."</option>";
+			}
+		?>
+		</select>
+	</form>
+</body>
+</html>

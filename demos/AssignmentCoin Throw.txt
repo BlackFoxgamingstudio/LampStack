@@ -1,0 +1,35 @@
+<?php
+
+	/* We create two variables named 'heads_total' and 'tails_total'. Both of these variables are set to zero (0) so that we can count the number of heads/tails flipped later. */
+	$heads_total = 0;
+	$tails_total = 0;
+
+	/* We use for loop and will loop 5000 times. This means we will have different values
+	* for the $coin variable on each loop. $coin variable will either return 1 or 2 on each loop by utilizing the rand() function.
+	*/
+	for($i = 1; $i <= 5000; $i++)
+	{
+		/* rand() is a built-in PHP function. It accepts 2 parameters/arguments. The first parameter will be the lowest number where the random integer will start and the second number is the max number. Now the random integer will range from the 1st parameter to the 2nd parameter. In this case, we will only set it to 1-2.
+
+		Whatever rand() function returns, it will be stored in $coin variable. Ans since we inside a for loop, $coin will have 5000 different random results between 1 and two on each loop. */
+		$coin = rand(1,2);
+
+		/* On every loop, we will check if $coin variable is equal to 1, if it is then it is a "head" coin flip. We will strong the "head" string inside a $result variable. Lastly, we increment the $heads variable by 1. Thus increasing the count value of $heads variable. */
+		if($coin == 1)
+		{
+			$result = "head";
+			$heads_total++;
+		}
+
+		/* If the rand() function returns 2, then its a tails. same as what we did on the first condition, we store "tail" in $result variable and incremented the $tails by one. */
+		else
+		{
+			$result = "tail";
+			$tails_total++;
+		}
+
+		/* After checking whether the $coin is either "heads" or "tails", it will then simply echo out the result for a particular loop. At the first loop it will echo out "Attempt # 1 (since we initialize $i as ZERO, we manually added 1 to it -- see line 21 and 28)" It will then echo whatever the $result is. and will echo the current value of $heads and $tails variable.*/
+		echo "Attempt #" . $i . ": Throwing a coin... It's a ".$result."! ... Got ".$heads_total." head(s) so far and ".$tails_total." tail(s) so far. <br>";
+	}
+
+?>

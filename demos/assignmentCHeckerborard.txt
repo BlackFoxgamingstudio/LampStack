@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced 1</title>
+    <link href="advanced2.css" style="text/css" rel="stylesheet">
+	<style type="text/css">
+		td{
+			width:20px;
+			height:20px;
+		}
+		.first_color{
+			background:red;
+		}
+		.second_color{
+			background:green;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+		</thead>
+		
+		<tbody>
+<?php
+			for($x=0; $x<9; $x++)
+			{
+				echo "<tr>";
+				
+				for($i=0; $i<9; $i++)
+				{
+					if($i%2 == $x%2)
+						echo "<td class='first_color'>";
+					else
+						echo "<td class='second_color'>";
+				}  
+				echo "</tr>";
+			}
+?> 	
+		</tbody>
+	</table>
+</body>
+</html>

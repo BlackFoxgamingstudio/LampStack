@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Draw Stars</title>
+</head>
+
+<body>
+<?php
+	/* Here we create a custom function named 'draw_stars' that accepts a single parameter/argument.
+	The parameter should be an array containing integers and/or strings. Then we will count the number of stars and/or letters to be displayed
+	based on the integers/strings stored in the array.  */
+	function draw_stars($array)
+	{
+		/* Now we do a foreach to the $array passed to this function. */
+		foreach($array as $value)
+		{
+			/* We will first check if the current item in the array is an integer/numeric string. The 'current item' means the 
+			current value in the array that we are looping on.
+			If it is, then it will count the number of stars based on the integer/number of the current loop and echo it out. */
+			if(is_numeric($value))
+			{
+				echo str_repeat("*", $value) . "<br>";
+			}
+			/* If the current item in the array is not numeric or an integer, we will do some magic below. */
+			else
+			{
+				/* Let's grab the first letter of the string. */
+				$letter = strtolower(substr($value, 0, 1)); 
+
+				/* To access the first letter of the string, we can also do something like below and
+				still get the same result as above (line 29) */
+				// Uncomment the line below to see it in action:
+				// $letter = strtolower($value[0]);
+				
+				/* Now we count the length of the string */
+				$letter_count = strlen($value);  
+
+				/* Then echo the first letter certain times based on the length of the string */
+				echo str_repeat($letter, $letter_count) . "<br />";
+			}
+		}
+	}
+	
+	/* Array containing integer values */
+	$numbers_array = array(4, 6, 8, 1, 9, 10, 4, 2, 2, 7, 17);
+
+	/* Array containing mixed integer/string values */
+	$numbers_strings_array = array(2,5,1,8,"Oliver","Kristine",22);
+	
+	/* Output of the draw_stars() function when used on the $numbers_array */
+	$output = draw_stars($numbers_array);
+
+	/* Now we echo the output for the $numbers_array */
+	echo $output;
+	
+	/* A horizontal divider... :D */
+	echo "<hr />";
+	
+	/* Output of the draw_stars() function when used on the $numbers_strings_array */
+	$second_output = draw_stars($numbers_strings_array);
+
+	/* Now we echo the output for the $numbers_strings_array */
+	echo $second_output	
+?>
+</body>

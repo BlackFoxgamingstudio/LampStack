@@ -1,0 +1,10 @@
+Long:
+vimeo link: https://vimeo.com/128761010
+password: ninjas
+
+Short
+vimeo link: https://vimeo.com/128760667
+password: ninjas
+
+
+note: please try typing out the link as there might be a problem if you just copy and paste it.
